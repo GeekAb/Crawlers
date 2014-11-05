@@ -1,0 +1,8 @@
+# HTTP Cookie File for domains related to box88.com.
+# Downloaded with cookies.txt Chrome Extension (https://chrome.google.com/webstore/detail/njabckikapfpffapmjgojcnbfjonfjfg)
+# Example:  wget -x --load-cookies cookies.txt https://secure.box88.com/.sc/ms/www.colorfive.com/hli/141461328907038513444651148246009/9/nc/ee/hm
+#
+secure.box88.com	FALSE	/.sc/ms	TRUE	0	ncard	4099463714687495261414613313
+secure.box88.com	FALSE	/.sc/ms	FALSE	0	cat	ee
+secure.box88.com	FALSE	/	FALSE	2145921320.1369	sid	141461328907038513444651148246009
+secure.box88.com	FALSE	/	FALSE	0	ncardu2	e33

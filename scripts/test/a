@@ -1,0 +1,1608 @@
+Symfony\Component\DomCrawler\Crawler Object
+(
+    [uri:protected] => http://www.wholesalefashionistas.com/product_info_iframe_index.php?manufacturers_id=&products_id=12591
+    [defaultNamespacePrefix:Symfony\Component\DomCrawler\Crawler:private] => default
+    [namespaces:Symfony\Component\DomCrawler\Crawler:private] => Array
+        (
+        )
+
+    [storage:SplObjectStorage:private] => Array
+        (
+            [000000006770f160000000007c204fc8] => Array
+                (
+                    [obj] => DOMElement Object
+                        (
+                            [tagName] => html
+                            [schemaTypeInfo] => 
+                            [nodeName] => html
+                            [nodeValue] => 404 Not Found | Wholesale Fashionistas
+	var yit_responsive_menu_type = "arrow";
+	var yit_responsive_menu_text = "NAVIGATE TO...";
+
+                .wishlist_table .add_to_cart, .yith-wcwl-add-button > a.button.alt { border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; }            
+            var yith_wcwl_plugin_ajax_web_url = 'http://www.wholesalefashionistas.com/wp-admin/admin-ajax.php';
+            var login_redirect_url= 'http://www.wholesalefashionistas.com/wp-login.php?redirect_to=%2Fproduct_info_iframe_index.php%3Fmanufacturers_id%3D%26products_id%3D12591';
+            
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1414599946"};
+/* ]]> */
+
+/* <![CDATA[ */
+var mailchimpSF = {"ajax_url":"http:\/\/www.wholesalefashionistas.com\/"};
+/* ]]> */
+
+/* <![CDATA[ */
+var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"0.80","show_title":"true","allow_resize":"true","allow_expand":"true","default_width":"640","default_height":"480","counter_separator_label":"\/","theme":"pp_default","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
+/* ]]> */
+
+/* <![CDATA[ */
+var yotpo_settings = {"app_key":"BmV3PlReG2kdiyvdfVzAf1km10AjAfKOGjQJYBO8"};
+/* ]]> */
+ 
+		function bookmark(title, url)
+			{
+		   if(document.all)
+		   	{ // ie
+		      window.external.AddFavorite(url, title);
+		    	}
+		   else if(window.chrome)
+		    	{ // chrome
+				alert("The Chrome Browser Does Not Allow Direct Bookmarking. Press Ctrl-D to Bookmark This Page."); 				
+				}
+		   else if(window.opera && window.print) 
+		    	{ // opera
+				alert("The Opera Browser Does Not Allow Direct Bookmarking. Press Ctrl-D to Bookmark This Page."); 				
+		    	}
+		   else if(navigator.userAgent.indexOf("Safari") > -1) 
+		    	{ // safari
+				alert("The Safari Browser Does Not Allow Direct Bookmarking. Press Ctrl-D to Bookmark This Page."); 				
+		    	}
+			else if(window.sidebar) 
+		   	{ // firefox
+				alert("The Firefox Browser No Longer Allows Direct Bookmarking. Press Ctrl-D to Bookmark This Page."); 				
+		    	}
+		   else
+		    	{ // others
+				alert("Your browser does not allow direct bookmarking. Press Ctrl-D to Bookmark This Page."); 				
+				}
+			}
+		p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }
+		jQuery(function($) {
+			$('.date-pick').each(function() {
+				var format = $(this).data('format') || 'mm/dd/yyyy';
+				format = format.replace(/yyyy/i, 'yy');
+				$(this).datepicker({
+					autoFocusNextInput: true,
+					constrainInput: false,
+					changeMonth: true,
+					changeYear: true,
+					beforeShow: function(input, inst) { $('#ui-datepicker-div').addClass('show'); },
+					dateFormat: format.toLowerCase(),
+				});
+			});
+			d = new Date();
+			$('.birthdate-pick').each(function() {
+				var format = $(this).data('format') || 'mm/dd';
+				format = format.replace(/yyyy/i, 'yy');
+				$(this).datepicker({
+					autoFocusNextInput: true,
+					constrainInput: false,
+					changeMonth: true,
+					changeYear: false,
+					minDate: new Date(d.getFullYear(), 1-1, 1),
+					maxDate: new Date(d.getFullYear(), 12-1, 31),
+					beforeShow: function(input, inst) { $('#ui-datepicker-div').removeClass('show'); },
+					dateFormat: format.toLowerCase(),
+				});
+
+			});
+
+		});
+	
+//<![CDATA[
+var sl_base='http://www.wholesalefashionistas.com/wp-content/plugins/store-locator';
+var sl_uploads_base='http://dgoyc14kt9o0d.cloudfront.net/wp-content/uploads/sl-uploads';
+var sl_addons_base=sl_uploads_base+'/addons';
+var sl_includes_base=sl_base+'/sl-inc/includes';
+var sl_map_home_icon='http://www.wholesalefashionistas.com/wp-content/plugins/store-locator/icons/droplet_green.png'; 
+var sl_map_end_icon='http://www.wholesalefashionistas.com/wp-content/plugins/store-locator/icons/droplet_red.png'; 
+var sl_google_map_country='United States'; 
+var sl_google_map_domain='maps.google.com'; 
+var sl_zoom_level=4; 
+var sl_map_type=google.maps.MapTypeId.ROADMAP; 
+var sl_website_label='Website'; 
+var sl_directions_label='Directions';
+var sl_load_locations_default='1'; 
+var sl_load_results_with_locations_default='1'; 
+var sl_geolocate='0'; 
+var sl_distance_unit='miles'; 
+var sl_map_overview_control='0';
+var sl_no_results_found_message='No Results Found';
+var sl_location_not_found_message='';
+var sl_map_home_icon_width=24;
+var sl_map_home_icon_height=33;
+var sl_map_end_icon_width=24;
+var sl_map_end_icon_height=33;
+//]]>
+
+            body { background-color: #FBEFF8; }      
+        
+            .blog-big .meta, .blog-small .meta { background-color: #ffffff; }      
+        
+	ul.products li.product.list {padding-left:293px}
+	ul.products li.product.list .product-thumbnail {margin-left:-293px}
+    .widget.widget_onsale li,
+    .widget.widget_best_sellers li,
+    .widget.widget_recent_reviews li,
+    .widget.widget_recent_products li,
+    .widget.widget_random_products li,
+    .widget.widget_featured_products li,
+    .widget.widget_top_rated_products li,
+    .widget.widget_recently_viewed_products li {min-height: 80px}
+
+    .widget.widget_onsale li .star-rating,
+    .widget.widget_best_sellers li .star-rating,
+    .widget.widget_recent_reviews li .star-rating,
+    .widget.widget_recent_products li .star-rating,
+    .widget.widget_random_products li .star-rating,
+    .widget.widget_featured_products li .star-rating,
+    .widget.widget_top_rated_products li .star-rating,
+    .widget.widget_recently_viewed_products li .star-rating { margin-left: 115px}
+
+    /* IE8, Portrait tablet to landscape and desktop till 1024px */
+    .single-product div.images { width:50.8045977011%; }
+    .single-product div.summary { width:42.6666666667%; }
+
+    /* WooCommerce standard images */
+    .single-product .images .thumbnails > a { width:80px !important; height:80px !important; }
+    /* Slider images */
+    .single-product .images .thumbnails li img { max-width:80px !important; }
+
+    /* Desktop above 1200px */
+    @media (min-width:1200px) {
+            .single-product div.images .yith_magnifier_zoom_wrap a img,
+        .single-product div.images > a img{ width:462px; height:693px; }
+            /* WooCommerce standard images */
+        .single-product .images .thumbnails > a { width:100px !important; height:80px !important; }
+        /* Slider images */
+        .single-product .images .thumbnails li img { max-width:100px !important; }
+    }
+
+    /* Desktop above 1200px */
+    @media (max-width: 979px) and (min-width: 768px) {
+        /* WooCommerce standard images */
+        .single-product .images .thumbnails > a { width:63px !important; height:63px !important; }
+        /* Slider images */
+        .single-product .images .thumbnails li img { max-width:63px !important; }
+    }
+
+    	
+    
+    
+    
+    
+                
+        
+        	
+              
+
+
+
+	
+		
+			
+							 Customer Support 
+		
+				
+
+
+Dealers Login Here » Login  /  Register
+
+
+
+    
+
+			
+		
+
+		
+		
+		
+		
+	
+
+
+
+
+jQuery(function($){
+	var twitterSlider = function(){
+		$('#topbar .last-tweets ul').addClass('slides');
+		$('#topbar .last-tweets').flexslider({
+			animation: "fade",
+			slideshowSpeed: 5 * 1000,
+			animationDuration: 700,
+			directionNav: false,
+			controlNav: false,
+			keyboardNav: false
+		});
+	};
+	$('#topbar .last-tweets > div').bind('tweetable_loaded', function(){
+		twitterSlider();
+	});
+}); 
+
+                
+               
+	
+                
+    	
+        
+    	
+    	    
+    
+
+ 
+    	
+    	
+    	
+        
+                                
+            
+                0
+                Items
+            
+
+            
+                                    $
+                                0
+                00
+                            
+
+                            Cart				View Cart
+            Empty Cart
+					
+		
+		        No products in the cart.
+                			
+        
+
+			
+			jQuery(document).ready(function($){
+				$(document).on('click', '.cart_control', function(e){
+					//e.preventDefault();
+				});
+
+				$(document).on('hover', '.cart_control', function(){
+					$(this).next('.cart_wrapper').slideDown();
+				}).on('mouseleave', '.cart_control', function(){
+					$(this).next('.cart_wrapper').delay(500).slideUp();
+				});
+
+
+			    $(document).on('mouseenter', '.cart_wrapper', function(){ $(this).stop(true,true).show() });
+                $(document).on('mouseleave', '.cart_wrapper', function(){ $(this).delay(500).slideUp() });
+			});
+			                            
+    
+                        
+		
+			
+
+            	
+	                                                     
+		Wholesale Fashion
+         ClothingCUSTOMER SUPPORT
+(800) 552-0954			Receive Weekly Text Message Alerts About New Arrivals And Get A Complimentary Coupon Code (you can stop at anytime)
+
+  function capitalizeMe(obj) {
+    val = obj.value;
+    newVal = "";
+    val = val.split(" ");
+    for(var c=0; c < val.length; c++) {
+      newVal += val[c].substring(0,1).toUpperCase() + val[c].substring(1,val[c].length) + " ";
+    }
+    obj.value = newVal;
+  }
+  function webform_validate() {
+      var msg = "";
+      if (document.getElementById("Phone").value.replace(/[^0-9]/, "").length < 10) {
+          msg += "The phone field is required. Please enter all 10 digits, including the area code.\n";
+      }
+
+      if (msg) {
+          alert(msg);
+          return false;
+      }
+      return true;
+  }
+
+  #CallLoop { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; padding: 4px; }
+  #CallLoop label{display:inline-block; width:15%; font-size:11px; vertical-align:top; line-height:12px; margin-top:3px; color:#9a8d8d}
+  #CallLoop .callloop-bottom { margin: 20px 10px 10px 10px; font-size: 10px; text-align:center; color: #666;}
+  #CallLoop a { color: #3891c1; }
+  #CallLoop a:link { color: #3891c1; text-decoration: none; }
+  #CallLoop a:hover { text-decoration: underline; }
+  #CallLoop .callloop-text { margin: 10px 0 5px 0; }
+  #CallLoop input[type=text] {display:inline-block; vertical-align:top;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; padding: 4px 2px; font-size: 13px; border: 1px solid #bbbbbb; background: #FFF url(https://s3.amazonaws.com/callloop/images/fieldbg.gif) repeat-x scroll top; width: 20%;  }
+  #CallLoop input[type=text]:focus { border: 1px solid #F60; color: #222; outline: none; border-color: #91bee6; -webkit-box-shadow: 0 0 5px rgba(0, 136, 255, 0.4) -moz-box-shadow: 0 0 5px rgba(0, 136, 255, 0.4); box-shadow: 0 0 5px rgba(0, 136, 255, 0.4); }
+  #CallLoop .callloop-submit {display:inline-block; vertical-align:top;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; background: #F60 url(https://s3.amazonaws.com/callloop/images/orange.jpg) no-repeat; padding: 4px 12px; border: 1px solid #ae3700; font-weight: bold; cursor: pointer; color: #FFFFFF; font-size: 12px; margin-right: 10px; text-decoration: none; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+
+
+FirstNameMobile Phone
+
+					
+	 Watch Our Video 
+			 
+           
+    
+       
+    	
+
+    
+    	
+                        HOME
+SHOP
+SKIRTS
+	TOPS
+	DRESSES
+	DENIM PANTS
+	LEGGINGS
+	BASIC
+		PALAZZO
+		PRINTED
+		SUBLIMATION
+	
+	PLUS SIZE
+	PLUS SIZE JEANS AND BOTTOMS
+	
+
+NEW ARRIVALS
+CATALOG
+WISHLIST
+ABOUT
+BLOG
+CONTACT
+DROPSHIP
+PRIVATE LABEL
+
+	
+	
+	
+	
+
+
+		Fashion Boutique Directory
+            
+            
+              
+
+    
+	    
+	        	        
+	        
+	            	
+		
+			
+				
+		
+	
+	
+    
+    	WHOOPS, OUR BAD...
+    	The page you requested was not found, and we have a fine guess why.- If you typed the URL directly, please make sure the spelling is correct.- If you clicked on a link to get here, the link is outdated.
+   
+   
+    	WHAT CAN I DO?
+    	There are many ways you can get back on track with Wholesale Fashionistas- Go to the home page- Use the search form below
+        
+    
+        
+    
+	        
+	        
+	        
+	        
+
+    			 
+		BROWSE BY CATEGORY			LEGGINGS
+	BASIC
+		PALAZZO
+		PRINTED
+		SUBLIMATION
+	
+	SKIRTS
+	TOPS
+	DRESSES
+	ROMPER
+	DENIM PANTS
+	PLUS SIZE
+	PLUS SIZE JEANS AND BOTTOMS
+	
+
+		BIG COUPON			
+
+
+
+					
+					 
+		Your Accounts Manager			
+
+
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+
+		PDF Catalog    
+        Complete Store Catalog
+    
+
+
+	        
+	        	    
+    
+
+
+
+
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?1wMqQFnhOv9cAeZztFsQ7Y3tk11yw596';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+$zopim( function() {
+})
+			jQuery(document).ready(function($){
+					woo_update_total_compare_list = function(){ 
+						var data = {
+							action: 		"woocp_update_total_compare",
+							security: 		"9295dcd9dc"
+						};
+						$.post( ajax_url, data, function(response) {
+							total_compare = $.parseJSON( response );
+							$("#total_compare_product").html("("+total_compare+")");
+                            $(".woo_compare_button_go").trigger("click");
+    					});
+					};
+
+				});
+			
+    
+        
+                                                            
+                    About WF			About us
+Account Information
+My AccountMy OrdersMy Whislist
+
+		                
+                                                                
+                    Warehouse Info			116 E. 16th St. #C
+Los Angeles, CA
+USA 90015
+M-F: 8am - 5pm (PST)
+Saturday: Closed
+Showroom open M-F
+
+		                
+                                                                
+                    Customer Service			FAQsShipping & ReturnsPayment MethodsSize ChartsContact Us
+
+		                
+                                                                
+                    Questions? Call Us			Phone: (800) 552-0954
+
+					 
+
+		                
+                                                    
+    
+
+
+
+
+	
+	
+	
+	
+	
+	
+    
+        
+                
+        Terms of Service & Conditions of Use | Social Media Disclosure | Privacy Policy | FTC Compliance | DMCA Compliance | Anti-Spam Policy | Copyright Notice | Disclaimer
+Copyright Wholesale Fashionistas 2014. All Rights Reserved. Google+   RSS
+                
+  
+    Skype.ui({
+      "name": "chat",
+      "element": "SkypeButton_Call_wholesalefashionistas_1",
+      "participants": ["wholesalefashionistas"],
+      "imageSize": 32
+    });
+  
+
+    
+        
+        Home | Shop | Wishlist | About | Blog | Contact
+Powered by   
+    
+            
+    
+
+
+            
+        
+        
+                
+        
+    
+    
+    
+    
+var elastislide_defaults = {
+	imageW: "100%",
+	border		: 0,
+	margin      : 0,
+	preventDefaultEvents: false,
+	infinite : true,
+	slideshowSpeed : 3500
+};
+
+var carouFredSelOptions_defaults = {
+	responsive: false,
+	auto: true,
+	items: 3,
+	circular: true,
+	infinite: true,
+	debug: false,
+    prev: '.es-nav .es-nav-prev',
+    next: '.es-nav .es-nav-next',
+    swipe: {
+       	onTouch: false
+    },
+    scroll : {
+    	items     : 1,
+    	pauseOnHover: true
+    } 
+};
+
+
+
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName('script')[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0021/8223.js";
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+
+		
+
+var gc_height = 40; gc_status = "close"; gc_animating = false;Get our free catalog today!Click Here To Get Our Catalog
+			var GC = {};
+			GC.Sticky = {
+				Pos : 0,
+				Scroll : function() {
+					var sticky = jQuery("#sticky");
+					if(sticky.length == 0){
+						return;
+					}
+					
+					if (window.pageYOffset > GC.Sticky.Pos) {
+						sticky.addClass("stickystyle");
+						jQuery("#navbar-height").addClass("show");
+					} else {
+						sticky.removeClass("stickystyle");
+						jQuery("#navbar-height").removeClass("show");
+					}
+				},
+				CreatePos: function () {
+					var sticky = jQuery("#sticky");
+					if(sticky.length == 0){
+						return;
+					}
+					if (jQuery("body").hasClass("adminbar")) {
+						return sticky.offset().top - jQuery("#wpadminbar").height();
+					} else {
+						return sticky.offset().top;
+					}
+				},
+				Init : function(){
+					GC.Sticky.Pos = GC.Sticky.CreatePos();
+					jQuery(window).scroll(GC.Sticky.Scroll);
+				}
+			};
+			Gc_MessageBar_MarginCleaner = function(){
+				var tmp_margin_top = jQuery("html").css("margin-top");
+				jQuery("style[media='screen']").each(function(){
+					if(jQuery(this).text().indexOf("html { margin-top: 28px !important; }") > 0){
+						jQuery(this).text(jQuery(this).text().replace("html { margin-top: 28px !important; }","html { margin-top: 28px; }"));
+					}
+					if(jQuery(this).text().indexOf("html { margin-top: 32px !important; }") > 0){
+						jQuery(this).text(jQuery(this).text().replace("html { margin-top: 32px !important; }","html { margin-top: 32px; }"));
+					}
+					if(jQuery(this).text().indexOf("html { margin-top: 46px !important; }") > 0){
+						jQuery(this).text(jQuery(this).text().replace("html { margin-top: 46px !important; }","html { margin-top: 46px; }"));	
+					}
+				});
+			};
+
+			jQuery(document).ready(function() {
+				Gc_MessageBar_MarginCleaner();
+				GC.Sticky.Init();
+				var GC_Message_Bar_htmlMarginTop = (jQuery("html").css("margin-top")) ? (jQuery("html").css("margin-top")) : 0;
+				var GC_Message_Bar_htmlMarginBottom = (jQuery("html").css("margin-bottom")) ? (jQuery("html").css("margin-bottom")) : 0;
+				var GC_Message_Bar_OpenTop = parseInt(jQuery("#gc_message_bar_open").css("top"),10);
+				var GC_Message_Bar_OpenTop_opened = GC_Message_Bar_OpenTop + parseInt(jQuery("#gc_message_bar_open").height(),10);
+				var GC_Message_Bar_OpenBottom = parseInt(jQuery("#gc_message_bar_open").css("bottom"),10);
+				var GC_Message_Bar_OpenBottom_opened = GC_Message_Bar_OpenBottom + parseInt(jQuery("#gc_message_bar_open").height(),10);function openMessageBar() {
+				if (gc_status == "open" || gc_animating == true) {
+					return false;
+				}
+				gc_status = "open"; gc_animating = true;
+				jQuery("#gc_message_bar_open")
+					.animate({
+						"top": GC_Message_Bar_OpenTop + "px"
+					}, 300, "swing");
+				
+				jQuery("html").css("margin-top",GC_Message_Bar_htmlMarginTop)
+					.delay(200)
+					.animate({
+							"margin-top" : (parseInt(GC_Message_Bar_htmlMarginTop) + gc_height) + "px"
+					}, 600, "easeOutExpo");
+				jQuery("#gc_message_bar")
+					.delay(200)
+					.animate({
+						"top": parseInt(jQuery("#gc_message_bar").css("top"),10) +  5 + parseInt(jQuery("#gc_message_bar").height(),10) + "px"}, 
+						600, 
+						"easeOutExpo",
+						function() { gc_animating = false;
+							jQuery("body").addClass("gcmessagebar");
+						}
+					);
+						var date = new Date();
+						date.setTime(date.getTime() + 86400000);
+						if ( wpCookies.get("gc_message_bar_cookie") ) { 
+							wpCookies.set("gc_message_bar_cookie", null, 0, "/") ;
+						}
+						wpCookies.set("gc_message_bar_cookie", "opened", date, "/");
+		
+			}
+			
+			function closeMessageBar() {
+				if (gc_status == "close" || gc_animating == true) {
+					return false;
+				}
+				gc_status = "close"; gc_animating = true;
+				jQuery("#gc_message_bar_open")
+					.delay(600)
+					.animate({
+							"top": GC_Message_Bar_OpenTop_opened + "px"
+						},
+						1000,
+						"easeOutElastic",
+						function() { 
+							gc_animating = false;
+						}
+					);
+				jQuery("html")
+					.animate(
+						{
+							"margin-top" : parseInt(GC_Message_Bar_htmlMarginTop) + "px"
+						},
+						600,
+						"easeInExpo"
+					);
+				jQuery("#gc_message_bar")
+					.animate(
+						{
+							"top": parseInt(jQuery("#gc_message_bar").css("top"),10) - 5 - parseInt(jQuery("#gc_message_bar").height(),10) + "px"
+						},
+						600,
+						"easeInExpo",
+						function() {
+							jQuery("body")
+								.removeClass("gcmessagebar");
+						}
+					);
+						var date = new Date();
+						date.setTime(date.getTime() + 86400000);
+						if ( wpCookies.get("gc_message_bar_cookie") ) { 
+							wpCookies.set("gc_message_bar_cookie", null, 0, "/") ;
+						}
+						wpCookies.set("gc_message_bar_cookie", "closed", date, "/");
+		
+ 								jQuery(window).unbind("scroll");
+                                jQuery(window).scroll(GC.Sticky.Scroll);
+                        }
+					jQuery("#gc_message_bar_close")
+						.click(function() {
+							closeMessageBar();
+						});
+					jQuery("#gc_message_bar_open")
+						.click(function() {
+							openMessageBar();
+						});jQuery("html")
+							.css("margin-top",GC_Message_Bar_htmlMarginTop)
+							.delay(5*1000)
+							.animate(
+								{
+									"margin-top" : (parseInt(jQuery("html").css("margin-top")) + gc_height) + "px"
+								},
+								250
+							);
+						gc_status = "open";
+						jQuery("#gc_message_bar")
+							.delay(5*1000)
+							.animate(
+								{
+									"top": parseInt(jQuery("#gc_message_bar").css("top"),10) + 5 + parseInt(jQuery("#gc_message_bar").height(),10) + "px"
+								}, 
+								250, 
+								function() {jQuery("body").addClass("gcmessagebar");
+						var date = new Date();
+						date.setTime(date.getTime() + 86400000);
+						if ( wpCookies.get("gc_message_bar_cookie") ) { 
+							wpCookies.set("gc_message_bar_cookie", null, 0, "/") ;
+						}
+						wpCookies.set("gc_message_bar_cookie", "opened", date, "/");
+		
+								}
+							);
+             	jQuery('#gc_message_bar_button_a').click(function(e){
+                        MXTracker.trackClick('5468722-1');
+                });
+                });
+		
+        //<![CDATA[
+        try {
+           var MXTracker = new MX.tracker();
+           MXTracker.setOption('base_url', 'http://metrix.getconversion.net/');
+           MXTracker.setId('5468722-1');
+           MXTracker.trackPageView();
+        } catch(err) {}
+        //]]>
+        
+	<!-- 
+		var sc_project=9592783; 
+		var sc_security="4971efc6"; 
+	//-->
+		
+	
+  
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/www.wholesalefashionistas.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+
+/* <![CDATA[ */
+var l2g_options = {"ajaxurl":"http:\/\/www.wholesalefashionistas.com\/wp-admin\/admin-ajax.php","cookie_suffix":"\/product_info_iframe_index.php?manufacturers_id=&products_id=12591","fb_activated":"1","tw_activated":"1","gp_activated":"1","keep_after_reload":"1","l2g_link_identifier":"Download","l2g_single_activation":"1","l2g_show_plugin_link":"1","fb_layout":"box_count","fb_action":"like","fb_font":"lucida grande","fb_colorscheme":"light","fb_buttonWidth":"","fb_lang":"en_US","fb_appID":"","fb_userID":"","fb_siteName":"","tw_user":"","tw_user_description":"","tw_url":"","tw_title":"","tw_layout":"vertical","tw_count_url":"","tw_action":"tweet","tw_lang":"en","gp_size":"tall","gp_count":"1","gp_url":"","gp_lang":"en-US","version":"1.2.7"};
+/* ]]> */
+
+/* <![CDATA[ */
+var l10n_handler = {"map_close":"[x] Close","map_open":"[x] Open"};
+/* ]]> */
+
+/* <![CDATA[ */
+var wc_currency_converter_params = {"current_currency":"","currencies":"{\"AUD\":\"$\",\"BRL\":\"R$\",\"CAD\":\"$\",\"RMB\":\"\u00a5\",\"CZK\":\"K\u010d\",\"DKK\":\"kr\",\"EUR\":\"\u20ac\",\"HKD\":\"$\",\"HUF\":\"Ft\",\"IDR\":\"Rp\",\"INR\":\"\u20b9\",\"ILS\":\"\u20aa\",\"JPY\":\"\u00a5\",\"KRW\":\"\u20a9\",\"MYR\":\"RM\",\"MXN\":\"$\",\"NOK\":\"kr\",\"NZD\":\"$\",\"PHP\":\"\u20b1\",\"PLN\":\"z\u0142\",\"GBP\":\"\u00a3\",\"RON\":\"lei\",\"RUB\":\"\u0440\u0443\u0431.\",\"SGD\":\"$\",\"ZAR\":\"R\",\"SEK\":\"kr\",\"CHF\":\"CHF\",\"TWD\":\"NT$\",\"THB\":\"\u0e3f\",\"TRY\":\"TL\",\"USD\":\"$\"}","rates":{"AED":3.673314,"AFN":57.785351,"ALL":109.175901,"AMD":411.257998,"ANG":1.78344,"AOA":99.094525,"ARS":8.50061,"AUD":1.123833,"AWG":1.79,"AZN":0.784133,"BAM":1.534811,"BBD":2,"BDT":77.362721,"BGN":1.53355,"BHD":0.377004,"BIF":1563.654233,"BMD":1,"BND":1.271764,"BOB":6.907308,"BRL":2.451037,"BSD":1,"BTC":0.0029572124,"BTN":61.321188,"BWP":9.05843,"BYR":10712.4,"BZD":1.997868,"CAD":1.115625,"CDF":922.886667,"CHF":0.945617,"CLF":0.02365,"CLP":576.262205,"CNY":6.115398,"COP":2053.975,"CRC":540.133898,"CUP":0.999833,"CVE":86.114074,"CZK":21.75404,"DJF":179.27812,"DKK":5.836765,"DOP":43.50505,"DZD":83.36921,"EEK":12.1022,"EGP":7.149826,"ERN":15.062575,"ETB":20.03365,"EUR":0.783488,"FJD":1.918624,"FKP":0.619326,"GBP":0.619326,"GEL":1.75848,"GGP":0.619326,"GHS":3.242358,"GIP":0.619326,"GMD":43.128,"GNF":7065.338333,"GTQ":7.614886,"GYD":204.476249,"HKD":7.755436,"HNL":21.25846,"HRK":6.009674,"HTG":44.83525,"HUF":242.480901,"IDR":12114.483333,"ILS":3.7412,"IMP":0.619326,"INR":61.24599,"IQD":1162.1025,"IRR":26647.666667,"ISK":120.916,"JEP":0.619326,"JMD":112.3866,"JOD":0.708296,"JPY":108.061801,"KES":89.12584,"KGS":56.245975,"KHR":4076.666467,"KMF":386.497427,"KPW":900,"KRW":1047.874984,"KWD":0.289168,"KYD":0.825015,"KZT":180.770699,"LAK":8044.623333,"LBP":1513.196667,"LKR":130.908299,"LRD":91.50915,"LSL":10.88339,"LTL":2.707186,"LVL":0.550977,"LYD":1.215058,"MAD":8.689837,"MDL":14.70742,"MGA":2701.876667,"MKD":48.4498,"MMK":1003.4311,"MNT":1850,"MOP":7.981999,"MRO":291.726749,"MTL":0.683738,"MUR":31.39207,"MVR":15.38844,"MWK":457.2938,"MXN":13.43889,"MYR":3.268861,"MZN":31.076775,"NAD":10.88489,"NGN":165.047801,"NIO":26.55321,"NOK":6.637989,"NPR":98.16122,"NZD":1.256387,"OMR":0.385029,"PAB":1,"PEN":2.914165,"PGK":2.518445,"PHP":44.72183,"PKR":102.958061,"PLN":3.309631,"PYG":4619.070059,"QAR":3.641531,"RON":3.468713,"RSD":93.62501,"RUB":42.73543,"RWF":690.61832,"SAR":3.751897,"SBD":7.375872,"SCR":14.07967,"SDG":5.687645,"SEK":7.301814,"SGD":1.271561,"SHP":0.619326,"SLL":4318.5,"SOS":779.67002,"SRD":3.308567,"STD":19244.933333,"SVC":8.735362,"SYP":163.734998,"SZL":10.86883,"THB":32.44797,"TJS":4.99725,"TMT":2.851767,"TND":1.798176,"TOP":1.970567,"TRY":2.198113,"TTD":6.32887,"TWD":30.3549,"TZS":1706.6,"UAH":12.96189,"UGX":2708.083333,"USD":1,"UYU":24.06407,"UZS":2385.653327,"VEF":6.280775,"VND":21259.433333,"VUV":98.530001,"WST":2.381412,"XAF":515.101656,"XAG":0.05802684,"XAU":0.00081721,"XCD":2.70158,"XDR":0.671094,"XOF":515.513195,"XPF":93.92266,"YER":214.960999,"ZAR":10.85779,"ZMK":5253.075255,"ZMW":6.398553,"ZWL":322.355006},"base":"USD","currency":"USD","currency_pos":"left","num_decimals":"2","trim_zeros":"1","thousand_sep":",","decimal_sep":".","i18n_oprice":"Original price:","zero_replace":".00"};
+/* ]]> */
+
+/* <![CDATA[ */
+var yith_woocompare = {"nonceadd":"fffc1d9f0e","nonceremove":"1b847536be","nonceview":"413f488076","ajaxurl":"http:\/\/www.wholesalefashionistas.com\/wp-admin\/admin-ajax.php","actionadd":"yith-woocompare-add-product","actionremove":"yith-woocompare-remove-product","actionview":"yith-woocompare-view-table","added_label":"Added","table_title":"Product Comparison","auto_open":"yes"};
+/* ]]> */
+
+/* <![CDATA[ */
+var yith_wcwl_l10n = {"out_of_stock":"Cannot add to the cart as product is Out of Stock!"};
+/* ]]> */
+
+/* <![CDATA[ */
+var woocommerce_params = {"countries":"{\"AF\":[],\"AT\":[],\"BE\":[],\"BI\":[],\"CZ\":[],\"DE\":[],\"DK\":[],\"FI\":[],\"FR\":[],\"HU\":[],\"IS\":[],\"IL\":[],\"KR\":[],\"NL\":[],\"NO\":[],\"PL\":[],\"PT\":[],\"SG\":[],\"SK\":[],\"SI\":[],\"LK\":[],\"SE\":[],\"VN\":[],\"AU\":{\"ACT\":\"Australian Capital Territory\",\"NSW\":\"New South Wales\",\"NT\":\"Northern Territory\",\"QLD\":\"Queensland\",\"SA\":\"South Australia\",\"TAS\":\"Tasmania\",\"VIC\":\"Victoria\",\"WA\":\"Western Australia\"},\"BR\":{\"AC\":\"Acre\",\"AL\":\"Alagoas\",\"AP\":\"Amap\u00e1\",\"AM\":\"Amazonas\",\"BA\":\"Bahia\",\"CE\":\"Cear\u00e1\",\"DF\":\"Distrito Federal\",\"ES\":\"Esp\u00edrito Santo\",\"GO\":\"Goi\u00e1s\",\"MA\":\"Maranh\u00e3o\",\"MT\":\"Mato Grosso\",\"MS\":\"Mato Grosso do Sul\",\"MG\":\"Minas Gerais\",\"PA\":\"Par\u00e1\",\"PB\":\"Para\u00edba\",\"PR\":\"Paran\u00e1\",\"PE\":\"Pernambuco\",\"PI\":\"Piau\u00ed\",\"RJ\":\"Rio de Janeiro\",\"RN\":\"Rio Grande do Norte\",\"RS\":\"Rio Grande do Sul\",\"RO\":\"Rond\u00f4nia\",\"RR\":\"Roraima\",\"SC\":\"Santa Catarina\",\"SP\":\"S\u00e3o Paulo\",\"SE\":\"Sergipe\",\"TO\":\"Tocantins\"},\"CA\":{\"AB\":\"Alberta\",\"BC\":\"British Columbia\",\"MB\":\"Manitoba\",\"NB\":\"New Brunswick\",\"NL\":\"Newfoundland\",\"NT\":\"Northwest Territories\",\"NS\":\"Nova Scotia\",\"NU\":\"Nunavut\",\"ON\":\"Ontario\",\"PE\":\"Prince Edward Island\",\"QC\":\"Quebec\",\"SK\":\"Saskatchewan\",\"YT\":\"Yukon Territory\"},\"CN\":{\"CN1\":\"Yunnan \\\/ \u4e91\u5357\",\"CN2\":\"Beijing \\\/ \u5317\u4eac\",\"CN3\":\"Tianjin \\\/ \u5929\u6d25\",\"CN4\":\"Hebei \\\/ \u6cb3\u5317\",\"CN5\":\"Shanxi \\\/ \u5c71\u897f\",\"CN6\":\"Inner Mongolia \\\/ \u5167\u8499\u53e4\",\"CN7\":\"Liaoning \\\/ \u8fbd\u5b81\",\"CN8\":\"Jilin \\\/ \u5409\u6797\",\"CN9\":\"Heilongjiang \\\/ \u9ed1\u9f99\u6c5f\",\"CN10\":\"Shanghai \\\/ \u4e0a\u6d77\",\"CN11\":\"Jiangsu \\\/ \u6c5f\u82cf\",\"CN12\":\"Zhejiang \\\/ \u6d59\u6c5f\",\"CN13\":\"Anhui \\\/ \u5b89\u5fbd\",\"CN14\":\"Fujian \\\/ \u798f\u5efa\",\"CN15\":\"Jiangxi \\\/ \u6c5f\u897f\",\"CN16\":\"Shandong \\\/ \u5c71\u4e1c\",\"CN17\":\"Henan \\\/ \u6cb3\u5357\",\"CN18\":\"Hubei \\\/ \u6e56\u5317\",\"CN19\":\"Hunan \\\/ \u6e56\u5357\",\"CN20\":\"Guangdong \\\/ \u5e7f\u4e1c\",\"CN21\":\"Guangxi Zhuang \\\/ \u5e7f\u897f\u58ee\u65cf\",\"CN22\":\"Hainan \\\/ \u6d77\u5357\",\"CN23\":\"Chongqing \\\/ \u91cd\u5e86\",\"CN24\":\"Sichuan \\\/ \u56db\u5ddd\",\"CN25\":\"Guizhou \\\/ \u8d35\u5dde\",\"CN26\":\"Shaanxi \\\/ \u9655\u897f\",\"CN27\":\"Gansu \\\/ \u7518\u8083\",\"CN28\":\"Qinghai \\\/ \u9752\u6d77\",\"CN29\":\"Ningxia Hui \\\/ \u5b81\u590f\",\"CN30\":\"Macau \\\/ \u6fb3\u95e8\",\"CN31\":\"Tibet \\\/ \u897f\u85cf\",\"CN32\":\"Xinjiang \\\/ \u65b0\u7586\"},\"HK\":{\"HONG KONG\":\"Hong Kong Island\",\"KOWLOON\":\"Kowloon\",\"NEW TERRITORIES\":\"New Territories\"},\"IN\":{\"AP\":\"Andra Pradesh\",\"AR\":\"Arunachal Pradesh\",\"AS\":\"Assam\",\"BR\":\"Bihar\",\"CT\":\"Chhattisgarh\",\"GA\":\"Goa\",\"GJ\":\"Gujarat\",\"HR\":\"Haryana\",\"HP\":\"Himachal Pradesh\",\"JK\":\"Jammu and Kashmir\",\"JH\":\"Jharkhand\",\"KA\":\"Karnataka\",\"KL\":\"Kerala\",\"MP\":\"Madhya Pradesh\",\"MH\":\"Maharashtra\",\"MN\":\"Manipur\",\"ML\":\"Meghalaya\",\"MZ\":\"Mizoram\",\"NL\":\"Nagaland\",\"OR\":\"Orissa\",\"PB\":\"Punjab\",\"RJ\":\"Rajasthan\",\"SK\":\"Sikkim\",\"TN\":\"Tamil Nadu\",\"TR\":\"Tripura\",\"UT\":\"Uttaranchal\",\"UP\":\"Uttar Pradesh\",\"WB\":\"West Bengal\",\"AN\":\"Andaman and Nicobar Islands\",\"CH\":\"Chandigarh\",\"DN\":\"Dadar and Nagar Haveli\",\"DD\":\"Daman and Diu\",\"DL\":\"Delhi\",\"LD\":\"Lakshadeep\",\"PY\":\"Pondicherry (Puducherry)\"},\"ID\":{\"AC\":\"Daerah Istimewa Aceh\",\"SU\":\"Sumatera Utara\",\"SB\":\"Sumatera Barat\",\"RI\":\"Riau\",\"KR\":\"Kepulauan Riau\",\"JA\":\"Jambi\",\"SS\":\"Sumatera Selatan\",\"BB\":\"Bangka Belitung\",\"BE\":\"Bengkulu\",\"LA\":\"Lampung\",\"JK\":\"DKI Jakarta\",\"JB\":\"Jawa Barat\",\"BT\":\"Banten\",\"JT\":\"Jawa Tengah\",\"JI\":\"Jawa Timur\",\"YO\":\"Daerah Istimewa Yogyakarta\",\"BA\":\"Bali\",\"NB\":\"Nusa Tenggara Barat\",\"NT\":\"Nusa Tenggara Timur\",\"KB\":\"Kalimantan Barat\",\"KT\":\"Kalimantan Tengah\",\"KI\":\"Kalimantan Timur\",\"KS\":\"Kalimantan Selatan\",\"KU\":\"Kalimantan Utara\",\"SA\":\"Sulawesi Utara\",\"ST\":\"Sulawesi Tengah\",\"SG\":\"Sulawesi Tenggara\",\"SR\":\"Sulawesi Barat\",\"SN\":\"Sulawesi Selatan\",\"GO\":\"Gorontalo\",\"MA\":\"Maluku\",\"MU\":\"Maluku Utara\",\"PA\":\"Papua\",\"PB\":\"Papua Barat\"},\"MY\":{\"JHR\":\"Johor\",\"KDH\":\"Kedah\",\"KTN\":\"Kelantan\",\"MLK\":\"Melaka\",\"NSN\":\"Negeri Sembilan\",\"PHG\":\"Pahang\",\"PRK\":\"Perak\",\"PLS\":\"Perlis\",\"PNG\":\"Pulau Pinang\",\"SBH\":\"Sabah\",\"SWK\":\"Sarawak\",\"SGR\":\"Selangor\",\"TRG\":\"Terengganu\",\"KUL\":\"W.P. Kuala Lumpur\",\"LBN\":\"W.P. Labuan\",\"PJY\":\"W.P. Putrajaya\"},\"NZ\":{\"NL\":\"Northland\",\"AK\":\"Auckland\",\"WA\":\"Waikato\",\"BP\":\"Bay of Plenty\",\"TK\":\"Taranaki\",\"HB\":\"Hawke\u2019s Bay\",\"MW\":\"Manawatu-Wanganui\",\"WE\":\"Wellington\",\"NS\":\"Nelson\",\"MB\":\"Marlborough\",\"TM\":\"Tasman\",\"WC\":\"West Coast\",\"CT\":\"Canterbury\",\"OT\":\"Otago\",\"SL\":\"Southland\"},\"ZA\":{\"EC\":\"Eastern Cape\",\"FS\":\"Free State\",\"GP\":\"Gauteng\",\"KZN\":\"KwaZulu-Natal\",\"LP\":\"Limpopo\",\"MP\":\"Mpumalanga\",\"NC\":\"Northern Cape\",\"NW\":\"North West\",\"WC\":\"Western Cape\"},\"ES\":{\"C\":\"A Coru\u00f1a\",\"VI\":\"\u00c1lava\",\"AB\":\"Albacete\",\"A\":\"Alicante\",\"AL\":\"Almer\u00eda\",\"O\":\"Asturias\",\"AV\":\"\u00c1vila\",\"BA\":\"Badajoz\",\"PM\":\"Baleares\",\"B\":\"Barcelona\",\"BU\":\"Burgos\",\"CC\":\"C\u00e1ceres\",\"CA\":\"C\u00e1diz\",\"S\":\"Cantabria\",\"CS\":\"Castell\u00f3n\",\"CE\":\"Ceuta\",\"CR\":\"Ciudad Real\",\"CO\":\"C\u00f3rdoba\",\"CU\":\"Cuenca\",\"GI\":\"Girona\",\"GR\":\"Granada\",\"GU\":\"Guadalajara\",\"SS\":\"Guip\u00fazcoa\",\"H\":\"Huelva\",\"HU\":\"Huesca\",\"J\":\"Ja\u00e9n\",\"LO\":\"La Rioja\",\"GC\":\"Las Palmas\",\"LE\":\"Le\u00f3n\",\"L\":\"Lleida\",\"LU\":\"Lugo\",\"M\":\"Madrid\",\"MA\":\"M\u00e1laga\",\"ML\":\"Melilla\",\"MU\":\"Murcia\",\"NA\":\"Navarra\",\"OR\":\"Ourense\",\"P\":\"Palencia\",\"PO\":\"Pontevedra\",\"SA\":\"Salamanca\",\"TF\":\"Santa Cruz de Tenerife\",\"SG\":\"Segovia\",\"SE\":\"Sevilla\",\"SO\":\"Soria\",\"T\":\"Tarragona\",\"TE\":\"Teruel\",\"TO\":\"Toledo\",\"V\":\"Valencia\",\"VA\":\"Valladolid\",\"BI\":\"Vizcaya\",\"ZA\":\"Zamora\",\"Z\":\"Zaragoza\"},\"TH\":{\"TH-37\":\"Amnat Charoen (\u0e2d\u0e33\u0e19\u0e32\u0e08\u0e40\u0e08\u0e23\u0e34\u0e0d)\",\"TH-15\":\"Ang Thong (\u0e2d\u0e48\u0e32\u0e07\u0e17\u0e2d\u0e07)\",\"TH-14\":\"Ayutthaya (\u0e1e\u0e23\u0e30\u0e19\u0e04\u0e23\u0e28\u0e23\u0e35\u0e2d\u0e22\u0e38\u0e18\u0e22\u0e32)\",\"TH-10\":\"Bangkok (\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23)\",\"TH-38\":\"Bueng Kan (\u0e1a\u0e36\u0e07\u0e01\u0e32\u0e2c)\",\"TH-31\":\"Buri Ram (\u0e1a\u0e38\u0e23\u0e35\u0e23\u0e31\u0e21\u0e22\u0e4c)\",\"TH-24\":\"Chachoengsao (\u0e09\u0e30\u0e40\u0e0a\u0e34\u0e07\u0e40\u0e17\u0e23\u0e32)\",\"TH-18\":\"Chai Nat (\u0e0a\u0e31\u0e22\u0e19\u0e32\u0e17)\",\"TH-36\":\"Chaiyaphum (\u0e0a\u0e31\u0e22\u0e20\u0e39\u0e21\u0e34)\",\"TH-22\":\"Chanthaburi (\u0e08\u0e31\u0e19\u0e17\u0e1a\u0e38\u0e23\u0e35)\",\"TH-50\":\"Chiang Mai (\u0e40\u0e0a\u0e35\u0e22\u0e07\u0e43\u0e2b\u0e21\u0e48)\",\"TH-57\":\"Chiang Rai (\u0e40\u0e0a\u0e35\u0e22\u0e07\u0e23\u0e32\u0e22)\",\"TH-20\":\"Chonburi (\u0e0a\u0e25\u0e1a\u0e38\u0e23\u0e35)\",\"TH-86\":\"Chumphon (\u0e0a\u0e38\u0e21\u0e1e\u0e23)\",\"TH-46\":\"Kalasin (\u0e01\u0e32\u0e2c\u0e2a\u0e34\u0e19\u0e18\u0e38\u0e4c)\",\"TH-62\":\"Kamphaeng Phet (\u0e01\u0e33\u0e41\u0e1e\u0e07\u0e40\u0e1e\u0e0a\u0e23)\",\"TH-71\":\"Kanchanaburi (\u0e01\u0e32\u0e0d\u0e08\u0e19\u0e1a\u0e38\u0e23\u0e35)\",\"TH-40\":\"Khon Kaen (\u0e02\u0e2d\u0e19\u0e41\u0e01\u0e48\u0e19)\",\"TH-81\":\"Krabi (\u0e01\u0e23\u0e30\u0e1a\u0e35\u0e48)\",\"TH-52\":\"Lampang (\u0e25\u0e33\u0e1b\u0e32\u0e07)\",\"TH-51\":\"Lamphun (\u0e25\u0e33\u0e1e\u0e39\u0e19)\",\"TH-42\":\"Loei (\u0e40\u0e25\u0e22)\",\"TH-16\":\"Lopburi (\u0e25\u0e1e\u0e1a\u0e38\u0e23\u0e35)\",\"TH-58\":\"Mae Hong Son (\u0e41\u0e21\u0e48\u0e2e\u0e48\u0e2d\u0e07\u0e2a\u0e2d\u0e19)\",\"TH-44\":\"Maha Sarakham (\u0e21\u0e2b\u0e32\u0e2a\u0e32\u0e23\u0e04\u0e32\u0e21)\",\"TH-49\":\"Mukdahan (\u0e21\u0e38\u0e01\u0e14\u0e32\u0e2b\u0e32\u0e23)\",\"TH-26\":\"Nakhon Nayok (\u0e19\u0e04\u0e23\u0e19\u0e32\u0e22\u0e01)\",\"TH-73\":\"Nakhon Pathom (\u0e19\u0e04\u0e23\u0e1b\u0e10\u0e21)\",\"TH-48\":\"Nakhon Phanom (\u0e19\u0e04\u0e23\u0e1e\u0e19\u0e21)\",\"TH-30\":\"Nakhon Ratchasima (\u0e19\u0e04\u0e23\u0e23\u0e32\u0e0a\u0e2a\u0e35\u0e21\u0e32)\",\"TH-60\":\"Nakhon Sawan (\u0e19\u0e04\u0e23\u0e2a\u0e27\u0e23\u0e23\u0e04\u0e4c)\",\"TH-80\":\"Nakhon Si Thammarat (\u0e19\u0e04\u0e23\u0e28\u0e23\u0e35\u0e18\u0e23\u0e23\u0e21\u0e23\u0e32\u0e0a)\",\"TH-55\":\"Nan (\u0e19\u0e48\u0e32\u0e19)\",\"TH-96\":\"Narathiwat (\u0e19\u0e23\u0e32\u0e18\u0e34\u0e27\u0e32\u0e2a)\",\"TH-39\":\"Nong Bua Lam Phu (\u0e2b\u0e19\u0e2d\u0e07\u0e1a\u0e31\u0e27\u0e25\u0e33\u0e20\u0e39)\",\"TH-43\":\"Nong Khai (\u0e2b\u0e19\u0e2d\u0e07\u0e04\u0e32\u0e22)\",\"TH-12\":\"Nonthaburi (\u0e19\u0e19\u0e17\u0e1a\u0e38\u0e23\u0e35)\",\"TH-13\":\"Pathum Thani (\u0e1b\u0e17\u0e38\u0e21\u0e18\u0e32\u0e19\u0e35)\",\"TH-94\":\"Pattani (\u0e1b\u0e31\u0e15\u0e15\u0e32\u0e19\u0e35)\",\"TH-82\":\"Phang Nga (\u0e1e\u0e31\u0e07\u0e07\u0e32)\",\"TH-93\":\"Phatthalung (\u0e1e\u0e31\u0e17\u0e25\u0e38\u0e07)\",\"TH-56\":\"Phayao (\u0e1e\u0e30\u0e40\u0e22\u0e32)\",\"TH-67\":\"Phetchabun (\u0e40\u0e1e\u0e0a\u0e23\u0e1a\u0e39\u0e23\u0e13\u0e4c)\",\"TH-76\":\"Phetchaburi (\u0e40\u0e1e\u0e0a\u0e23\u0e1a\u0e38\u0e23\u0e35)\",\"TH-66\":\"Phichit (\u0e1e\u0e34\u0e08\u0e34\u0e15\u0e23)\",\"TH-65\":\"Phitsanulok (\u0e1e\u0e34\u0e29\u0e13\u0e38\u0e42\u0e25\u0e01)\",\"TH-54\":\"Phrae (\u0e41\u0e1e\u0e23\u0e48)\",\"TH-83\":\"Phuket (\u0e20\u0e39\u0e40\u0e01\u0e47\u0e15)\",\"TH-25\":\"Prachin Buri (\u0e1b\u0e23\u0e32\u0e08\u0e35\u0e19\u0e1a\u0e38\u0e23\u0e35)\",\"TH-77\":\"Prachuap Khiri Khan (\u0e1b\u0e23\u0e30\u0e08\u0e27\u0e1a\u0e04\u0e35\u0e23\u0e35\u0e02\u0e31\u0e19\u0e18\u0e4c)\",\"TH-85\":\"Ranong (\u0e23\u0e30\u0e19\u0e2d\u0e07)\",\"TH-70\":\"Ratchaburi (\u0e23\u0e32\u0e0a\u0e1a\u0e38\u0e23\u0e35)\",\"TH-21\":\"Rayong (\u0e23\u0e30\u0e22\u0e2d\u0e07)\",\"TH-45\":\"Roi Et (\u0e23\u0e49\u0e2d\u0e22\u0e40\u0e2d\u0e47\u0e14)\",\"TH-27\":\"Sa Kaeo (\u0e2a\u0e23\u0e30\u0e41\u0e01\u0e49\u0e27)\",\"TH-47\":\"Sakon Nakhon (\u0e2a\u0e01\u0e25\u0e19\u0e04\u0e23)\",\"TH-11\":\"Samut Prakan (\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e1b\u0e23\u0e32\u0e01\u0e32\u0e23)\",\"TH-74\":\"Samut Sakhon (\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e2a\u0e32\u0e04\u0e23)\",\"TH-75\":\"Samut Songkhram (\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e2a\u0e07\u0e04\u0e23\u0e32\u0e21)\",\"TH-19\":\"Saraburi (\u0e2a\u0e23\u0e30\u0e1a\u0e38\u0e23\u0e35)\",\"TH-91\":\"Satun (\u0e2a\u0e15\u0e39\u0e25)\",\"TH-17\":\"Sing Buri (\u0e2a\u0e34\u0e07\u0e2b\u0e4c\u0e1a\u0e38\u0e23\u0e35)\",\"TH-33\":\"Sisaket (\u0e28\u0e23\u0e35\u0e2a\u0e30\u0e40\u0e01\u0e29)\",\"TH-90\":\"Songkhla (\u0e2a\u0e07\u0e02\u0e25\u0e32)\",\"TH-64\":\"Sukhothai (\u0e2a\u0e38\u0e42\u0e02\u0e17\u0e31\u0e22)\",\"TH-72\":\"Suphan Buri (\u0e2a\u0e38\u0e1e\u0e23\u0e23\u0e13\u0e1a\u0e38\u0e23\u0e35)\",\"TH-84\":\"Surat Thani (\u0e2a\u0e38\u0e23\u0e32\u0e29\u0e0e\u0e23\u0e4c\u0e18\u0e32\u0e19\u0e35)\",\"TH-32\":\"Surin (\u0e2a\u0e38\u0e23\u0e34\u0e19\u0e17\u0e23\u0e4c)\",\"TH-63\":\"Tak (\u0e15\u0e32\u0e01)\",\"TH-92\":\"Trang (\u0e15\u0e23\u0e31\u0e07)\",\"TH-23\":\"Trat (\u0e15\u0e23\u0e32\u0e14)\",\"TH-34\":\"Ubon Ratchathani (\u0e2d\u0e38\u0e1a\u0e25\u0e23\u0e32\u0e0a\u0e18\u0e32\u0e19\u0e35)\",\"TH-41\":\"Udon Thani (\u0e2d\u0e38\u0e14\u0e23\u0e18\u0e32\u0e19\u0e35)\",\"TH-61\":\"Uthai Thani (\u0e2d\u0e38\u0e17\u0e31\u0e22\u0e18\u0e32\u0e19\u0e35)\",\"TH-53\":\"Uttaradit (\u0e2d\u0e38\u0e15\u0e23\u0e14\u0e34\u0e15\u0e16\u0e4c)\",\"TH-95\":\"Yala (\u0e22\u0e30\u0e25\u0e32)\",\"TH-35\":\"Yasothon (\u0e22\u0e42\u0e2a\u0e18\u0e23)\"},\"US\":{\"AL\":\"Alabama\",\"AK\":\"Alaska\",\"AZ\":\"Arizona\",\"AR\":\"Arkansas\",\"CA\":\"California\",\"CO\":\"Colorado\",\"CT\":\"Connecticut\",\"DE\":\"Delaware\",\"DC\":\"District Of Columbia\",\"FL\":\"Florida\",\"GA\":\"Georgia\",\"HI\":\"Hawaii\",\"ID\":\"Idaho\",\"IL\":\"Illinois\",\"IN\":\"Indiana\",\"IA\":\"Iowa\",\"KS\":\"Kansas\",\"KY\":\"Kentucky\",\"LA\":\"Louisiana\",\"ME\":\"Maine\",\"MD\":\"Maryland\",\"MA\":\"Massachusetts\",\"MI\":\"Michigan\",\"MN\":\"Minnesota\",\"MS\":\"Mississippi\",\"MO\":\"Missouri\",\"MT\":\"Montana\",\"NE\":\"Nebraska\",\"NV\":\"Nevada\",\"NH\":\"New Hampshire\",\"NJ\":\"New Jersey\",\"NM\":\"New Mexico\",\"NY\":\"New York\",\"NC\":\"North Carolina\",\"ND\":\"North Dakota\",\"OH\":\"Ohio\",\"OK\":\"Oklahoma\",\"OR\":\"Oregon\",\"PA\":\"Pennsylvania\",\"RI\":\"Rhode Island\",\"SC\":\"South Carolina\",\"SD\":\"South Dakota\",\"TN\":\"Tennessee\",\"TX\":\"Texas\",\"UT\":\"Utah\",\"VT\":\"Vermont\",\"VA\":\"Virginia\",\"WA\":\"Washington\",\"WV\":\"West Virginia\",\"WI\":\"Wisconsin\",\"WY\":\"Wyoming\",\"AA\":\"Armed Forces (AA)\",\"AE\":\"Armed Forces (AE)\",\"AP\":\"Armed Forces (AP)\",\"AS\":\"American Samoa\",\"GU\":\"Guam\",\"MP\":\"Northern Mariana Islands\",\"PR\":\"Puerto Rico\",\"UM\":\"US Minor Outlying Islands\",\"VI\":\"US Virgin Islands\"}}","plugin_url":"http:\/\/www.wholesalefashionistas.com\/wp-content\/plugins\/woocommerce","ajax_url":"\/wp-admin\/admin-ajax.php","ajax_loader_url":"http:\/\/www.wholesalefashionistas.com\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader@2x.gif","i18n_select_state_text":"Select an option\u2026","i18n_required_rating_text":"Please select a rating","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_required_text":"required","i18n_view_cart":"View Cart \u2192","review_rating_required":"yes","update_order_review_nonce":"ed86f685be","apply_coupon_nonce":"2e4ecff328","option_guest_checkout":"yes","checkout_url":"\/wp-admin\/admin-ajax.php?action=woocommerce-checkout","is_checkout":"0","update_shipping_method_nonce":"8d9a44aacc","cart_url":"http:\/\/www.wholesalefashionistas.com\/cart\/","cart_redirect_after_add":"no"};
+/* ]]> */
+
+		
+	
+	
+                            [nodeType] => 1
+                            [parentNode] => (object value omitted)
+                            [childNodes] => (object value omitted)
+                            [firstChild] => (object value omitted)
+                            [lastChild] => (object value omitted)
+                            [previousSibling] => (object value omitted)
+                            [nextSibling] => (object value omitted)
+                            [attributes] => (object value omitted)
+                            [ownerDocument] => (object value omitted)
+                            [namespaceURI] => 
+                            [prefix] => 
+                            [localName] => html
+                            [baseURI] => 
+                            [textContent] => 404 Not Found | Wholesale Fashionistas
+	var yit_responsive_menu_type = "arrow";
+	var yit_responsive_menu_text = "NAVIGATE TO...";
+
+                .wishlist_table .add_to_cart, .yith-wcwl-add-button > a.button.alt { border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; }            
+            var yith_wcwl_plugin_ajax_web_url = 'http://www.wholesalefashionistas.com/wp-admin/admin-ajax.php';
+            var login_redirect_url= 'http://www.wholesalefashionistas.com/wp-login.php?redirect_to=%2Fproduct_info_iframe_index.php%3Fmanufacturers_id%3D%26products_id%3D12591';
+            
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1414599946"};
+/* ]]> */
+
+/* <![CDATA[ */
+var mailchimpSF = {"ajax_url":"http:\/\/www.wholesalefashionistas.com\/"};
+/* ]]> */
+
+/* <![CDATA[ */
+var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"0.80","show_title":"true","allow_resize":"true","allow_expand":"true","default_width":"640","default_height":"480","counter_separator_label":"\/","theme":"pp_default","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
+/* ]]> */
+
+/* <![CDATA[ */
+var yotpo_settings = {"app_key":"BmV3PlReG2kdiyvdfVzAf1km10AjAfKOGjQJYBO8"};
+/* ]]> */
+ 
+		function bookmark(title, url)
+			{
+		   if(document.all)
+		   	{ // ie
+		      window.external.AddFavorite(url, title);
+		    	}
+		   else if(window.chrome)
+		    	{ // chrome
+				alert("The Chrome Browser Does Not Allow Direct Bookmarking. Press Ctrl-D to Bookmark This Page."); 				
+				}
+		   else if(window.opera && window.print) 
+		    	{ // opera
+				alert("The Opera Browser Does Not Allow Direct Bookmarking. Press Ctrl-D to Bookmark This Page."); 				
+		    	}
+		   else if(navigator.userAgent.indexOf("Safari") > -1) 
+		    	{ // safari
+				alert("The Safari Browser Does Not Allow Direct Bookmarking. Press Ctrl-D to Bookmark This Page."); 				
+		    	}
+			else if(window.sidebar) 
+		   	{ // firefox
+				alert("The Firefox Browser No Longer Allows Direct Bookmarking. Press Ctrl-D to Bookmark This Page."); 				
+		    	}
+		   else
+		    	{ // others
+				alert("Your browser does not allow direct bookmarking. Press Ctrl-D to Bookmark This Page."); 				
+				}
+			}
+		p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }
+		jQuery(function($) {
+			$('.date-pick').each(function() {
+				var format = $(this).data('format') || 'mm/dd/yyyy';
+				format = format.replace(/yyyy/i, 'yy');
+				$(this).datepicker({
+					autoFocusNextInput: true,
+					constrainInput: false,
+					changeMonth: true,
+					changeYear: true,
+					beforeShow: function(input, inst) { $('#ui-datepicker-div').addClass('show'); },
+					dateFormat: format.toLowerCase(),
+				});
+			});
+			d = new Date();
+			$('.birthdate-pick').each(function() {
+				var format = $(this).data('format') || 'mm/dd';
+				format = format.replace(/yyyy/i, 'yy');
+				$(this).datepicker({
+					autoFocusNextInput: true,
+					constrainInput: false,
+					changeMonth: true,
+					changeYear: false,
+					minDate: new Date(d.getFullYear(), 1-1, 1),
+					maxDate: new Date(d.getFullYear(), 12-1, 31),
+					beforeShow: function(input, inst) { $('#ui-datepicker-div').removeClass('show'); },
+					dateFormat: format.toLowerCase(),
+				});
+
+			});
+
+		});
+	
+//<![CDATA[
+var sl_base='http://www.wholesalefashionistas.com/wp-content/plugins/store-locator';
+var sl_uploads_base='http://dgoyc14kt9o0d.cloudfront.net/wp-content/uploads/sl-uploads';
+var sl_addons_base=sl_uploads_base+'/addons';
+var sl_includes_base=sl_base+'/sl-inc/includes';
+var sl_map_home_icon='http://www.wholesalefashionistas.com/wp-content/plugins/store-locator/icons/droplet_green.png'; 
+var sl_map_end_icon='http://www.wholesalefashionistas.com/wp-content/plugins/store-locator/icons/droplet_red.png'; 
+var sl_google_map_country='United States'; 
+var sl_google_map_domain='maps.google.com'; 
+var sl_zoom_level=4; 
+var sl_map_type=google.maps.MapTypeId.ROADMAP; 
+var sl_website_label='Website'; 
+var sl_directions_label='Directions';
+var sl_load_locations_default='1'; 
+var sl_load_results_with_locations_default='1'; 
+var sl_geolocate='0'; 
+var sl_distance_unit='miles'; 
+var sl_map_overview_control='0';
+var sl_no_results_found_message='No Results Found';
+var sl_location_not_found_message='';
+var sl_map_home_icon_width=24;
+var sl_map_home_icon_height=33;
+var sl_map_end_icon_width=24;
+var sl_map_end_icon_height=33;
+//]]>
+
+            body { background-color: #FBEFF8; }      
+        
+            .blog-big .meta, .blog-small .meta { background-color: #ffffff; }      
+        
+	ul.products li.product.list {padding-left:293px}
+	ul.products li.product.list .product-thumbnail {margin-left:-293px}
+    .widget.widget_onsale li,
+    .widget.widget_best_sellers li,
+    .widget.widget_recent_reviews li,
+    .widget.widget_recent_products li,
+    .widget.widget_random_products li,
+    .widget.widget_featured_products li,
+    .widget.widget_top_rated_products li,
+    .widget.widget_recently_viewed_products li {min-height: 80px}
+
+    .widget.widget_onsale li .star-rating,
+    .widget.widget_best_sellers li .star-rating,
+    .widget.widget_recent_reviews li .star-rating,
+    .widget.widget_recent_products li .star-rating,
+    .widget.widget_random_products li .star-rating,
+    .widget.widget_featured_products li .star-rating,
+    .widget.widget_top_rated_products li .star-rating,
+    .widget.widget_recently_viewed_products li .star-rating { margin-left: 115px}
+
+    /* IE8, Portrait tablet to landscape and desktop till 1024px */
+    .single-product div.images { width:50.8045977011%; }
+    .single-product div.summary { width:42.6666666667%; }
+
+    /* WooCommerce standard images */
+    .single-product .images .thumbnails > a { width:80px !important; height:80px !important; }
+    /* Slider images */
+    .single-product .images .thumbnails li img { max-width:80px !important; }
+
+    /* Desktop above 1200px */
+    @media (min-width:1200px) {
+            .single-product div.images .yith_magnifier_zoom_wrap a img,
+        .single-product div.images > a img{ width:462px; height:693px; }
+            /* WooCommerce standard images */
+        .single-product .images .thumbnails > a { width:100px !important; height:80px !important; }
+        /* Slider images */
+        .single-product .images .thumbnails li img { max-width:100px !important; }
+    }
+
+    /* Desktop above 1200px */
+    @media (max-width: 979px) and (min-width: 768px) {
+        /* WooCommerce standard images */
+        .single-product .images .thumbnails > a { width:63px !important; height:63px !important; }
+        /* Slider images */
+        .single-product .images .thumbnails li img { max-width:63px !important; }
+    }
+
+    	
+    
+    
+    
+    
+                
+        
+        	
+              
+
+
+
+	
+		
+			
+							 Customer Support 
+		
+				
+
+
+Dealers Login Here » Login  /  Register
+
+
+
+    
+
+			
+		
+
+		
+		
+		
+		
+	
+
+
+
+
+jQuery(function($){
+	var twitterSlider = function(){
+		$('#topbar .last-tweets ul').addClass('slides');
+		$('#topbar .last-tweets').flexslider({
+			animation: "fade",
+			slideshowSpeed: 5 * 1000,
+			animationDuration: 700,
+			directionNav: false,
+			controlNav: false,
+			keyboardNav: false
+		});
+	};
+	$('#topbar .last-tweets > div').bind('tweetable_loaded', function(){
+		twitterSlider();
+	});
+}); 
+
+                
+               
+	
+                
+    	
+        
+    	
+    	    
+    
+
+ 
+    	
+    	
+    	
+        
+                                
+            
+                0
+                Items
+            
+
+            
+                                    $
+                                0
+                00
+                            
+
+                            Cart				View Cart
+            Empty Cart
+					
+		
+		        No products in the cart.
+                			
+        
+
+			
+			jQuery(document).ready(function($){
+				$(document).on('click', '.cart_control', function(e){
+					//e.preventDefault();
+				});
+
+				$(document).on('hover', '.cart_control', function(){
+					$(this).next('.cart_wrapper').slideDown();
+				}).on('mouseleave', '.cart_control', function(){
+					$(this).next('.cart_wrapper').delay(500).slideUp();
+				});
+
+
+			    $(document).on('mouseenter', '.cart_wrapper', function(){ $(this).stop(true,true).show() });
+                $(document).on('mouseleave', '.cart_wrapper', function(){ $(this).delay(500).slideUp() });
+			});
+			                            
+    
+                        
+		
+			
+
+            	
+	                                                     
+		Wholesale Fashion
+         ClothingCUSTOMER SUPPORT
+(800) 552-0954			Receive Weekly Text Message Alerts About New Arrivals And Get A Complimentary Coupon Code (you can stop at anytime)
+
+  function capitalizeMe(obj) {
+    val = obj.value;
+    newVal = "";
+    val = val.split(" ");
+    for(var c=0; c < val.length; c++) {
+      newVal += val[c].substring(0,1).toUpperCase() + val[c].substring(1,val[c].length) + " ";
+    }
+    obj.value = newVal;
+  }
+  function webform_validate() {
+      var msg = "";
+      if (document.getElementById("Phone").value.replace(/[^0-9]/, "").length < 10) {
+          msg += "The phone field is required. Please enter all 10 digits, including the area code.\n";
+      }
+
+      if (msg) {
+          alert(msg);
+          return false;
+      }
+      return true;
+  }
+
+  #CallLoop { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; padding: 4px; }
+  #CallLoop label{display:inline-block; width:15%; font-size:11px; vertical-align:top; line-height:12px; margin-top:3px; color:#9a8d8d}
+  #CallLoop .callloop-bottom { margin: 20px 10px 10px 10px; font-size: 10px; text-align:center; color: #666;}
+  #CallLoop a { color: #3891c1; }
+  #CallLoop a:link { color: #3891c1; text-decoration: none; }
+  #CallLoop a:hover { text-decoration: underline; }
+  #CallLoop .callloop-text { margin: 10px 0 5px 0; }
+  #CallLoop input[type=text] {display:inline-block; vertical-align:top;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; padding: 4px 2px; font-size: 13px; border: 1px solid #bbbbbb; background: #FFF url(https://s3.amazonaws.com/callloop/images/fieldbg.gif) repeat-x scroll top; width: 20%;  }
+  #CallLoop input[type=text]:focus { border: 1px solid #F60; color: #222; outline: none; border-color: #91bee6; -webkit-box-shadow: 0 0 5px rgba(0, 136, 255, 0.4) -moz-box-shadow: 0 0 5px rgba(0, 136, 255, 0.4); box-shadow: 0 0 5px rgba(0, 136, 255, 0.4); }
+  #CallLoop .callloop-submit {display:inline-block; vertical-align:top;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; background: #F60 url(https://s3.amazonaws.com/callloop/images/orange.jpg) no-repeat; padding: 4px 12px; border: 1px solid #ae3700; font-weight: bold; cursor: pointer; color: #FFFFFF; font-size: 12px; margin-right: 10px; text-decoration: none; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+
+
+FirstNameMobile Phone
+
+					
+	 Watch Our Video 
+			 
+           
+    
+       
+    	
+
+    
+    	
+                        HOME
+SHOP
+SKIRTS
+	TOPS
+	DRESSES
+	DENIM PANTS
+	LEGGINGS
+	BASIC
+		PALAZZO
+		PRINTED
+		SUBLIMATION
+	
+	PLUS SIZE
+	PLUS SIZE JEANS AND BOTTOMS
+	
+
+NEW ARRIVALS
+CATALOG
+WISHLIST
+ABOUT
+BLOG
+CONTACT
+DROPSHIP
+PRIVATE LABEL
+
+	
+	
+	
+	
+
+
+		Fashion Boutique Directory
+            
+            
+              
+
+    
+	    
+	        	        
+	        
+	            	
+		
+			
+				
+		
+	
+	
+    
+    	WHOOPS, OUR BAD...
+    	The page you requested was not found, and we have a fine guess why.- If you typed the URL directly, please make sure the spelling is correct.- If you clicked on a link to get here, the link is outdated.
+   
+   
+    	WHAT CAN I DO?
+    	There are many ways you can get back on track with Wholesale Fashionistas- Go to the home page- Use the search form below
+        
+    
+        
+    
+	        
+	        
+	        
+	        
+
+    			 
+		BROWSE BY CATEGORY			LEGGINGS
+	BASIC
+		PALAZZO
+		PRINTED
+		SUBLIMATION
+	
+	SKIRTS
+	TOPS
+	DRESSES
+	ROMPER
+	DENIM PANTS
+	PLUS SIZE
+	PLUS SIZE JEANS AND BOTTOMS
+	
+
+		BIG COUPON			
+
+
+
+					
+					 
+		Your Accounts Manager			
+
+
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+
+		PDF Catalog    
+        Complete Store Catalog
+    
+
+
+	        
+	        	    
+    
+
+
+
+
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?1wMqQFnhOv9cAeZztFsQ7Y3tk11yw596';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+$zopim( function() {
+})
+			jQuery(document).ready(function($){
+					woo_update_total_compare_list = function(){ 
+						var data = {
+							action: 		"woocp_update_total_compare",
+							security: 		"9295dcd9dc"
+						};
+						$.post( ajax_url, data, function(response) {
+							total_compare = $.parseJSON( response );
+							$("#total_compare_product").html("("+total_compare+")");
+                            $(".woo_compare_button_go").trigger("click");
+    					});
+					};
+
+				});
+			
+    
+        
+                                                            
+                    About WF			About us
+Account Information
+My AccountMy OrdersMy Whislist
+
+		                
+                                                                
+                    Warehouse Info			116 E. 16th St. #C
+Los Angeles, CA
+USA 90015
+M-F: 8am - 5pm (PST)
+Saturday: Closed
+Showroom open M-F
+
+		                
+                                                                
+                    Customer Service			FAQsShipping & ReturnsPayment MethodsSize ChartsContact Us
+
+		                
+                                                                
+                    Questions? Call Us			Phone: (800) 552-0954
+
+					 
+
+		                
+                                                    
+    
+
+
+
+
+	
+	
+	
+	
+	
+	
+    
+        
+                
+        Terms of Service & Conditions of Use | Social Media Disclosure | Privacy Policy | FTC Compliance | DMCA Compliance | Anti-Spam Policy | Copyright Notice | Disclaimer
+Copyright Wholesale Fashionistas 2014. All Rights Reserved. Google+   RSS
+                
+  
+    Skype.ui({
+      "name": "chat",
+      "element": "SkypeButton_Call_wholesalefashionistas_1",
+      "participants": ["wholesalefashionistas"],
+      "imageSize": 32
+    });
+  
+
+    
+        
+        Home | Shop | Wishlist | About | Blog | Contact
+Powered by   
+    
+            
+    
+
+
+            
+        
+        
+                
+        
+    
+    
+    
+    
+var elastislide_defaults = {
+	imageW: "100%",
+	border		: 0,
+	margin      : 0,
+	preventDefaultEvents: false,
+	infinite : true,
+	slideshowSpeed : 3500
+};
+
+var carouFredSelOptions_defaults = {
+	responsive: false,
+	auto: true,
+	items: 3,
+	circular: true,
+	infinite: true,
+	debug: false,
+    prev: '.es-nav .es-nav-prev',
+    next: '.es-nav .es-nav-next',
+    swipe: {
+       	onTouch: false
+    },
+    scroll : {
+    	items     : 1,
+    	pauseOnHover: true
+    } 
+};
+
+
+
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName('script')[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0021/8223.js";
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+
+		
+
+var gc_height = 40; gc_status = "close"; gc_animating = false;Get our free catalog today!Click Here To Get Our Catalog
+			var GC = {};
+			GC.Sticky = {
+				Pos : 0,
+				Scroll : function() {
+					var sticky = jQuery("#sticky");
+					if(sticky.length == 0){
+						return;
+					}
+					
+					if (window.pageYOffset > GC.Sticky.Pos) {
+						sticky.addClass("stickystyle");
+						jQuery("#navbar-height").addClass("show");
+					} else {
+						sticky.removeClass("stickystyle");
+						jQuery("#navbar-height").removeClass("show");
+					}
+				},
+				CreatePos: function () {
+					var sticky = jQuery("#sticky");
+					if(sticky.length == 0){
+						return;
+					}
+					if (jQuery("body").hasClass("adminbar")) {
+						return sticky.offset().top - jQuery("#wpadminbar").height();
+					} else {
+						return sticky.offset().top;
+					}
+				},
+				Init : function(){
+					GC.Sticky.Pos = GC.Sticky.CreatePos();
+					jQuery(window).scroll(GC.Sticky.Scroll);
+				}
+			};
+			Gc_MessageBar_MarginCleaner = function(){
+				var tmp_margin_top = jQuery("html").css("margin-top");
+				jQuery("style[media='screen']").each(function(){
+					if(jQuery(this).text().indexOf("html { margin-top: 28px !important; }") > 0){
+						jQuery(this).text(jQuery(this).text().replace("html { margin-top: 28px !important; }","html { margin-top: 28px; }"));
+					}
+					if(jQuery(this).text().indexOf("html { margin-top: 32px !important; }") > 0){
+						jQuery(this).text(jQuery(this).text().replace("html { margin-top: 32px !important; }","html { margin-top: 32px; }"));
+					}
+					if(jQuery(this).text().indexOf("html { margin-top: 46px !important; }") > 0){
+						jQuery(this).text(jQuery(this).text().replace("html { margin-top: 46px !important; }","html { margin-top: 46px; }"));	
+					}
+				});
+			};
+
+			jQuery(document).ready(function() {
+				Gc_MessageBar_MarginCleaner();
+				GC.Sticky.Init();
+				var GC_Message_Bar_htmlMarginTop = (jQuery("html").css("margin-top")) ? (jQuery("html").css("margin-top")) : 0;
+				var GC_Message_Bar_htmlMarginBottom = (jQuery("html").css("margin-bottom")) ? (jQuery("html").css("margin-bottom")) : 0;
+				var GC_Message_Bar_OpenTop = parseInt(jQuery("#gc_message_bar_open").css("top"),10);
+				var GC_Message_Bar_OpenTop_opened = GC_Message_Bar_OpenTop + parseInt(jQuery("#gc_message_bar_open").height(),10);
+				var GC_Message_Bar_OpenBottom = parseInt(jQuery("#gc_message_bar_open").css("bottom"),10);
+				var GC_Message_Bar_OpenBottom_opened = GC_Message_Bar_OpenBottom + parseInt(jQuery("#gc_message_bar_open").height(),10);function openMessageBar() {
+				if (gc_status == "open" || gc_animating == true) {
+					return false;
+				}
+				gc_status = "open"; gc_animating = true;
+				jQuery("#gc_message_bar_open")
+					.animate({
+						"top": GC_Message_Bar_OpenTop + "px"
+					}, 300, "swing");
+				
+				jQuery("html").css("margin-top",GC_Message_Bar_htmlMarginTop)
+					.delay(200)
+					.animate({
+							"margin-top" : (parseInt(GC_Message_Bar_htmlMarginTop) + gc_height) + "px"
+					}, 600, "easeOutExpo");
+				jQuery("#gc_message_bar")
+					.delay(200)
+					.animate({
+						"top": parseInt(jQuery("#gc_message_bar").css("top"),10) +  5 + parseInt(jQuery("#gc_message_bar").height(),10) + "px"}, 
+						600, 
+						"easeOutExpo",
+						function() { gc_animating = false;
+							jQuery("body").addClass("gcmessagebar");
+						}
+					);
+						var date = new Date();
+						date.setTime(date.getTime() + 86400000);
+						if ( wpCookies.get("gc_message_bar_cookie") ) { 
+							wpCookies.set("gc_message_bar_cookie", null, 0, "/") ;
+						}
+						wpCookies.set("gc_message_bar_cookie", "opened", date, "/");
+		
+			}
+			
+			function closeMessageBar() {
+				if (gc_status == "close" || gc_animating == true) {
+					return false;
+				}
+				gc_status = "close"; gc_animating = true;
+				jQuery("#gc_message_bar_open")
+					.delay(600)
+					.animate({
+							"top": GC_Message_Bar_OpenTop_opened + "px"
+						},
+						1000,
+						"easeOutElastic",
+						function() { 
+							gc_animating = false;
+						}
+					);
+				jQuery("html")
+					.animate(
+						{
+							"margin-top" : parseInt(GC_Message_Bar_htmlMarginTop) + "px"
+						},
+						600,
+						"easeInExpo"
+					);
+				jQuery("#gc_message_bar")
+					.animate(
+						{
+							"top": parseInt(jQuery("#gc_message_bar").css("top"),10) - 5 - parseInt(jQuery("#gc_message_bar").height(),10) + "px"
+						},
+						600,
+						"easeInExpo",
+						function() {
+							jQuery("body")
+								.removeClass("gcmessagebar");
+						}
+					);
+						var date = new Date();
+						date.setTime(date.getTime() + 86400000);
+						if ( wpCookies.get("gc_message_bar_cookie") ) { 
+							wpCookies.set("gc_message_bar_cookie", null, 0, "/") ;
+						}
+						wpCookies.set("gc_message_bar_cookie", "closed", date, "/");
+		
+ 								jQuery(window).unbind("scroll");
+                                jQuery(window).scroll(GC.Sticky.Scroll);
+                        }
+					jQuery("#gc_message_bar_close")
+						.click(function() {
+							closeMessageBar();
+						});
+					jQuery("#gc_message_bar_open")
+						.click(function() {
+							openMessageBar();
+						});jQuery("html")
+							.css("margin-top",GC_Message_Bar_htmlMarginTop)
+							.delay(5*1000)
+							.animate(
+								{
+									"margin-top" : (parseInt(jQuery("html").css("margin-top")) + gc_height) + "px"
+								},
+								250
+							);
+						gc_status = "open";
+						jQuery("#gc_message_bar")
+							.delay(5*1000)
+							.animate(
+								{
+									"top": parseInt(jQuery("#gc_message_bar").css("top"),10) + 5 + parseInt(jQuery("#gc_message_bar").height(),10) + "px"
+								}, 
+								250, 
+								function() {jQuery("body").addClass("gcmessagebar");
+						var date = new Date();
+						date.setTime(date.getTime() + 86400000);
+						if ( wpCookies.get("gc_message_bar_cookie") ) { 
+							wpCookies.set("gc_message_bar_cookie", null, 0, "/") ;
+						}
+						wpCookies.set("gc_message_bar_cookie", "opened", date, "/");
+		
+								}
+							);
+             	jQuery('#gc_message_bar_button_a').click(function(e){
+                        MXTracker.trackClick('5468722-1');
+                });
+                });
+		
+        //<![CDATA[
+        try {
+           var MXTracker = new MX.tracker();
+           MXTracker.setOption('base_url', 'http://metrix.getconversion.net/');
+           MXTracker.setId('5468722-1');
+           MXTracker.trackPageView();
+        } catch(err) {}
+        //]]>
+        
+	<!-- 
+		var sc_project=9592783; 
+		var sc_security="4971efc6"; 
+	//-->
+		
+	
+  
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/www.wholesalefashionistas.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+
+/* <![CDATA[ */
+var l2g_options = {"ajaxurl":"http:\/\/www.wholesalefashionistas.com\/wp-admin\/admin-ajax.php","cookie_suffix":"\/product_info_iframe_index.php?manufacturers_id=&products_id=12591","fb_activated":"1","tw_activated":"1","gp_activated":"1","keep_after_reload":"1","l2g_link_identifier":"Download","l2g_single_activation":"1","l2g_show_plugin_link":"1","fb_layout":"box_count","fb_action":"like","fb_font":"lucida grande","fb_colorscheme":"light","fb_buttonWidth":"","fb_lang":"en_US","fb_appID":"","fb_userID":"","fb_siteName":"","tw_user":"","tw_user_description":"","tw_url":"","tw_title":"","tw_layout":"vertical","tw_count_url":"","tw_action":"tweet","tw_lang":"en","gp_size":"tall","gp_count":"1","gp_url":"","gp_lang":"en-US","version":"1.2.7"};
+/* ]]> */
+
+/* <![CDATA[ */
+var l10n_handler = {"map_close":"[x] Close","map_open":"[x] Open"};
+/* ]]> */
+
+/* <![CDATA[ */
+var wc_currency_converter_params = {"current_currency":"","currencies":"{\"AUD\":\"$\",\"BRL\":\"R$\",\"CAD\":\"$\",\"RMB\":\"\u00a5\",\"CZK\":\"K\u010d\",\"DKK\":\"kr\",\"EUR\":\"\u20ac\",\"HKD\":\"$\",\"HUF\":\"Ft\",\"IDR\":\"Rp\",\"INR\":\"\u20b9\",\"ILS\":\"\u20aa\",\"JPY\":\"\u00a5\",\"KRW\":\"\u20a9\",\"MYR\":\"RM\",\"MXN\":\"$\",\"NOK\":\"kr\",\"NZD\":\"$\",\"PHP\":\"\u20b1\",\"PLN\":\"z\u0142\",\"GBP\":\"\u00a3\",\"RON\":\"lei\",\"RUB\":\"\u0440\u0443\u0431.\",\"SGD\":\"$\",\"ZAR\":\"R\",\"SEK\":\"kr\",\"CHF\":\"CHF\",\"TWD\":\"NT$\",\"THB\":\"\u0e3f\",\"TRY\":\"TL\",\"USD\":\"$\"}","rates":{"AED":3.673314,"AFN":57.785351,"ALL":109.175901,"AMD":411.257998,"ANG":1.78344,"AOA":99.094525,"ARS":8.50061,"AUD":1.123833,"AWG":1.79,"AZN":0.784133,"BAM":1.534811,"BBD":2,"BDT":77.362721,"BGN":1.53355,"BHD":0.377004,"BIF":1563.654233,"BMD":1,"BND":1.271764,"BOB":6.907308,"BRL":2.451037,"BSD":1,"BTC":0.0029572124,"BTN":61.321188,"BWP":9.05843,"BYR":10712.4,"BZD":1.997868,"CAD":1.115625,"CDF":922.886667,"CHF":0.945617,"CLF":0.02365,"CLP":576.262205,"CNY":6.115398,"COP":2053.975,"CRC":540.133898,"CUP":0.999833,"CVE":86.114074,"CZK":21.75404,"DJF":179.27812,"DKK":5.836765,"DOP":43.50505,"DZD":83.36921,"EEK":12.1022,"EGP":7.149826,"ERN":15.062575,"ETB":20.03365,"EUR":0.783488,"FJD":1.918624,"FKP":0.619326,"GBP":0.619326,"GEL":1.75848,"GGP":0.619326,"GHS":3.242358,"GIP":0.619326,"GMD":43.128,"GNF":7065.338333,"GTQ":7.614886,"GYD":204.476249,"HKD":7.755436,"HNL":21.25846,"HRK":6.009674,"HTG":44.83525,"HUF":242.480901,"IDR":12114.483333,"ILS":3.7412,"IMP":0.619326,"INR":61.24599,"IQD":1162.1025,"IRR":26647.666667,"ISK":120.916,"JEP":0.619326,"JMD":112.3866,"JOD":0.708296,"JPY":108.061801,"KES":89.12584,"KGS":56.245975,"KHR":4076.666467,"KMF":386.497427,"KPW":900,"KRW":1047.874984,"KWD":0.289168,"KYD":0.825015,"KZT":180.770699,"LAK":8044.623333,"LBP":1513.196667,"LKR":130.908299,"LRD":91.50915,"LSL":10.88339,"LTL":2.707186,"LVL":0.550977,"LYD":1.215058,"MAD":8.689837,"MDL":14.70742,"MGA":2701.876667,"MKD":48.4498,"MMK":1003.4311,"MNT":1850,"MOP":7.981999,"MRO":291.726749,"MTL":0.683738,"MUR":31.39207,"MVR":15.38844,"MWK":457.2938,"MXN":13.43889,"MYR":3.268861,"MZN":31.076775,"NAD":10.88489,"NGN":165.047801,"NIO":26.55321,"NOK":6.637989,"NPR":98.16122,"NZD":1.256387,"OMR":0.385029,"PAB":1,"PEN":2.914165,"PGK":2.518445,"PHP":44.72183,"PKR":102.958061,"PLN":3.309631,"PYG":4619.070059,"QAR":3.641531,"RON":3.468713,"RSD":93.62501,"RUB":42.73543,"RWF":690.61832,"SAR":3.751897,"SBD":7.375872,"SCR":14.07967,"SDG":5.687645,"SEK":7.301814,"SGD":1.271561,"SHP":0.619326,"SLL":4318.5,"SOS":779.67002,"SRD":3.308567,"STD":19244.933333,"SVC":8.735362,"SYP":163.734998,"SZL":10.86883,"THB":32.44797,"TJS":4.99725,"TMT":2.851767,"TND":1.798176,"TOP":1.970567,"TRY":2.198113,"TTD":6.32887,"TWD":30.3549,"TZS":1706.6,"UAH":12.96189,"UGX":2708.083333,"USD":1,"UYU":24.06407,"UZS":2385.653327,"VEF":6.280775,"VND":21259.433333,"VUV":98.530001,"WST":2.381412,"XAF":515.101656,"XAG":0.05802684,"XAU":0.00081721,"XCD":2.70158,"XDR":0.671094,"XOF":515.513195,"XPF":93.92266,"YER":214.960999,"ZAR":10.85779,"ZMK":5253.075255,"ZMW":6.398553,"ZWL":322.355006},"base":"USD","currency":"USD","currency_pos":"left","num_decimals":"2","trim_zeros":"1","thousand_sep":",","decimal_sep":".","i18n_oprice":"Original price:","zero_replace":".00"};
+/* ]]> */
+
+/* <![CDATA[ */
+var yith_woocompare = {"nonceadd":"fffc1d9f0e","nonceremove":"1b847536be","nonceview":"413f488076","ajaxurl":"http:\/\/www.wholesalefashionistas.com\/wp-admin\/admin-ajax.php","actionadd":"yith-woocompare-add-product","actionremove":"yith-woocompare-remove-product","actionview":"yith-woocompare-view-table","added_label":"Added","table_title":"Product Comparison","auto_open":"yes"};
+/* ]]> */
+
+/* <![CDATA[ */
+var yith_wcwl_l10n = {"out_of_stock":"Cannot add to the cart as product is Out of Stock!"};
+/* ]]> */
+
+/* <![CDATA[ */
+var woocommerce_params = {"countries":"{\"AF\":[],\"AT\":[],\"BE\":[],\"BI\":[],\"CZ\":[],\"DE\":[],\"DK\":[],\"FI\":[],\"FR\":[],\"HU\":[],\"IS\":[],\"IL\":[],\"KR\":[],\"NL\":[],\"NO\":[],\"PL\":[],\"PT\":[],\"SG\":[],\"SK\":[],\"SI\":[],\"LK\":[],\"SE\":[],\"VN\":[],\"AU\":{\"ACT\":\"Australian Capital Territory\",\"NSW\":\"New South Wales\",\"NT\":\"Northern Territory\",\"QLD\":\"Queensland\",\"SA\":\"South Australia\",\"TAS\":\"Tasmania\",\"VIC\":\"Victoria\",\"WA\":\"Western Australia\"},\"BR\":{\"AC\":\"Acre\",\"AL\":\"Alagoas\",\"AP\":\"Amap\u00e1\",\"AM\":\"Amazonas\",\"BA\":\"Bahia\",\"CE\":\"Cear\u00e1\",\"DF\":\"Distrito Federal\",\"ES\":\"Esp\u00edrito Santo\",\"GO\":\"Goi\u00e1s\",\"MA\":\"Maranh\u00e3o\",\"MT\":\"Mato Grosso\",\"MS\":\"Mato Grosso do Sul\",\"MG\":\"Minas Gerais\",\"PA\":\"Par\u00e1\",\"PB\":\"Para\u00edba\",\"PR\":\"Paran\u00e1\",\"PE\":\"Pernambuco\",\"PI\":\"Piau\u00ed\",\"RJ\":\"Rio de Janeiro\",\"RN\":\"Rio Grande do Norte\",\"RS\":\"Rio Grande do Sul\",\"RO\":\"Rond\u00f4nia\",\"RR\":\"Roraima\",\"SC\":\"Santa Catarina\",\"SP\":\"S\u00e3o Paulo\",\"SE\":\"Sergipe\",\"TO\":\"Tocantins\"},\"CA\":{\"AB\":\"Alberta\",\"BC\":\"British Columbia\",\"MB\":\"Manitoba\",\"NB\":\"New Brunswick\",\"NL\":\"Newfoundland\",\"NT\":\"Northwest Territories\",\"NS\":\"Nova Scotia\",\"NU\":\"Nunavut\",\"ON\":\"Ontario\",\"PE\":\"Prince Edward Island\",\"QC\":\"Quebec\",\"SK\":\"Saskatchewan\",\"YT\":\"Yukon Territory\"},\"CN\":{\"CN1\":\"Yunnan \\\/ \u4e91\u5357\",\"CN2\":\"Beijing \\\/ \u5317\u4eac\",\"CN3\":\"Tianjin \\\/ \u5929\u6d25\",\"CN4\":\"Hebei \\\/ \u6cb3\u5317\",\"CN5\":\"Shanxi \\\/ \u5c71\u897f\",\"CN6\":\"Inner Mongolia \\\/ \u5167\u8499\u53e4\",\"CN7\":\"Liaoning \\\/ \u8fbd\u5b81\",\"CN8\":\"Jilin \\\/ \u5409\u6797\",\"CN9\":\"Heilongjiang \\\/ \u9ed1\u9f99\u6c5f\",\"CN10\":\"Shanghai \\\/ \u4e0a\u6d77\",\"CN11\":\"Jiangsu \\\/ \u6c5f\u82cf\",\"CN12\":\"Zhejiang \\\/ \u6d59\u6c5f\",\"CN13\":\"Anhui \\\/ \u5b89\u5fbd\",\"CN14\":\"Fujian \\\/ \u798f\u5efa\",\"CN15\":\"Jiangxi \\\/ \u6c5f\u897f\",\"CN16\":\"Shandong \\\/ \u5c71\u4e1c\",\"CN17\":\"Henan \\\/ \u6cb3\u5357\",\"CN18\":\"Hubei \\\/ \u6e56\u5317\",\"CN19\":\"Hunan \\\/ \u6e56\u5357\",\"CN20\":\"Guangdong \\\/ \u5e7f\u4e1c\",\"CN21\":\"Guangxi Zhuang \\\/ \u5e7f\u897f\u58ee\u65cf\",\"CN22\":\"Hainan \\\/ \u6d77\u5357\",\"CN23\":\"Chongqing \\\/ \u91cd\u5e86\",\"CN24\":\"Sichuan \\\/ \u56db\u5ddd\",\"CN25\":\"Guizhou \\\/ \u8d35\u5dde\",\"CN26\":\"Shaanxi \\\/ \u9655\u897f\",\"CN27\":\"Gansu \\\/ \u7518\u8083\",\"CN28\":\"Qinghai \\\/ \u9752\u6d77\",\"CN29\":\"Ningxia Hui \\\/ \u5b81\u590f\",\"CN30\":\"Macau \\\/ \u6fb3\u95e8\",\"CN31\":\"Tibet \\\/ \u897f\u85cf\",\"CN32\":\"Xinjiang \\\/ \u65b0\u7586\"},\"HK\":{\"HONG KONG\":\"Hong Kong Island\",\"KOWLOON\":\"Kowloon\",\"NEW TERRITORIES\":\"New Territories\"},\"IN\":{\"AP\":\"Andra Pradesh\",\"AR\":\"Arunachal Pradesh\",\"AS\":\"Assam\",\"BR\":\"Bihar\",\"CT\":\"Chhattisgarh\",\"GA\":\"Goa\",\"GJ\":\"Gujarat\",\"HR\":\"Haryana\",\"HP\":\"Himachal Pradesh\",\"JK\":\"Jammu and Kashmir\",\"JH\":\"Jharkhand\",\"KA\":\"Karnataka\",\"KL\":\"Kerala\",\"MP\":\"Madhya Pradesh\",\"MH\":\"Maharashtra\",\"MN\":\"Manipur\",\"ML\":\"Meghalaya\",\"MZ\":\"Mizoram\",\"NL\":\"Nagaland\",\"OR\":\"Orissa\",\"PB\":\"Punjab\",\"RJ\":\"Rajasthan\",\"SK\":\"Sikkim\",\"TN\":\"Tamil Nadu\",\"TR\":\"Tripura\",\"UT\":\"Uttaranchal\",\"UP\":\"Uttar Pradesh\",\"WB\":\"West Bengal\",\"AN\":\"Andaman and Nicobar Islands\",\"CH\":\"Chandigarh\",\"DN\":\"Dadar and Nagar Haveli\",\"DD\":\"Daman and Diu\",\"DL\":\"Delhi\",\"LD\":\"Lakshadeep\",\"PY\":\"Pondicherry (Puducherry)\"},\"ID\":{\"AC\":\"Daerah Istimewa Aceh\",\"SU\":\"Sumatera Utara\",\"SB\":\"Sumatera Barat\",\"RI\":\"Riau\",\"KR\":\"Kepulauan Riau\",\"JA\":\"Jambi\",\"SS\":\"Sumatera Selatan\",\"BB\":\"Bangka Belitung\",\"BE\":\"Bengkulu\",\"LA\":\"Lampung\",\"JK\":\"DKI Jakarta\",\"JB\":\"Jawa Barat\",\"BT\":\"Banten\",\"JT\":\"Jawa Tengah\",\"JI\":\"Jawa Timur\",\"YO\":\"Daerah Istimewa Yogyakarta\",\"BA\":\"Bali\",\"NB\":\"Nusa Tenggara Barat\",\"NT\":\"Nusa Tenggara Timur\",\"KB\":\"Kalimantan Barat\",\"KT\":\"Kalimantan Tengah\",\"KI\":\"Kalimantan Timur\",\"KS\":\"Kalimantan Selatan\",\"KU\":\"Kalimantan Utara\",\"SA\":\"Sulawesi Utara\",\"ST\":\"Sulawesi Tengah\",\"SG\":\"Sulawesi Tenggara\",\"SR\":\"Sulawesi Barat\",\"SN\":\"Sulawesi Selatan\",\"GO\":\"Gorontalo\",\"MA\":\"Maluku\",\"MU\":\"Maluku Utara\",\"PA\":\"Papua\",\"PB\":\"Papua Barat\"},\"MY\":{\"JHR\":\"Johor\",\"KDH\":\"Kedah\",\"KTN\":\"Kelantan\",\"MLK\":\"Melaka\",\"NSN\":\"Negeri Sembilan\",\"PHG\":\"Pahang\",\"PRK\":\"Perak\",\"PLS\":\"Perlis\",\"PNG\":\"Pulau Pinang\",\"SBH\":\"Sabah\",\"SWK\":\"Sarawak\",\"SGR\":\"Selangor\",\"TRG\":\"Terengganu\",\"KUL\":\"W.P. Kuala Lumpur\",\"LBN\":\"W.P. Labuan\",\"PJY\":\"W.P. Putrajaya\"},\"NZ\":{\"NL\":\"Northland\",\"AK\":\"Auckland\",\"WA\":\"Waikato\",\"BP\":\"Bay of Plenty\",\"TK\":\"Taranaki\",\"HB\":\"Hawke\u2019s Bay\",\"MW\":\"Manawatu-Wanganui\",\"WE\":\"Wellington\",\"NS\":\"Nelson\",\"MB\":\"Marlborough\",\"TM\":\"Tasman\",\"WC\":\"West Coast\",\"CT\":\"Canterbury\",\"OT\":\"Otago\",\"SL\":\"Southland\"},\"ZA\":{\"EC\":\"Eastern Cape\",\"FS\":\"Free State\",\"GP\":\"Gauteng\",\"KZN\":\"KwaZulu-Natal\",\"LP\":\"Limpopo\",\"MP\":\"Mpumalanga\",\"NC\":\"Northern Cape\",\"NW\":\"North West\",\"WC\":\"Western Cape\"},\"ES\":{\"C\":\"A Coru\u00f1a\",\"VI\":\"\u00c1lava\",\"AB\":\"Albacete\",\"A\":\"Alicante\",\"AL\":\"Almer\u00eda\",\"O\":\"Asturias\",\"AV\":\"\u00c1vila\",\"BA\":\"Badajoz\",\"PM\":\"Baleares\",\"B\":\"Barcelona\",\"BU\":\"Burgos\",\"CC\":\"C\u00e1ceres\",\"CA\":\"C\u00e1diz\",\"S\":\"Cantabria\",\"CS\":\"Castell\u00f3n\",\"CE\":\"Ceuta\",\"CR\":\"Ciudad Real\",\"CO\":\"C\u00f3rdoba\",\"CU\":\"Cuenca\",\"GI\":\"Girona\",\"GR\":\"Granada\",\"GU\":\"Guadalajara\",\"SS\":\"Guip\u00fazcoa\",\"H\":\"Huelva\",\"HU\":\"Huesca\",\"J\":\"Ja\u00e9n\",\"LO\":\"La Rioja\",\"GC\":\"Las Palmas\",\"LE\":\"Le\u00f3n\",\"L\":\"Lleida\",\"LU\":\"Lugo\",\"M\":\"Madrid\",\"MA\":\"M\u00e1laga\",\"ML\":\"Melilla\",\"MU\":\"Murcia\",\"NA\":\"Navarra\",\"OR\":\"Ourense\",\"P\":\"Palencia\",\"PO\":\"Pontevedra\",\"SA\":\"Salamanca\",\"TF\":\"Santa Cruz de Tenerife\",\"SG\":\"Segovia\",\"SE\":\"Sevilla\",\"SO\":\"Soria\",\"T\":\"Tarragona\",\"TE\":\"Teruel\",\"TO\":\"Toledo\",\"V\":\"Valencia\",\"VA\":\"Valladolid\",\"BI\":\"Vizcaya\",\"ZA\":\"Zamora\",\"Z\":\"Zaragoza\"},\"TH\":{\"TH-37\":\"Amnat Charoen (\u0e2d\u0e33\u0e19\u0e32\u0e08\u0e40\u0e08\u0e23\u0e34\u0e0d)\",\"TH-15\":\"Ang Thong (\u0e2d\u0e48\u0e32\u0e07\u0e17\u0e2d\u0e07)\",\"TH-14\":\"Ayutthaya (\u0e1e\u0e23\u0e30\u0e19\u0e04\u0e23\u0e28\u0e23\u0e35\u0e2d\u0e22\u0e38\u0e18\u0e22\u0e32)\",\"TH-10\":\"Bangkok (\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23)\",\"TH-38\":\"Bueng Kan (\u0e1a\u0e36\u0e07\u0e01\u0e32\u0e2c)\",\"TH-31\":\"Buri Ram (\u0e1a\u0e38\u0e23\u0e35\u0e23\u0e31\u0e21\u0e22\u0e4c)\",\"TH-24\":\"Chachoengsao (\u0e09\u0e30\u0e40\u0e0a\u0e34\u0e07\u0e40\u0e17\u0e23\u0e32)\",\"TH-18\":\"Chai Nat (\u0e0a\u0e31\u0e22\u0e19\u0e32\u0e17)\",\"TH-36\":\"Chaiyaphum (\u0e0a\u0e31\u0e22\u0e20\u0e39\u0e21\u0e34)\",\"TH-22\":\"Chanthaburi (\u0e08\u0e31\u0e19\u0e17\u0e1a\u0e38\u0e23\u0e35)\",\"TH-50\":\"Chiang Mai (\u0e40\u0e0a\u0e35\u0e22\u0e07\u0e43\u0e2b\u0e21\u0e48)\",\"TH-57\":\"Chiang Rai (\u0e40\u0e0a\u0e35\u0e22\u0e07\u0e23\u0e32\u0e22)\",\"TH-20\":\"Chonburi (\u0e0a\u0e25\u0e1a\u0e38\u0e23\u0e35)\",\"TH-86\":\"Chumphon (\u0e0a\u0e38\u0e21\u0e1e\u0e23)\",\"TH-46\":\"Kalasin (\u0e01\u0e32\u0e2c\u0e2a\u0e34\u0e19\u0e18\u0e38\u0e4c)\",\"TH-62\":\"Kamphaeng Phet (\u0e01\u0e33\u0e41\u0e1e\u0e07\u0e40\u0e1e\u0e0a\u0e23)\",\"TH-71\":\"Kanchanaburi (\u0e01\u0e32\u0e0d\u0e08\u0e19\u0e1a\u0e38\u0e23\u0e35)\",\"TH-40\":\"Khon Kaen (\u0e02\u0e2d\u0e19\u0e41\u0e01\u0e48\u0e19)\",\"TH-81\":\"Krabi (\u0e01\u0e23\u0e30\u0e1a\u0e35\u0e48)\",\"TH-52\":\"Lampang (\u0e25\u0e33\u0e1b\u0e32\u0e07)\",\"TH-51\":\"Lamphun (\u0e25\u0e33\u0e1e\u0e39\u0e19)\",\"TH-42\":\"Loei (\u0e40\u0e25\u0e22)\",\"TH-16\":\"Lopburi (\u0e25\u0e1e\u0e1a\u0e38\u0e23\u0e35)\",\"TH-58\":\"Mae Hong Son (\u0e41\u0e21\u0e48\u0e2e\u0e48\u0e2d\u0e07\u0e2a\u0e2d\u0e19)\",\"TH-44\":\"Maha Sarakham (\u0e21\u0e2b\u0e32\u0e2a\u0e32\u0e23\u0e04\u0e32\u0e21)\",\"TH-49\":\"Mukdahan (\u0e21\u0e38\u0e01\u0e14\u0e32\u0e2b\u0e32\u0e23)\",\"TH-26\":\"Nakhon Nayok (\u0e19\u0e04\u0e23\u0e19\u0e32\u0e22\u0e01)\",\"TH-73\":\"Nakhon Pathom (\u0e19\u0e04\u0e23\u0e1b\u0e10\u0e21)\",\"TH-48\":\"Nakhon Phanom (\u0e19\u0e04\u0e23\u0e1e\u0e19\u0e21)\",\"TH-30\":\"Nakhon Ratchasima (\u0e19\u0e04\u0e23\u0e23\u0e32\u0e0a\u0e2a\u0e35\u0e21\u0e32)\",\"TH-60\":\"Nakhon Sawan (\u0e19\u0e04\u0e23\u0e2a\u0e27\u0e23\u0e23\u0e04\u0e4c)\",\"TH-80\":\"Nakhon Si Thammarat (\u0e19\u0e04\u0e23\u0e28\u0e23\u0e35\u0e18\u0e23\u0e23\u0e21\u0e23\u0e32\u0e0a)\",\"TH-55\":\"Nan (\u0e19\u0e48\u0e32\u0e19)\",\"TH-96\":\"Narathiwat (\u0e19\u0e23\u0e32\u0e18\u0e34\u0e27\u0e32\u0e2a)\",\"TH-39\":\"Nong Bua Lam Phu (\u0e2b\u0e19\u0e2d\u0e07\u0e1a\u0e31\u0e27\u0e25\u0e33\u0e20\u0e39)\",\"TH-43\":\"Nong Khai (\u0e2b\u0e19\u0e2d\u0e07\u0e04\u0e32\u0e22)\",\"TH-12\":\"Nonthaburi (\u0e19\u0e19\u0e17\u0e1a\u0e38\u0e23\u0e35)\",\"TH-13\":\"Pathum Thani (\u0e1b\u0e17\u0e38\u0e21\u0e18\u0e32\u0e19\u0e35)\",\"TH-94\":\"Pattani (\u0e1b\u0e31\u0e15\u0e15\u0e32\u0e19\u0e35)\",\"TH-82\":\"Phang Nga (\u0e1e\u0e31\u0e07\u0e07\u0e32)\",\"TH-93\":\"Phatthalung (\u0e1e\u0e31\u0e17\u0e25\u0e38\u0e07)\",\"TH-56\":\"Phayao (\u0e1e\u0e30\u0e40\u0e22\u0e32)\",\"TH-67\":\"Phetchabun (\u0e40\u0e1e\u0e0a\u0e23\u0e1a\u0e39\u0e23\u0e13\u0e4c)\",\"TH-76\":\"Phetchaburi (\u0e40\u0e1e\u0e0a\u0e23\u0e1a\u0e38\u0e23\u0e35)\",\"TH-66\":\"Phichit (\u0e1e\u0e34\u0e08\u0e34\u0e15\u0e23)\",\"TH-65\":\"Phitsanulok (\u0e1e\u0e34\u0e29\u0e13\u0e38\u0e42\u0e25\u0e01)\",\"TH-54\":\"Phrae (\u0e41\u0e1e\u0e23\u0e48)\",\"TH-83\":\"Phuket (\u0e20\u0e39\u0e40\u0e01\u0e47\u0e15)\",\"TH-25\":\"Prachin Buri (\u0e1b\u0e23\u0e32\u0e08\u0e35\u0e19\u0e1a\u0e38\u0e23\u0e35)\",\"TH-77\":\"Prachuap Khiri Khan (\u0e1b\u0e23\u0e30\u0e08\u0e27\u0e1a\u0e04\u0e35\u0e23\u0e35\u0e02\u0e31\u0e19\u0e18\u0e4c)\",\"TH-85\":\"Ranong (\u0e23\u0e30\u0e19\u0e2d\u0e07)\",\"TH-70\":\"Ratchaburi (\u0e23\u0e32\u0e0a\u0e1a\u0e38\u0e23\u0e35)\",\"TH-21\":\"Rayong (\u0e23\u0e30\u0e22\u0e2d\u0e07)\",\"TH-45\":\"Roi Et (\u0e23\u0e49\u0e2d\u0e22\u0e40\u0e2d\u0e47\u0e14)\",\"TH-27\":\"Sa Kaeo (\u0e2a\u0e23\u0e30\u0e41\u0e01\u0e49\u0e27)\",\"TH-47\":\"Sakon Nakhon (\u0e2a\u0e01\u0e25\u0e19\u0e04\u0e23)\",\"TH-11\":\"Samut Prakan (\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e1b\u0e23\u0e32\u0e01\u0e32\u0e23)\",\"TH-74\":\"Samut Sakhon (\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e2a\u0e32\u0e04\u0e23)\",\"TH-75\":\"Samut Songkhram (\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e2a\u0e07\u0e04\u0e23\u0e32\u0e21)\",\"TH-19\":\"Saraburi (\u0e2a\u0e23\u0e30\u0e1a\u0e38\u0e23\u0e35)\",\"TH-91\":\"Satun (\u0e2a\u0e15\u0e39\u0e25)\",\"TH-17\":\"Sing Buri (\u0e2a\u0e34\u0e07\u0e2b\u0e4c\u0e1a\u0e38\u0e23\u0e35)\",\"TH-33\":\"Sisaket (\u0e28\u0e23\u0e35\u0e2a\u0e30\u0e40\u0e01\u0e29)\",\"TH-90\":\"Songkhla (\u0e2a\u0e07\u0e02\u0e25\u0e32)\",\"TH-64\":\"Sukhothai (\u0e2a\u0e38\u0e42\u0e02\u0e17\u0e31\u0e22)\",\"TH-72\":\"Suphan Buri (\u0e2a\u0e38\u0e1e\u0e23\u0e23\u0e13\u0e1a\u0e38\u0e23\u0e35)\",\"TH-84\":\"Surat Thani (\u0e2a\u0e38\u0e23\u0e32\u0e29\u0e0e\u0e23\u0e4c\u0e18\u0e32\u0e19\u0e35)\",\"TH-32\":\"Surin (\u0e2a\u0e38\u0e23\u0e34\u0e19\u0e17\u0e23\u0e4c)\",\"TH-63\":\"Tak (\u0e15\u0e32\u0e01)\",\"TH-92\":\"Trang (\u0e15\u0e23\u0e31\u0e07)\",\"TH-23\":\"Trat (\u0e15\u0e23\u0e32\u0e14)\",\"TH-34\":\"Ubon Ratchathani (\u0e2d\u0e38\u0e1a\u0e25\u0e23\u0e32\u0e0a\u0e18\u0e32\u0e19\u0e35)\",\"TH-41\":\"Udon Thani (\u0e2d\u0e38\u0e14\u0e23\u0e18\u0e32\u0e19\u0e35)\",\"TH-61\":\"Uthai Thani (\u0e2d\u0e38\u0e17\u0e31\u0e22\u0e18\u0e32\u0e19\u0e35)\",\"TH-53\":\"Uttaradit (\u0e2d\u0e38\u0e15\u0e23\u0e14\u0e34\u0e15\u0e16\u0e4c)\",\"TH-95\":\"Yala (\u0e22\u0e30\u0e25\u0e32)\",\"TH-35\":\"Yasothon (\u0e22\u0e42\u0e2a\u0e18\u0e23)\"},\"US\":{\"AL\":\"Alabama\",\"AK\":\"Alaska\",\"AZ\":\"Arizona\",\"AR\":\"Arkansas\",\"CA\":\"California\",\"CO\":\"Colorado\",\"CT\":\"Connecticut\",\"DE\":\"Delaware\",\"DC\":\"District Of Columbia\",\"FL\":\"Florida\",\"GA\":\"Georgia\",\"HI\":\"Hawaii\",\"ID\":\"Idaho\",\"IL\":\"Illinois\",\"IN\":\"Indiana\",\"IA\":\"Iowa\",\"KS\":\"Kansas\",\"KY\":\"Kentucky\",\"LA\":\"Louisiana\",\"ME\":\"Maine\",\"MD\":\"Maryland\",\"MA\":\"Massachusetts\",\"MI\":\"Michigan\",\"MN\":\"Minnesota\",\"MS\":\"Mississippi\",\"MO\":\"Missouri\",\"MT\":\"Montana\",\"NE\":\"Nebraska\",\"NV\":\"Nevada\",\"NH\":\"New Hampshire\",\"NJ\":\"New Jersey\",\"NM\":\"New Mexico\",\"NY\":\"New York\",\"NC\":\"North Carolina\",\"ND\":\"North Dakota\",\"OH\":\"Ohio\",\"OK\":\"Oklahoma\",\"OR\":\"Oregon\",\"PA\":\"Pennsylvania\",\"RI\":\"Rhode Island\",\"SC\":\"South Carolina\",\"SD\":\"South Dakota\",\"TN\":\"Tennessee\",\"TX\":\"Texas\",\"UT\":\"Utah\",\"VT\":\"Vermont\",\"VA\":\"Virginia\",\"WA\":\"Washington\",\"WV\":\"West Virginia\",\"WI\":\"Wisconsin\",\"WY\":\"Wyoming\",\"AA\":\"Armed Forces (AA)\",\"AE\":\"Armed Forces (AE)\",\"AP\":\"Armed Forces (AP)\",\"AS\":\"American Samoa\",\"GU\":\"Guam\",\"MP\":\"Northern Mariana Islands\",\"PR\":\"Puerto Rico\",\"UM\":\"US Minor Outlying Islands\",\"VI\":\"US Virgin Islands\"}}","plugin_url":"http:\/\/www.wholesalefashionistas.com\/wp-content\/plugins\/woocommerce","ajax_url":"\/wp-admin\/admin-ajax.php","ajax_loader_url":"http:\/\/www.wholesalefashionistas.com\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader@2x.gif","i18n_select_state_text":"Select an option\u2026","i18n_required_rating_text":"Please select a rating","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_required_text":"required","i18n_view_cart":"View Cart \u2192","review_rating_required":"yes","update_order_review_nonce":"ed86f685be","apply_coupon_nonce":"2e4ecff328","option_guest_checkout":"yes","checkout_url":"\/wp-admin\/admin-ajax.php?action=woocommerce-checkout","is_checkout":"0","update_shipping_method_nonce":"8d9a44aacc","cart_url":"http:\/\/www.wholesalefashionistas.com\/cart\/","cart_redirect_after_add":"no"};
+/* ]]> */
+
+		
+	
+	
+                        )
+
+                    [inf] => 
+                )
+
+        )
+
+)
