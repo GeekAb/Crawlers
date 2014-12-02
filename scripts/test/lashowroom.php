@@ -1,11 +1,12 @@
 <?php
+	require_once("config/default_config.php");
 
-	include_once __DIR__ . '/../goutte.phar';
+	includeMyFiles('urlgenerator');
 
 	$goutte = new Goutte\Client();
 
-	$baseURL = 'https://www.lashowroom.com';
-    $womenManuEndpoint = 'women/manufacturer';
+	$baseURL = 'https://www.lashowroom.com/';
+    $womenManuEndpoint = 'women/manufacturers';
 
     //*[@id="lnv_level_content_cat"]/ul
 
@@ -13,11 +14,11 @@
     $status_code = 200;
     $count = 1;
 
-    getLinkEndPoints($goutte, $baseURL . $leggingsEndpoint);exit;
+    getLinkEndPoints($goutte, $baseURL . $womenManuEndpoint);
 
     while ($status_code == 200) {
     	
-    	$status_code = getLink($goutte, $baseURL . $leggingsEndpoint . $count);
+    	$status_code = getLink($goutte, $baseURL . $womenManuEndpoint . $count);
     	$count++;
 
     	$sleep_time = rand((3 * 1000000), (4 * 1000000));

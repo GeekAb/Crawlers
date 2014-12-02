@@ -2,15 +2,21 @@
 /**
  *  DB - A simple database class 
  *
- * @author		Author: Abhishek Srivastava ; https://github.com/GeekAb
+ * @author		Author: Vivek Wicky Aswal. (https://twitter.com/#!/VivekWickyAswal)
+ * @git 		https://github.com/indieteq/PHP-MySQL-PDO-Database-Class
  * @version      0.2ab
  *
  */
-
+require("logs.php");
 class DB
 {
 	# @object, The PDO object
 	private $pdo;
+
+	private $dbname = 'wordpress';
+	private $host = 'localhost';
+	private $user = 'root';
+	private $password = 'root';
 
 	# @object, PDO statement object
 	private $sQuery;
@@ -51,11 +57,11 @@ class DB
 	*/
 		private function Connect()
 		{
-			$dsn = 'mysql:dbname='.MYSQL_DB.';host='.MYSQL_HOST.'';
+			$dsn = 'mysql:dbname='.$this->dbname.';host='.$this->host.'';
 			try 
 			{
 				# Read settings from INI file, set UTF8
-				$this->pdo = new PDO($dsn, MYSQL_USERNAME, MYSQL_PASSWD, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+				$this->pdo = new PDO($dsn, $this->user, $this->password, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 				
 				# We can now log any exceptions on Fatal error. 
 				$this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

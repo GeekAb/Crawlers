@@ -15,21 +15,47 @@
     $status_code = 200;
     $count = 1;
 
-    getLinkEndPoints($goutte, $baseURL . $leggingsEndpoint);exit;
+    // Get master links
+    $data = getLinkEndPoints($goutte, $baseURL . $leggingsEndpoint);
 
-    while ($status_code == 200) {
-    	
-    	$status_code = getLink($goutte, $baseURL . $leggingsEndpoint . $count);
-    	$count++;
+    while ($data['status'] == 200) {
 
-    	$sleep_time = rand((3 * 1000000), (4 * 1000000));
-    	echo "\tSleeping for " . number_format(($sleep_time / 1000000), 2) . " sec\n";
-    	usleep($sleep_time);
+    	$urls = getUrlFromArray($data['urls']);
+
+    	// Get product urls
+    	foreach ($urls as $url) {
+    		// print_r($url);exit;
+    		$status_code = getLink($goutte, $url);
+
+	    	$sleep_time = rand((3 * 1000000), (4 * 1000000));
+	    	echo "\tSleeping for " . number_format(($sleep_time / 1000000), 2) . " sec\n";
+	    	usleep($sleep_time);
+    	}
+    }
+
+    function getUrlFromArray($data)
+    {
+
+    	if (!is_array($data)) {
+	        // nothing to do if it's not an array
+	        return array($data);
+	    }
+
+	    $result = array();
+	    foreach ($data as $value) {
+	        // explode the sub-array, and add the parts
+	        $result = array_merge($result, getUrlFromArray($value));
+	    }
+
+	    return $result;
     }
 
     function getLinkEndPoints($goutte, $url)
     {
     	$crawler = $goutte->request('GET', $url);
+
+    	$count = 0;
+    	$urls = array();
 
 	    $status_code = $goutte->getResponse()->getStatus();
 
@@ -38,95 +64,77 @@
 			// Plus size
 			$domSelector = '//*[@id="left_nav"]/li[3]/ul';
 
-			$crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
-		    	$node->filterXPath($domS)->each(function ($node) {
-		    		print_r($node->attr('href'));
-		    		echo "\n";
+		    	return $node->filterXPath($domS)->each(function ($node) {
+		    		return $node->attr('href');
 		    	});
-		    	
-		    	echo "\n";
 			});
 
 			// Leggings
 			$domSelector = '//*[@id="left_nav"]/li[4]/ul';
 
-			$crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
-		    	$node->filterXPath($domS)->each(function ($node) {
-		    		print_r($node->attr('href'));
-		    		echo "\n";
+		    	return $node->filterXPath($domS)->each(function ($node) {
+		    		return $node->attr('href');
 		    	});
-		    	
-		    	echo "\n";
 			});
 
 			// Winter
 			$domSelector = '//*[@id="left_nav"]/li[5]/ul';
 
-			$crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
-		    	$node->filterXPath($domS)->each(function ($node) {
-		    		print_r($node->attr('href'));
-		    		echo "\n";
+		    	return $node->filterXPath($domS)->each(function ($node) {
+		    		return $node->attr('href');
 		    	});
-		    	
-		    	echo "\n";
 			});
 
 			// Pants
 			$domSelector = '//*[@id="left_nav"]/li[6]/ul';
 
-			$crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
-		    	$node->filterXPath($domS)->each(function ($node) {
-		    		print_r($node->attr('href'));
-		    		echo "\n";
+		    	return $node->filterXPath($domS)->each(function ($node) {
+					return $node->attr('href');
 		    	});
-		    	
-		    	echo "\n";
 			});
 
 			// Shorts
 			$domSelector = '//*[@id="left_nav"]/li[7]/ul';
 
-			$crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
-		    	$node->filterXPath($domS)->each(function ($node) {
-		    		print_r($node->attr('href'));
-		    		echo "\n";
+		    	return $node->filterXPath($domS)->each(function ($node) {
+		    		return $node->attr('href');
 		    	});
-		    	
-		    	echo "\n";
 			});
 
 			// kids
 			$domSelector = '//*[@id="left_nav"]/li[9]/ul';
 
-			$crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
-		    	$node->filterXPath($domS)->each(function ($node) {
-		    		print_r($node->attr('href'));
-		    		echo "\n";
+		    	return $node->filterXPath($domS)->each(function ($node) {
+		    		return $node->attr('href');
 		    	});
-		    	
-		    	echo "\n";
 			});
 		}
 
-		return $status_code;
+		return array('status' => $status_code , 'urls' => $urls);
     }
 
 

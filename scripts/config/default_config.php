@@ -5,7 +5,7 @@
     //Application Path & website default address
     define("DEFAULT_WEB_ADDRESS",'localhost:82');
     // define("APPLICATION_PATH",$_SERVER['DOCUMENT_ROOT'].'/');
-    define("APPLICATION_PATH",'/home/geekab/development/wholesakeleggings/robots/scripts/');
+    define("APPLICATION_PATH",'/home/geekab/development/wholesaleleggings/robots/scripts');
 
     define("APPLICATION_ENV",'development'); //Possible values : development,testing,production
     
@@ -40,22 +40,9 @@
     //Function will manage all include requests
     function includeMyFiles($filename='')
     {
+        // require_once(APPLICATION_PATH."/config/database.php");
+        require_once(APPLICATION_PATH."/goutte.phar");
         require_once(APPLICATION_PATH."/config/database.php");
-
-        if($filename == 'master') {
-            require_once(APPLICATION_PATH."/config/process_config.php");
-        }
-        else if($filename == 'bestbuy') {
-            require_once(APPLICATION_PATH."/functions/curl_functions.php");
-            define("LOGFILE_NAME","bestbuy_");
-        }
-        else if($filename == 'input_file_generator') {
-            require_once(APPLICATION_PATH."/functions/csv_functions.php");
-        } 
-        else if($filename=='google_scraper')
-        {
-            require_once(APPLICATION_PATH."/functions/csv_functions.php");
-            require_once(APPLICATION_PATH."/functions/curl_functions.php");
-        }
+        require_once(APPLICATION_PATH."/config/log.php");
     }
 ?>
