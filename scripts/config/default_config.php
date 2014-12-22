@@ -28,7 +28,7 @@
     define("MYSQL_HOST","localhost");
     define("MYSQL_USERNAME","root");
     define("MYSQL_PASSWD","root");
-    define("MYSQL_DB","wordpress");
+    define("MYSQL_DB","wl");
 
     define("MIN_SLEEP_TIME",2);
     define("MAX_SLEEP_TIME",2);

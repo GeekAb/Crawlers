@@ -1,6 +1,8 @@
 <?php
 
-	include_once __DIR__ . '/../goutte.phar';
+	// Include config and initiate
+	include_once __DIR__ . '/../config/default_config.php';
+	includeMyFiles();
 
 	// Initialize goutte
 	$goutte = new Goutte\Client();
@@ -12,7 +14,7 @@
 
 	// URL and EndPoints
 	$baseURL = 'http://numberonewholesales.com/';
-	// $endPoints['leggings'] = 'leggings-c-1067.html';
+	$endPoints['leggings'] = 'leggings-c-1067.html';
 	$endPoints['pants'] = 'palazzo-pants-c-1112.html';
     
     // Default Status code
@@ -21,25 +23,22 @@
 
     $productUrls = array();
 
-    foreach ($endPoints as $key => $value) {
+    // foreach ($endPoints as $key => $value) {
 
-    	$productUrls[] = getLink($goutte, $baseURL.$value);
-    	print_r($productUrls);
-    	$sleep_time = rand((3 * 1000000), (4 * 1000000));
-    	echo "\tSleeping for " . number_format(($sleep_time / 1000000), 2) . " sec\n";
-    	usleep($sleep_time);
-    }
+    // 	$productUrls[] = getLink($goutte, $baseURL.$value);
+    // 	print_r($productUrls);
+    // 	$sleep_time = rand((3 * 1000000), (4 * 1000000));
+    // 	echo "\tSleeping for " . number_format(($sleep_time / 1000000), 2) . " sec\n";
+    // 	usleep($sleep_time);
+    // }
 
-    $urls = getUrlFromArray($productUrls);
+    // $urls = getUrlFromArray($productUrls);
 
-    print_r($urls); exit;
-
-    foreach ($urls as $url) {
-
-    	print_r($url);
+    // foreach ($urls as $url) {
+	$url = 'http://numberonewholesales.com/fleece-inside-ankle-leggings-p-42.html?cPath=1067';
     	$data = getProductData($goutte, $url);
-    	print_r($data);
-    }
+    	exit;
+    // }
 
     function getUrlFromArray($data)
     {
@@ -142,39 +141,49 @@
 
 		if($status_code == 200){
 
-			// Images
-			$domSelector = '//*[@id="mycarousel"]/li/a';
+			// Get data blocks 
+			$domSelector = '//*[@class="productInfoTable"]';
 
-			$data['images'] = $crawler->filterXPath($domSelector)->each(function ($node) {
-		    	return $node->attr('rel');
+			$data = $crawler->filterXPath($domSelector)->each(function ($node) {
+
+				$attribs = array();
+		    	
+		    	// Get title
+		    	$titleReg = '.*?<td.*?>Name.*?<td.*?>(.*?)</td>.*?';
+		    	preg_match('|' . $titleReg . '|smi', $node->html(), $match);
+		    	if(isset($match[1]))
+			    	$attribs['title'] = $match[1];
+
+			    // Get style
+			    $styleReg = '.*?<td.*?>Style.*?<td.*?><span.*?>(.*?)</span>.*?</td>.*?';
+		    	preg_match('|' . $styleReg . '|smi', $node->html(), $match);
+		    	if(isset($match[1]))
+			    	$attribs['style'] = $match[1];
+
+			    // Get price
+			    $priceReg = '.*?<td.*?>Price.*?<td.*?>(.*?)</td>.*?';
+		    	preg_match('|' . $priceReg . '|smi', $node->html(), $match);
+		    	if(isset($match[1]))
+			    	$attribs['price'] = $match[1];
+
+			    // Get stock
+			    $stockReg = '.*?<td.*?>Stock.*?<td.*?>(.*?)</td>.*?';
+		    	preg_match('|' . $stockReg . '|smi', $node->html(), $match);
+		    	if(isset($match[1]))
+			    	$attribs['stock'] = $match[1];
+
+			    // Get Product Images
+			    $domS = '//table/tr/td';
+
+		    	$node->filterXPath($domS)->each(function ($node) {
+		    		print_r($node);
+		    	});
+
+			    print_r($attribs);
 			});
 
-			// Title 
-			$domSelector = '//*[@id="product_addtocart_form"]/div[2]/div[1]/h1';
-			$data['title'] = $crawler->filterXPath($domSelector)->each(function ($node) {
-		    	return $node->html();
-			});
-
-			// Item Desc 
-			$domSelector = '//*[@id="product_addtocart_form"]/div[2]/div[2]/div';
-			$data['item_desc'] = $crawler->filterXPath($domSelector)->each(function ($node) {
-		    	return $node->html();
-			});
-
-			// Item Price 
-			$domSelector = '//*[@id="product_addtocart_form"]/div[2]/div[3]/p/span';
-			$data['price'] = $crawler->filterXPath($domSelector)->each(function ($node) {
-		    	return $node->text();
-			});
-
-			// Color Options table
-			$domSelector = '//*[@id="super-product-table"]/tbody/tr';
-			$data['color_options'] = $crawler->filterXPath($domSelector)->each(function ($node) {
-		    	return $node->html();
-			});
+			exit;
 		}
-
-		return processProductData($data);
 
     }
 

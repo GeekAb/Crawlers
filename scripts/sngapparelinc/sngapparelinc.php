@@ -33,43 +33,46 @@
     $data = getLinkEndPoints($goutte, $baseURL . $leggingsEndpoint);
 
     if($data['status'] == 200) {
+	    foreach ($data['urls'] as $key => $value) {
+	    	foreach ($value[0] as $val) {
+	    		
+				// $insert   =  $db->query("INSERT INTO master_urls(url,source,category,subcategory,status) 
+				// 							VALUES(:url,:source,:category,:subcategory,:status)", 
+				// 							array(	"url" => $val[0],
+				// 									"source" => "sngapparelinc",
+				// 									"category" => $key,
+				// 									"subcategory" => $val[1],
+				// 									"status"=>1
+				// 									));
 
-    	$urls = getUrlFromArray($data['urls']);
+				// Get Product URLS
+		    	$productUrls = getLink($goutte, $val[0]);
 
-    	// Insert into master urls
-    	foreach ($urls as $url) {
-    		// Insert
-			///$insert   =  $db->query("INSERT INTO master_urls(url,source,status) VALUES(:url,:source,:status)", array("url"=>$url,"source"=>"sngapparelinc","status"=>1));
+		    	$sleep_time = rand((2 * 1000000), (3 * 1000000));
+		    	echo "\tSleeping for " . number_format(($sleep_time / 1000000), 2) . " sec\n";
+		    	usleep($sleep_time);
 
-			// // Do something with the data 
-			// if($insert > 0 ) {
-			//   return 'Succesfully created a new person !';
-			// }
-    	}
+		    	foreach ($productUrls as $url) {
 
-    	// Get product urls
-    	foreach ($urls as $url) {
-    		$productUrls[] = getLink($goutte, $url);
+		    		// // Insert Product URLs
+		    		// $db->query("INSERT INTO product_urls(url,source,status) 
+		    		// 	VALUES(:url,:source,:status)", array("url"=>$url,"source"=>"sngapparelinc","status"=>1));
 
-	    	$sleep_time = rand((3 * 1000000), (4 * 1000000));
-	    	echo "\tSleeping for " . number_format(($sleep_time / 1000000), 2) . " sec\n";
-	    	usleep($sleep_time);
-    	}
-    }
-
-    // Product URLS
-    $urls = getUrlFromArray($productUrls);
-
-    foreach ($urls as $url) {
-		
-    }
-
-    foreach ($urls as $url) {
-    	print_r($url);
-    	$data = getProductData($goutte, $url);
-    	$db->query("INSERT INTO product_urls(url,source,status) VALUES(:url,:source,:status)", array("url"=>$url,"source"=>"sngapparelinc","status"=>1));
-    	$db->query("INSERT INTO products_data(url,source,data,status) VALUES(:url,:source,:data,:status)", array("url"=>$url,"source"=>"sngapparelinc","data"=>json_encode($data),"status"=>1));
-    }
+		    		// Get Data
+		    		$data = getProductData($goutte, $url);
+		    		$db->query("INSERT INTO products_data(url,source,data,category,subcategory,status) 
+		    			VALUES(:url,:source,:data,:category,:subcategory,:status)", 
+		    				array(	"url"=>$url,
+		    						"source"=>"sngapparelinc",
+		    						"data"=>json_encode($data),
+		    						"category" => $key,
+									"subcategory" => $val[1],
+		    						"status"=>1
+		    					));
+		    	}
+	    	}
+	    }
+	}
 
     function getUrlFromArray($data)
     {
@@ -102,72 +105,72 @@
 			// Plus size
 			$domSelector = '//*[@id="left_nav"]/li[3]/ul';
 
-			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls['plussize'] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
 		    	return $node->filterXPath($domS)->each(function ($node) {
-		    		return $node->attr('href');
+		    		return array($node->attr('href'),$node->text());
 		    	});
 			});
 
 			// Leggings
 			$domSelector = '//*[@id="left_nav"]/li[4]/ul';
 
-			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls['leggings'] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
 		    	return $node->filterXPath($domS)->each(function ($node) {
-		    		return $node->attr('href');
+		    		return array($node->attr('href'),$node->text());
 		    	});
 			});
 
 			// Winter
 			$domSelector = '//*[@id="left_nav"]/li[5]/ul';
 
-			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls['winter'] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
 		    	return $node->filterXPath($domS)->each(function ($node) {
-		    		return $node->attr('href');
+		    		return array($node->attr('href'),$node->text());
 		    	});
 			});
 
 			// Pants
 			$domSelector = '//*[@id="left_nav"]/li[6]/ul';
 
-			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls['pants'] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
 		    	return $node->filterXPath($domS)->each(function ($node) {
-					return $node->attr('href');
+					return array($node->attr('href'),$node->text());
 		    	});
 			});
 
 			// Shorts
 			$domSelector = '//*[@id="left_nav"]/li[7]/ul';
 
-			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls['shorts'] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
 		    	return $node->filterXPath($domS)->each(function ($node) {
-		    		return $node->attr('href');
+		    		return array($node->attr('href'),$node->text());
 		    	});
 			});
 
 			// kids
 			$domSelector = '//*[@id="left_nav"]/li[9]/ul';
 
-			$urls[$count++] = $crawler->filterXPath($domSelector)->each(function ($node) {
+			$urls['kids'] = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$domS = '//li/a';
 
 		    	return $node->filterXPath($domS)->each(function ($node) {
-		    		return $node->attr('href');
+		    		return array($node->attr('href'),$node->text());
 		    	});
 			});
 		}
@@ -188,9 +191,8 @@
 
 			$domSelector = '//*[@class="products-grid"]/li/a';
 
-			$products[] = $crawler->filterXPath($domSelector)->each(function ($node) {
-		    	return $node->attr('href');
-		    	
+			$products = $crawler->filterXPath($domSelector)->each(function ($node) {
+		    	return $node->attr('href');	
 			});
 		}
 
