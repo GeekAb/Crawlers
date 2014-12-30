@@ -1,0 +1,967 @@
+sku,attribute_set,type,store,configurable_attributes,config_color,name,description,price,qty,is_in_stock,manage_stock,use_config_manage_stock,status,visibility,weight,categories,pack,fabric,made,tax_class_id,thumbnail,small_image,image,media_gallery
+WLplussize#1#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size Faux Leather Leggings with Studs","Wholesale Womens Plus Size Faux Leather Leggings with Studs",5.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLplussize#1,,configurable,default,,,"Wholesale Womens Plus Size Faux Leather Leggings with Studs Black","Wholesale Womens Plus Size Faux Leather Leggings with Studs",5.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",None,,,,
+WLplussize#2#Burgundy,default,simple,default,color,Burgundy,"Wholesale Womens Plus Size Faux Leather Leggings with Zippers","Wholesale Womens Plus Size Faux Leather Leggings with Zippers",5.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#2#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size Faux Leather Leggings with Zippers","Wholesale Womens Plus Size Faux Leather Leggings with Zippers",5.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#2#Charcoal,default,simple,default,color,Charcoal,"Wholesale Womens Plus Size Faux Leather Leggings with Zippers","Wholesale Womens Plus Size Faux Leather Leggings with Zippers",5.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#2,,configurable,default,,,"Wholesale Womens Plus Size Faux Leather Leggings with Zippers Charcoal","Wholesale Womens Plus Size Faux Leather Leggings with Zippers",5.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",None,,,,
+WLplussize#3#Charcoal,default,simple,default,color,Charcoal,"Wholesale Womens Plus Size Faux Leather Stretch Leggings","Wholesale Womens Plus Size Faux Leather Stretch Leggings",4.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLplussize#3#Burgundy,default,simple,default,color,Burgundy,"Wholesale Womens Plus Size Faux Leather Stretch Leggings","Wholesale Womens Plus Size Faux Leather Stretch Leggings",4.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLplussize#3,,configurable,default,,,"Wholesale Womens Plus Size Faux Leather Stretch Leggings Burgundy","Wholesale Womens Plus Size Faux Leather Stretch Leggings",4.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",None,,,,
+WLplussize#4#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size Faux Leather Leggings with Sided Studs","Wholesale Womens Plus Size Faux Leather Leggings with Sided Studs",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLplussize#4,,configurable,default,,,"Wholesale Womens Plus Size Faux Leather Leggings with Sided Studs Black","Wholesale Womens Plus Size Faux Leather Leggings with Sided Studs",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",None,,,,
+WLplussize#5#Navy,default,simple,default,color,Navy,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#5#Burgundy,default,simple,default,color,Burgundy,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#5#Gray,default,simple,default,color,Gray,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#5#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#5,,configurable,default,,,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit Black","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",None,,,,
+WLplussize#6#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size Faux Leather Track Pants With Zippers","Wholesale Womens Plus Size Faux Leather Track Pants With Zippers",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#6,,configurable,default,,,"Wholesale Womens Plus Size Faux Leather Track Pants With Zippers Black","Wholesale Womens Plus Size Faux Leather Track Pants With Zippers",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",None,,,,
+WLplussize#7#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size Pants Duo Fabric","Wholesale Womens Plus Size Pants Duo Fabric",8.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#7,,configurable,default,,,"Wholesale Womens Plus Size Pants Duo Fabric Black","Wholesale Womens Plus Size Pants Duo Fabric",8.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",None,,,,
+WLplussize#8#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size Faux Leather Fleece Lined Leggings","Wholesale Womens Plus Size Faux Leather Fleece Lined Leggings",6.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#8,,configurable,default,,,"Wholesale Womens Plus Size Faux Leather Fleece Lined Leggings Black","Wholesale Womens Plus Size Faux Leather Fleece Lined Leggings",6.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",None,,,,
+WLplussize#9#Black,default,simple,default,color,Black,"WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS ","WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS ",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#9,,configurable,default,,,"WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS  Black","WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS ",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Faux Leather",None,,,,
+WLplussize#10#Black,default,simple,default,color,Black,"Wholesale Womens Winter Plus Size Fleece Seamless Leggings","Wholesale Womens Winter Plus Size Fleece Seamless Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#10#Coffee,default,simple,default,color,Coffee,"Wholesale Womens Winter Plus Size Fleece Seamless Leggings","Wholesale Womens Winter Plus Size Fleece Seamless Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#10#Navy,default,simple,default,color,Navy,"Wholesale Womens Winter Plus Size Fleece Seamless Leggings","Wholesale Womens Winter Plus Size Fleece Seamless Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#10#Khaki,default,simple,default,color,Khaki,"Wholesale Womens Winter Plus Size Fleece Seamless Leggings","Wholesale Womens Winter Plus Size Fleece Seamless Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#10,,configurable,default,,,"Wholesale Womens Winter Plus Size Fleece Seamless Leggings Khaki","Wholesale Womens Winter Plus Size Fleece Seamless Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",None,,,,
+WLplussize#11#Red,default,simple,default,color,Red,"Womens Plus Size Missy Fleece Lined Leggings","Womens Plus Size Missy Fleece Lined Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#11,,configurable,default,,,"Womens Plus Size Missy Fleece Lined Leggings Red","Womens Plus Size Missy Fleece Lined Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",None,,,,
+WLplussize#12#Red,default,simple,default,color,Red,"Wholesale Womens Plus Size Leggings French Terry Faire Isle and Reindeers Print","Wholesale Womens Plus Size Leggings French Terry Faire Isle and Reindeers Print",3.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLplussize#12#Purple,default,simple,default,color,Purple,"Wholesale Womens Plus Size Leggings French Terry Faire Isle and Reindeers Print","Wholesale Womens Plus Size Leggings French Terry Faire Isle and Reindeers Print",3.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLplussize#12#Burgundy,default,simple,default,color,Burgundy,"Wholesale Womens Plus Size Leggings French Terry Faire Isle and Reindeers Print","Wholesale Womens Plus Size Leggings French Terry Faire Isle and Reindeers Print",3.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLplussize#12#Blue,default,simple,default,color,Blue,"Wholesale Womens Plus Size Leggings French Terry Faire Isle and Reindeers Print","Wholesale Womens Plus Size Leggings French Terry Faire Isle and Reindeers Print",3.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLplussize#12,,configurable,default,,,"Wholesale Womens Plus Size Leggings French Terry Faire Isle and Reindeers Print Blue","Wholesale Womens Plus Size Leggings French Terry Faire Isle and Reindeers Print",3.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",None,,,,
+"WLplussize#13#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Fleece Lined Leggings Border Print","Wholesale Womens Plus Size Fleece Lined Leggings Border Print",4.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#13,,configurable,default,,,"Wholesale Womens Plus Size Fleece Lined Leggings Border Print Just as picture","Wholesale Womens Plus Size Fleece Lined Leggings Border Print",4.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",None,,,,
+WLplussize#14#Gray,default,simple,default,color,Gray,"Wholesale Plus Size Womens High Waist Treggings Fleece Lined","Wholesale Plus Size Womens High Waist Treggings Fleece Lined",7.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#14,,configurable,default,,,"Wholesale Plus Size Womens High Waist Treggings Fleece Lined Gray","Wholesale Plus Size Womens High Waist Treggings Fleece Lined",7.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",None,,,,
+WLplussize#15#Black,default,simple,default,color,Black,"WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS ","WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS ",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#15,,configurable,default,,,"WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS  Black","WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS ",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",None,,,,
+WLplussize#16#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size Faux Leather Fleece Lined Leggings","Wholesale Womens Plus Size Faux Leather Fleece Lined Leggings",6.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#16,,configurable,default,,,"Wholesale Womens Plus Size Faux Leather Fleece Lined Leggings Black","Wholesale Womens Plus Size Faux Leather Fleece Lined Leggings",6.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",None,,,,
+WLplussize#17#Navy,default,simple,default,color,Navy,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#17#Burgundy,default,simple,default,color,Burgundy,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#17#Gray,default,simple,default,color,Gray,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#17#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#17,,configurable,default,,,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit Black","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",None,,,,
+"WLplussize#18#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Leggings Fleece Lined Neo Tribal","Wholesale Womens Plus Size Leggings Fleece Lined Neo Tribal",4.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#18,,configurable,default,,,"Wholesale Womens Plus Size Leggings Fleece Lined Neo Tribal Just as picture","Wholesale Womens Plus Size Leggings Fleece Lined Neo Tribal",4.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",None,,,,
+"WLplussize#19#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Fleece Lined Missy Exotic Print","Wholesale Womens Plus Size Fleece Lined Missy Exotic Print",4.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#19,,configurable,default,,,"Wholesale Womens Plus Size Fleece Lined Missy Exotic Print Just as picture","Wholesale Womens Plus Size Fleece Lined Missy Exotic Print",4.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Fleece Leggings",None,,,,
+"WLplussize#20#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size FUR Lined Leggings","Wholesale Womens Plus Size FUR Lined Leggings",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/FUR Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX
+100% POLYESTER LINING",CHINA<br>,None,,,,
+WLplussize#20,,configurable,default,,,"Wholesale Womens Plus Size FUR Lined Leggings Just as picture","Wholesale Womens Plus Size FUR Lined Leggings",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/FUR Leggings",None,,,,
+"WLplussize#21#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size FUR Lined Leggings Azteco","Wholesale Womens Plus Size FUR Lined Leggings Azteco",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/FUR Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX
+100% POLYESTER LINING",CHINA,None,,,,
+WLplussize#21,,configurable,default,,,"Wholesale Womens Plus Size FUR Lined Leggings Azteco Just as picture","Wholesale Womens Plus Size FUR Lined Leggings Azteco",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/FUR Leggings",None,,,,
+"WLplussize#22#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Scuba Pants Contrast Duo Fabric","Wholesale Womens Plus Size Scuba Pants Contrast Duo Fabric",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#22,,configurable,default,,,"Wholesale Womens Plus Size Scuba Pants Contrast Duo Fabric Just as picture","Wholesale Womens Plus Size Scuba Pants Contrast Duo Fabric",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,None,,,,
+WLplussize#23#Navy,default,simple,default,color,Navy,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#23#Burgundy,default,simple,default,color,Burgundy,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#23#Gray,default,simple,default,color,Gray,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#23#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#23,,configurable,default,,,"Wholesale Womens Plus Size French Terry Track Pants Peppered Knit Black","Wholesale Womens Plus Size French Terry Track Pants Peppered Knit",9.00,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,None,,,,
+WLplussize#24#Black,default,simple,default,color,Black,"Wholesale Womens Solid Color Treggings","Wholesale Womens Solid Color Treggings",11.00,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"80% Cotton
+15%POLYESTER
+5%SPANDEX",CHINA,None,,,,
+WLplussize#24,,configurable,default,,,"Wholesale Womens Solid Color Treggings Black","Wholesale Womens Solid Color Treggings",11.00,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,None,,,,
+WLplussize#25#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size Faux Leather Track Pants With Zippers","Wholesale Womens Plus Size Faux Leather Track Pants With Zippers",9.00,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#25,,configurable,default,,,"Wholesale Womens Plus Size Faux Leather Track Pants With Zippers Black","Wholesale Womens Plus Size Faux Leather Track Pants With Zippers",9.00,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,None,,,,
+WLplussize#26#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size Pants Duo Fabric","Wholesale Womens Plus Size Pants Duo Fabric",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#26,,configurable,default,,,"Wholesale Womens Plus Size Pants Duo Fabric Black","Wholesale Womens Plus Size Pants Duo Fabric",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,None,,,,
+"WLplussize#27#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Treggings Duo Fabric","Wholesale Womens Plus Size Treggings Duo Fabric",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#27,,configurable,default,,,"Wholesale Womens Plus Size Treggings Duo Fabric Just as picture","Wholesale Womens Plus Size Treggings Duo Fabric",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,None,,,,
+"WLplussize#28#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Treggings Duo Fabric ","Wholesale Womens Plus Size Treggings Duo Fabric ",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#28,,configurable,default,,,"Wholesale Womens Plus Size Treggings Duo Fabric  Just as picture","Wholesale Womens Plus Size Treggings Duo Fabric ",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,None,,,,
+WLplussize#29#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size Scuba Pants Treggings","Wholesale Womens Plus Size Scuba Pants Treggings",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#29#Red,default,simple,default,color,Red,"Wholesale Womens Plus Size Scuba Pants Treggings","Wholesale Womens Plus Size Scuba Pants Treggings",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#29#White,default,simple,default,color,White,"Wholesale Womens Plus Size Scuba Pants Treggings","Wholesale Womens Plus Size Scuba Pants Treggings",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#29,,configurable,default,,,"Wholesale Womens Plus Size Scuba Pants Treggings White","Wholesale Womens Plus Size Scuba Pants Treggings",8.50,1,1,1,1,1,"Catalog, Search",0,plussize/Pants,None,,,,
+"WLplussize#30#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Velvet Leggings HoundsTooth","Wholesale Womens Plus Size Velvet Leggings HoundsTooth",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#30,,configurable,default,,,"Wholesale Womens Plus Size Velvet Leggings HoundsTooth Just as picture","Wholesale Womens Plus Size Velvet Leggings HoundsTooth",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,None,,,,
+"WLplussize#31#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Velour Leggings Giraffe Print","Wholesale Womens Plus Size Velour Leggings Giraffe Print",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#31,,configurable,default,,,"Wholesale Womens Plus Size Velour Leggings Giraffe Print Just as picture","Wholesale Womens Plus Size Velour Leggings Giraffe Print",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,None,,,,
+"WLplussize#32#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Velour Leggings Tiger Stripes Print","Wholesale Womens Plus Size Velour Leggings Tiger Stripes Print",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#32,,configurable,default,,,"Wholesale Womens Plus Size Velour Leggings Tiger Stripes Print Just as picture","Wholesale Womens Plus Size Velour Leggings Tiger Stripes Print",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,None,,,,
+"WLplussize#33#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Velour Stretch Printed Leggings Animal Print","Wholesale Womens Plus Size Velour Stretch Printed Leggings Animal Print",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#33,,configurable,default,,,"Wholesale Womens Plus Size Velour Stretch Printed Leggings Animal Print Just as picture","Wholesale Womens Plus Size Velour Stretch Printed Leggings Animal Print",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,None,,,,
+"WLplussize#34#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Velour Stretch Printed Leggings Leopard Style","Wholesale Womens Plus Size Velour Stretch Printed Leggings Leopard Style",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#34,,configurable,default,,,"Wholesale Womens Plus Size Velour Stretch Printed Leggings Leopard Style Just as picture","Wholesale Womens Plus Size Velour Stretch Printed Leggings Leopard Style",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,None,,,,
+"WLplussize#35#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Velour Stretch Rose Printed Leggings","Wholesale Womens Velour Stretch Rose Printed Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#35,,configurable,default,,,"Wholesale Womens Velour Stretch Rose Printed Leggings Just as picture","Wholesale Womens Velour Stretch Rose Printed Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Velvet/Velour,None,,,,
+WLplussize#36#Coral,default,simple,default,color,Coral,"Wholesale Womens Plus Size Jacquard Seamless Leggings","Wholesale Womens Plus Size Jacquard Seamless Leggings",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",6PCS/PREPACK,10%SPANDEX90%POLYESTER,CHINA,None,,,,
+WLplussize#36,,configurable,default,,,"Wholesale Womens Plus Size Jacquard Seamless Leggings Coral","Wholesale Womens Plus Size Jacquard Seamless Leggings",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",None,,,,
+WLplussize#37#White,default,simple,default,color,White,"Wholesale Womens Plus Size Leggings Vertical Stripes","Wholesale Womens Plus Size Leggings Vertical Stripes",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",6PCS/PREPACK,"90% POLYESTER10% SPANDEX",CHINA,None,,,,
+WLplussize#37#Gold,default,simple,default,color,Gold,"Wholesale Womens Plus Size Leggings Vertical Stripes","Wholesale Womens Plus Size Leggings Vertical Stripes",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",6PCS/PREPACK,"90% POLYESTER10% SPANDEX",CHINA,None,,,,
+WLplussize#37#Gray,default,simple,default,color,Gray,"Wholesale Womens Plus Size Leggings Vertical Stripes","Wholesale Womens Plus Size Leggings Vertical Stripes",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",6PCS/PREPACK,"90% POLYESTER10% SPANDEX",CHINA,None,,,,
+WLplussize#37,,configurable,default,,,"Wholesale Womens Plus Size Leggings Vertical Stripes Gray","Wholesale Womens Plus Size Leggings Vertical Stripes",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",None,,,,
+WLplussize#38#Purple,default,simple,default,color,Purple,"Plus Size Leggings","Plus Size Leggings",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",6PCS/PREPACK,"90% Polyester10% Spandex",CHINA,None,,,,
+WLplussize#38,,configurable,default,,,"Plus Size Leggings Purple","Plus Size Leggings",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",None,,,,
+WLplussize#39#Blue,default,simple,default,color,Blue,"Wholesale Plus Size Zebra Seamless Leggings","Wholesale Plus Size Zebra Seamless Leggings",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",6PCS/PREPACK,"90% Polyester10% Spandex",CHINA,None,,,,
+WLplussize#39#Charcoal,default,simple,default,color,Charcoal,"Wholesale Plus Size Zebra Seamless Leggings","Wholesale Plus Size Zebra Seamless Leggings",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",6PCS/PREPACK,"90% Polyester10% Spandex",CHINA,None,,,,
+WLplussize#39,,configurable,default,,,"Wholesale Plus Size Zebra Seamless Leggings Charcoal","Wholesale Plus Size Zebra Seamless Leggings",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",None,,,,
+WLplussize#40#Purple,default,simple,default,color,Purple,"Wholesale Womens Plus Size Leopard Seamless Leggings","Wholesale Womens Plus Size Leopard Seamless Leggings",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",6PCS/PREPACK,"90% Polyester10% Spandex",CHINA,None,,,,
+WLplussize#40#Blue,default,simple,default,color,Blue,"Wholesale Womens Plus Size Leopard Seamless Leggings","Wholesale Womens Plus Size Leopard Seamless Leggings",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",6PCS/PREPACK,"90% Polyester10% Spandex",CHINA,None,,,,
+WLplussize#40,,configurable,default,,,"Wholesale Womens Plus Size Leopard Seamless Leggings Blue","Wholesale Womens Plus Size Leopard Seamless Leggings",2.95,1,1,1,1,1,"Catalog, Search",0,"plussize/Seamless Leggings",None,,,,
+WLplussize#41#Mint,default,simple,default,color,Mint,"Wholesale Plus Size Basic Seamless Leggings","Wholesale Plus Size Basic Seamless Leggings",2.75,1,1,1,1,1,"Catalog, Search",0,plussize/Basic,6PCS/PREPACK,"90% POLYESTER
+10% Spandex",CHINA,None,,,,
+WLplussize#41,,configurable,default,,,"Wholesale Plus Size Basic Seamless Leggings Mint","Wholesale Plus Size Basic Seamless Leggings",2.75,1,1,1,1,1,"Catalog, Search",0,plussize/Basic,None,,,,
+WLplussize#42#Mint,default,simple,default,color,Mint,"Wholesale Plus Size Shiny Liquid Leggings","Wholesale Plus Size Shiny Liquid Leggings",4.95,1,1,1,1,1,"Catalog, Search",0,plussize/Basic,6PCS/PREPACK,"80% Nylon20% Spandex",CHINA,None,,,,
+WLplussize#42#Purple,default,simple,default,color,Purple,"Wholesale Plus Size Shiny Liquid Leggings","Wholesale Plus Size Shiny Liquid Leggings",4.95,1,1,1,1,1,"Catalog, Search",0,plussize/Basic,6PCS/PREPACK,"80% Nylon20% Spandex",CHINA,None,,,,
+WLplussize#42#Coral,default,simple,default,color,Coral,"Wholesale Plus Size Shiny Liquid Leggings","Wholesale Plus Size Shiny Liquid Leggings",4.95,1,1,1,1,1,"Catalog, Search",0,plussize/Basic,6PCS/PREPACK,"80% Nylon20% Spandex",CHINA,None,,,,
+WLplussize#42#Gray,default,simple,default,color,Gray,"Wholesale Plus Size Shiny Liquid Leggings","Wholesale Plus Size Shiny Liquid Leggings",4.95,1,1,1,1,1,"Catalog, Search",0,plussize/Basic,6PCS/PREPACK,"80% Nylon20% Spandex",CHINA,None,,,,
+WLplussize#42,,configurable,default,,,"Wholesale Plus Size Shiny Liquid Leggings Gray","Wholesale Plus Size Shiny Liquid Leggings",4.95,1,1,1,1,1,"Catalog, Search",0,plussize/Basic,None,,,,
+WLplussize#43#Charcoal,default,simple,default,color,Charcoal,"Wholesale Missy Seamless Plus Size Basic Leggings","Wholesale Missy Seamless Plus Size Basic Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Basic,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX
+200 Grams",CHINA,None,,,,
+WLplussize#43#Black,default,simple,default,color,Black,"Wholesale Missy Seamless Plus Size Basic Leggings","Wholesale Missy Seamless Plus Size Basic Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Basic,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX
+200 Grams",CHINA,None,,,,
+WLplussize#43,,configurable,default,,,"Wholesale Missy Seamless Plus Size Basic Leggings Black","Wholesale Missy Seamless Plus Size Basic Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,plussize/Basic,None,,,,
+"WLplussize#44#Just as picture",default,simple,default,color,"Just as picture","Wholesale Plus Size Womens Semi Harem Pants Japanese Flowers","Wholesale Plus Size Womens Semi Harem Pants Japanese Flowers",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#44,,configurable,default,,,"Wholesale Plus Size Womens Semi Harem Pants Japanese Flowers Just as picture","Wholesale Plus Size Womens Semi Harem Pants Japanese Flowers",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Semi Harem Pants",None,,,,
+"WLplussize#45#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Semi Harem Pants Sketch Of Stars","Wholesale Womens Plus Size Semi Harem Pants Sketch Of Stars",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLplussize#45,,configurable,default,,,"Wholesale Womens Plus Size Semi Harem Pants Sketch Of Stars Just as picture","Wholesale Womens Plus Size Semi Harem Pants Sketch Of Stars",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Semi Harem Pants",None,,,,
+"WLplussize#46#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Semi Harem Pants Chariot Style","Wholesale Womens Plus Size Semi Harem Pants Chariot Style",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Semi Harem Pants",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#46,,configurable,default,,,"Wholesale Womens Plus Size Semi Harem Pants Chariot Style Just as picture","Wholesale Womens Plus Size Semi Harem Pants Chariot Style",6.50,1,1,1,1,1,"Catalog, Search",0,"plussize/Semi Harem Pants",None,,,,
+WLplussize#47#Navy,default,simple,default,color,Navy,"Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top","Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top",4.25,1,1,1,1,1,"Catalog, Search",0,plussize/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#47#White,default,simple,default,color,White,"Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top","Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top",4.25,1,1,1,1,1,"Catalog, Search",0,plussize/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#47#Brown,default,simple,default,color,Brown,"Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top","Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top",4.25,1,1,1,1,1,"Catalog, Search",0,plussize/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#47#Red,default,simple,default,color,Red,"Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top","Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top",4.25,1,1,1,1,1,"Catalog, Search",0,plussize/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#47#Khaki,default,simple,default,color,Khaki,"Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top","Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top",4.25,1,1,1,1,1,"Catalog, Search",0,plussize/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLplussize#47,,configurable,default,,,"Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top Khaki","Wholesale Womens Plus Size Turtle Neck Seamless Fleece Top",4.25,1,1,1,1,1,"Catalog, Search",0,plussize/Tops,None,,,,
+WLleggings#48#Orange,default,simple,default,color,Orange,"Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#48#Coffee,default,simple,default,color,Coffee,"Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#48#White,default,simple,default,color,White,"Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#48#Pink,default,simple,default,color,Pink,"Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#48#Coral,default,simple,default,color,Coral,"Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#48#Aqua,default,simple,default,color,Aqua,"Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+"WLleggings#48#Neon Yellow",default,simple,default,color,"Neon Yellow","Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#48#Purple,default,simple,default,color,Purple,"Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#48#Beige,default,simple,default,color,Beige,"Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#48#Charcoal,default,simple,default,color,Charcoal,"Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#48#Black,default,simple,default,color,Black,"Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#48#Red,default,simple,default,color,Red,"Wholesale Basic Seamless Leggings","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#48,,configurable,default,,,"Wholesale Basic Seamless Leggings Red","Wholesale Basic Seamless Leggings",2.25,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,None,,,,
+WLleggings#49#Magenta,default,simple,default,color,Magenta,"Wholesale Basic Seamless Capris","Wholesale Basic Seamless Capris",2.00,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,20%POLYESTER80%NYLON,CHINA,None,,,,
+WLleggings#49#Black,default,simple,default,color,Black,"Wholesale Basic Seamless Capris","Wholesale Basic Seamless Capris",2.00,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,20%POLYESTER80%NYLON,CHINA,None,,,,
+WLleggings#49,,configurable,default,,,"Wholesale Basic Seamless Capris Black","Wholesale Basic Seamless Capris",2.00,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,None,,,,
+WLleggings#50#Black,default,simple,default,color,Black,"Wholesale Womens High Waist Basic Shiny Liquid Leggings","Wholesale Womens High Waist Basic Shiny Liquid Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"80% NYLON
+20% SPANDEX",CHINA,None,,,,
+WLleggings#50#Fuschia,default,simple,default,color,Fuschia,"Wholesale Womens High Waist Basic Shiny Liquid Leggings","Wholesale Womens High Waist Basic Shiny Liquid Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"80% NYLON
+20% SPANDEX",CHINA,None,,,,
+WLleggings#50,,configurable,default,,,"Wholesale Womens High Waist Basic Shiny Liquid Leggings Fuschia","Wholesale Womens High Waist Basic Shiny Liquid Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,None,,,,
+WLleggings#51#White,default,simple,default,color,White,"Wholesale Shiny Liquid Leggings","Wholesale Shiny Liquid Leggings",3.85,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"80% Nylon20% Spandex",CHINA,None,,,,
+WLleggings#51#Fuschia,default,simple,default,color,Fuschia,"Wholesale Shiny Liquid Leggings","Wholesale Shiny Liquid Leggings",3.85,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"80% Nylon20% Spandex",CHINA,None,,,,
+WLleggings#51#Mint,default,simple,default,color,Mint,"Wholesale Shiny Liquid Leggings","Wholesale Shiny Liquid Leggings",3.85,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"80% Nylon20% Spandex",CHINA,None,,,,
+WLleggings#51#Black,default,simple,default,color,Black,"Wholesale Shiny Liquid Leggings","Wholesale Shiny Liquid Leggings",3.85,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"80% Nylon20% Spandex",CHINA,None,,,,
+WLleggings#51#Gray,default,simple,default,color,Gray,"Wholesale Shiny Liquid Leggings","Wholesale Shiny Liquid Leggings",3.85,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"80% Nylon20% Spandex",CHINA,None,,,,
+WLleggings#51#Coral,default,simple,default,color,Coral,"Wholesale Shiny Liquid Leggings","Wholesale Shiny Liquid Leggings",3.85,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"80% Nylon20% Spandex",CHINA,None,,,,
+WLleggings#51,,configurable,default,,,"Wholesale Shiny Liquid Leggings Coral","Wholesale Shiny Liquid Leggings",3.85,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,None,,,,
+WLleggings#52#Black,default,simple,default,color,Black,"Wholesale Thick Missy Basic Leggings","Wholesale Thick Missy Basic Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX
+180 Grams",CHINA,None,,,,
+WLleggings#52#Gray,default,simple,default,color,Gray,"Wholesale Thick Missy Basic Leggings","Wholesale Thick Missy Basic Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX
+180 Grams",CHINA,None,,,,
+WLleggings#52,,configurable,default,,,"Wholesale Thick Missy Basic Leggings Gray","Wholesale Thick Missy Basic Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,None,,,,
+WLleggings#53#Black,default,simple,default,color,Black,"Wholesale Thick Missy Basic High Wasit Leggings","Wholesale Thick Missy Basic High Wasit Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX
+180 Grams",CHINA,None,,,,
+WLleggings#53#Gray,default,simple,default,color,Gray,"Wholesale Thick Missy Basic High Wasit Leggings","Wholesale Thick Missy Basic High Wasit Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX
+180 Grams",CHINA,None,,,,
+WLleggings#53,,configurable,default,,,"Wholesale Thick Missy Basic High Wasit Leggings Gray","Wholesale Thick Missy Basic High Wasit Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,None,,,,
+WLleggings#54#Black,default,simple,default,color,Black,"Wholesale Womens Basic Thick Leggings With Zipper","Wholesale Womens Basic Thick Leggings With Zipper",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLleggings#54,,configurable,default,,,"Wholesale Womens Basic Thick Leggings With Zipper Black","Wholesale Womens Basic Thick Leggings With Zipper",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,None,,,,
+WLleggings#55#Charcoal,default,simple,default,color,Charcoal,"Wholesale Womens High Waist Leggings with Zippers","Wholesale Womens High Waist Leggings with Zippers",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#55#Black,default,simple,default,color,Black,"Wholesale Womens High Waist Leggings with Zippers","Wholesale Womens High Waist Leggings with Zippers",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#55#Fuschia,default,simple,default,color,Fuschia,"Wholesale Womens High Waist Leggings with Zippers","Wholesale Womens High Waist Leggings with Zippers",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#55,,configurable,default,,,"Wholesale Womens High Waist Leggings with Zippers Fuschia","Wholesale Womens High Waist Leggings with Zippers",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Basic,None,,,,
+WLleggings#56#Black,default,simple,default,color,Black,"Wholesale Fashion Faux Leather Leggings","Wholesale Fashion Faux Leather Leggings",6.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+ 8% SPANDEX",CHINA,None,,,,
+WLleggings#56,,configurable,default,,,"Wholesale Fashion Faux Leather Leggings Black","Wholesale Fashion Faux Leather Leggings",6.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+WLleggings#57#Black,default,simple,default,color,Black,"Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings","Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings",9.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#57,,configurable,default,,,"Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings Black","Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings",9.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+WLleggings#58#Black,default,simple,default,color,Black,"Wholesale Womens Fashion Faux Leather Fleece Lined Leggings","Wholesale Womens Fashion Faux Leather Fleece Lined Leggings",6.00,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#58,,configurable,default,,,"Wholesale Womens Fashion Faux Leather Fleece Lined Leggings Black","Wholesale Womens Fashion Faux Leather Fleece Lined Leggings",6.00,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+WLleggings#59#Black,default,simple,default,color,Black,"Wholesale Womens Plus Size Faux Leather Leggings with Sided Studs","Wholesale Womens Plus Size Faux Leather Leggings with Sided Studs",6.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#59,,configurable,default,,,"Wholesale Womens Plus Size Faux Leather Leggings with Sided Studs Black","Wholesale Womens Plus Size Faux Leather Leggings with Sided Studs",6.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+WLleggings#60#Charcoal,default,simple,default,color,Charcoal,"Wholesale Womens Plus Size Faux Leather Stretch Leggings","Wholesale Womens Plus Size Faux Leather Stretch Leggings",4.95,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#60#Burgundy,default,simple,default,color,Burgundy,"Wholesale Womens Plus Size Faux Leather Stretch Leggings","Wholesale Womens Plus Size Faux Leather Stretch Leggings",4.95,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#60,,configurable,default,,,"Wholesale Womens Plus Size Faux Leather Stretch Leggings Burgundy","Wholesale Womens Plus Size Faux Leather Stretch Leggings",4.95,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+WLleggings#61#White,default,simple,default,color,White,"Wholesale Womens Faux Leather Stretch Leggings","Wholesale Womens Faux Leather Stretch Leggings",3.25,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#61#Silver,default,simple,default,color,Silver,"Wholesale Womens Faux Leather Stretch Leggings","Wholesale Womens Faux Leather Stretch Leggings",3.25,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#61#Coffee,default,simple,default,color,Coffee,"Wholesale Womens Faux Leather Stretch Leggings","Wholesale Womens Faux Leather Stretch Leggings",3.25,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#61#Coral,default,simple,default,color,Coral,"Wholesale Womens Faux Leather Stretch Leggings","Wholesale Womens Faux Leather Stretch Leggings",3.25,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#61#Burgundy,default,simple,default,color,Burgundy,"Wholesale Womens Faux Leather Stretch Leggings","Wholesale Womens Faux Leather Stretch Leggings",3.25,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#61,,configurable,default,,,"Wholesale Womens Faux Leather Stretch Leggings Burgundy","Wholesale Womens Faux Leather Stretch Leggings",3.25,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+"WLleggings#62#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Faux Leather Leggings Mix Animal Print","Wholesale Womens Faux Leather Leggings Mix Animal Print",4.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#62,,configurable,default,,,"Wholesale Womens Faux Leather Leggings Mix Animal Print Just as picture","Wholesale Womens Faux Leather Leggings Mix Animal Print",4.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+WLleggings#63#Burgundy,default,simple,default,color,Burgundy,"Wholesale Womens Detailed Faux Leather Track Pants ","Wholesale Womens Detailed Faux Leather Track Pants ",6.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+ 8% SPANDEX",CHINA,None,,,,
+WLleggings#63#Teal,default,simple,default,color,Teal,"Wholesale Womens Detailed Faux Leather Track Pants ","Wholesale Womens Detailed Faux Leather Track Pants ",6.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+ 8% SPANDEX",CHINA,None,,,,
+WLleggings#63#Coffee,default,simple,default,color,Coffee,"Wholesale Womens Detailed Faux Leather Track Pants ","Wholesale Womens Detailed Faux Leather Track Pants ",6.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+ 8% SPANDEX",CHINA,None,,,,
+WLleggings#63,,configurable,default,,,"Wholesale Womens Detailed Faux Leather Track Pants  Coffee","Wholesale Womens Detailed Faux Leather Track Pants ",6.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+WLleggings#64#Black,default,simple,default,color,Black,"Wholesale Womens Faux Leather Leggings with Sided Studs","Wholesale Womens Faux Leather Leggings with Sided Studs",5.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#64,,configurable,default,,,"Wholesale Womens Faux Leather Leggings with Sided Studs Black","Wholesale Womens Faux Leather Leggings with Sided Studs",5.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+WLleggings#65#Burgundy,default,simple,default,color,Burgundy,"Wholesale Faux Leather Leggings with Zippers","Wholesale Faux Leather Leggings with Zippers",3.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"91% POLYESTER9% Elasthenne",CHINA,None,,,,
+WLleggings#65#Navy,default,simple,default,color,Navy,"Wholesale Faux Leather Leggings with Zippers","Wholesale Faux Leather Leggings with Zippers",3.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"91% POLYESTER9% Elasthenne",CHINA,None,,,,
+WLleggings#65#Coral,default,simple,default,color,Coral,"Wholesale Faux Leather Leggings with Zippers","Wholesale Faux Leather Leggings with Zippers",3.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"91% POLYESTER9% Elasthenne",CHINA,None,,,,
+WLleggings#65,,configurable,default,,,"Wholesale Faux Leather Leggings with Zippers Coral","Wholesale Faux Leather Leggings with Zippers",3.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+"WLleggings#66#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Artistic Metallic Print","Wholesale Womens Artistic Metallic Print",3.95,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#66,,configurable,default,,,"Wholesale Womens Artistic Metallic Print Just as picture","Wholesale Womens Artistic Metallic Print",3.95,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+WLleggings#67#Black,default,simple,default,color,Black,"Wholesale Womens Fleece Lined Faux Leather Mini Shorts","Wholesale Womens Fleece Lined Faux Leather Mini Shorts",5.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#67,,configurable,default,,,"Wholesale Womens Fleece Lined Faux Leather Mini Shorts Black","Wholesale Womens Fleece Lined Faux Leather Mini Shorts",5.50,1,1,1,1,1,"Catalog, Search",0,"leggings/Faux Leather",None,,,,
+"WLleggings#68#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Scuba Print Treggings Fall Floral Print","Wholesale Womens Scuba Print Treggings Fall Floral Print",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLleggings#68,,configurable,default,,,"Wholesale Womens Scuba Print Treggings Fall Floral Print Just as picture","Wholesale Womens Scuba Print Treggings Fall Floral Print",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,None,,,,
+"WLleggings#69#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Scuba Print Treggings Gingham Style","Wholesale Womens Scuba Print Treggings Gingham Style",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLleggings#69,,configurable,default,,,"Wholesale Womens Scuba Print Treggings Gingham Style Just as picture","Wholesale Womens Scuba Print Treggings Gingham Style",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,None,,,,
+"WLleggings#70#Just as picture",default,simple,default,color,"Just as picture","WHOLESALE WOMENS SCUBA PANTS TREGGINGS FALL LEAVES PRINT","WHOLESALE WOMENS SCUBA PANTS TREGGINGS FALL LEAVES PRINT",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLleggings#70,,configurable,default,,,"WHOLESALE WOMENS SCUBA PANTS TREGGINGS FALL LEAVES PRINT Just as picture","WHOLESALE WOMENS SCUBA PANTS TREGGINGS FALL LEAVES PRINT",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,None,,,,
+WLleggings#71#Black,default,simple,default,color,Black,"Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings","Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings",9.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#71,,configurable,default,,,"Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings Black","Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings",9.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,None,,,,
+WLleggings#72#Black,default,simple,default,color,Black,"Wholesale Womens Ponte Treggings Duo Fabric Azteco tribal","Wholesale Womens Ponte Treggings Duo Fabric Azteco tribal",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#72,,configurable,default,,,"Wholesale Womens Ponte Treggings Duo Fabric Azteco tribal Black","Wholesale Womens Ponte Treggings Duo Fabric Azteco tribal",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,None,,,,
+WLleggings#73#Black,default,simple,default,color,Black,"WHOLESALE WOMENS PONTE TREGGINGS DUO FABRIC HOUNDSTOOTH","WHOLESALE WOMENS PONTE TREGGINGS DUO FABRIC HOUNDSTOOTH",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#73,,configurable,default,,,"WHOLESALE WOMENS PONTE TREGGINGS DUO FABRIC HOUNDSTOOTH Black","WHOLESALE WOMENS PONTE TREGGINGS DUO FABRIC HOUNDSTOOTH",7.50,1,1,1,1,1,"Catalog, Search",0,leggings/Treggings,None,,,,
+WLleggings#74#Blue,default,simple,default,color,Blue,"Printed Leggings","Printed Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#74,,configurable,default,,,"Printed Leggings Blue","Printed Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#75#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Leggings Lips ","Wholesale Womens Leggings Lips ",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#75,,configurable,default,,,"Wholesale Womens Leggings Lips  Just as picture","Wholesale Womens Leggings Lips ",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#76#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Leggings Multi Coins Print","Wholesale Womens Leggings Multi Coins Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#76,,configurable,default,,,"Wholesale Womens Leggings Multi Coins Print Just as picture","Wholesale Womens Leggings Multi Coins Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#77#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Cotton Leggings Mix Pattern Print","Wholesale Womens Cotton Leggings Mix Pattern Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#77,,configurable,default,,,"Wholesale Womens Cotton Leggings Mix Pattern Print Just as picture","Wholesale Womens Cotton Leggings Mix Pattern Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#78#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Printed Leggings Geometric Print","Wholesale Womens Printed Leggings Geometric Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#78,,configurable,default,,,"Wholesale Womens Printed Leggings Geometric Print Just as picture","Wholesale Womens Printed Leggings Geometric Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#79#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Leggings Marble Print","Wholesale Womens Leggings Marble Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#79,,configurable,default,,,"Wholesale Womens Leggings Marble Print Just as picture","Wholesale Womens Leggings Marble Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#80#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Cotton Leggings Tropical Flowers Print","Wholesale Womens Cotton Leggings Tropical Flowers Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#80,,configurable,default,,,"Wholesale Womens Cotton Leggings Tropical Flowers Print Just as picture","Wholesale Womens Cotton Leggings Tropical Flowers Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#81#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Cotton Leggings Snow Leopard Print","Wholesale Womens Cotton Leggings Snow Leopard Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#81,,configurable,default,,,"Wholesale Womens Cotton Leggings Snow Leopard Print Just as picture","Wholesale Womens Cotton Leggings Snow Leopard Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#82#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Cotton Leggings Floral Print","Wholesale Womens Cotton Leggings Floral Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#82,,configurable,default,,,"Wholesale Womens Cotton Leggings Floral Print Just as picture","Wholesale Womens Cotton Leggings Floral Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#83#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Leggings Optical Illusion Print","Wholesale Womens Leggings Optical Illusion Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#83,,configurable,default,,,"Wholesale Womens Leggings Optical Illusion Print Just as picture","Wholesale Womens Leggings Optical Illusion Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#84#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Cotton Leggings Moonk","Wholesale Womens Cotton Leggings Moonk",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#84,,configurable,default,,,"Wholesale Womens Cotton Leggings Moonk Just as picture","Wholesale Womens Cotton Leggings Moonk",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#85#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Cotton Leggings Print Moonk 2","Wholesale Womens Cotton Leggings Print Moonk 2",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#85,,configurable,default,,,"Wholesale Womens Cotton Leggings Print Moonk 2 Just as picture","Wholesale Womens Cotton Leggings Print Moonk 2",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+WLleggings#86#Coral,default,simple,default,color,Coral,"Wholesale Womens High Waist Brushed Leggings Letters Print","Wholesale Womens High Waist Brushed Leggings Letters Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#86,,configurable,default,,,"Wholesale Womens High Waist Brushed Leggings Letters Print Coral","Wholesale Womens High Waist Brushed Leggings Letters Print",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#87#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Printed Leggings Picasso Style","Wholesale Womens Printed Leggings Picasso Style",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#87,,configurable,default,,,"Wholesale Womens Printed Leggings Picasso Style Just as picture","Wholesale Womens Printed Leggings Picasso Style",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#88#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Printed Leggings Geometric Spiral Print","Wholesale Womens Printed Leggings Geometric Spiral Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLleggings#88,,configurable,default,,,"Wholesale Womens Printed Leggings Geometric Spiral Print Just as picture","Wholesale Womens Printed Leggings Geometric Spiral Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#89#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens High Waist Brushed Printed Leggings Graffiti Style","Wholesale Womens High Waist Brushed Printed Leggings Graffiti Style",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#89,,configurable,default,,,"Wholesale Womens High Waist Brushed Printed Leggings Graffiti Style Just as picture","Wholesale Womens High Waist Brushed Printed Leggings Graffiti Style",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#90#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Rainbow Leopard Spot Printed Leggings","Wholesale Womens Rainbow Leopard Spot Printed Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLleggings#90,,configurable,default,,,"Wholesale Womens Rainbow Leopard Spot Printed Leggings Just as picture","Wholesale Womens Rainbow Leopard Spot Printed Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#91#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Leggings Diagonal Print","Wholesale Womens Leggings Diagonal Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#91,,configurable,default,,,"Wholesale Womens Leggings Diagonal Print Just as picture","Wholesale Womens Leggings Diagonal Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#92#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Leggings Lavender Pasley Print","Wholesale Womens Leggings Lavender Pasley Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#92,,configurable,default,,,"Wholesale Womens Leggings Lavender Pasley Print Just as picture","Wholesale Womens Leggings Lavender Pasley Print",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+WLleggings#93#Green,default,simple,default,color,Green,"Wholesale Leopard High Waist Printed Leggings","Wholesale Leopard High Waist Printed Leggings",2.99,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"90% POLYESTER10% SPANDEX",CHINA,None,,,,
+WLleggings#93,,configurable,default,,,"Wholesale Leopard High Waist Printed Leggings Green","Wholesale Leopard High Waist Printed Leggings",2.99,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#94#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Egyptian Cotton Printed Leggings","Wholesale Womens Egyptian Cotton Printed Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#94,,configurable,default,,,"Wholesale Womens Egyptian Cotton Printed Leggings Just as picture","Wholesale Womens Egyptian Cotton Printed Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#95#Just as picture",default,simple,default,color,"Just as picture","Wholesale AfricanIndian Floral Printed Leggings Womens","Wholesale AfricanIndian Floral Printed Leggings Womens",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#95,,configurable,default,,,"Wholesale AfricanIndian Floral Printed Leggings Womens Just as picture","Wholesale AfricanIndian Floral Printed Leggings Womens",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#96#Just as picture",default,simple,default,color,"Just as picture","Wholesale Cherry Floral Printed Leggings","Wholesale Cherry Floral Printed Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#96,,configurable,default,,,"Wholesale Cherry Floral Printed Leggings Just as picture","Wholesale Cherry Floral Printed Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+"WLleggings#97#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Moderna Printed Leggings","Wholesale Womens Moderna Printed Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#97,,configurable,default,,,"Wholesale Womens Moderna Printed Leggings Just as picture","Wholesale Womens Moderna Printed Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Printed,None,,,,
+WLleggings#98#Black,default,simple,default,color,Black,"Wholesale Womens Leggings Graphic Print Rhinestones","Wholesale Womens Leggings Graphic Print Rhinestones",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#98,,configurable,default,,,"Wholesale Womens Leggings Graphic Print Rhinestones Black","Wholesale Womens Leggings Graphic Print Rhinestones",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",None,,,,
+WLleggings#99#Black,default,simple,default,color,Black,"Womens Wholesale Leggings Skull Rhinestones","Womens Wholesale Leggings Skull Rhinestones",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",6PCS/PREPACK,"85% COTTON
+10% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLleggings#99,,configurable,default,,,"Womens Wholesale Leggings Skull Rhinestones Black","Womens Wholesale Leggings Skull Rhinestones",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",None,,,,
+WLleggings#100#Black,default,simple,default,color,Black,"Wholesale Womens Leggings Lips Rhinestones","Wholesale Womens Leggings Lips Rhinestones",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",6PCS/PREPACK,"85% COTTON
+10% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLleggings#100,,configurable,default,,,"Wholesale Womens Leggings Lips Rhinestones Black","Wholesale Womens Leggings Lips Rhinestones",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",None,,,,
+WLleggings#101#Black,default,simple,default,color,Black,"Wholesale Womens Leggings British Flag Rhinestones","Wholesale Womens Leggings British Flag Rhinestones",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#101,,configurable,default,,,"Wholesale Womens Leggings British Flag Rhinestones Black","Wholesale Womens Leggings British Flag Rhinestones",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",None,,,,
+WLleggings#102#Black,default,simple,default,color,Black,"Wholesale Womens MiniSkirt Rhinestones Leggings","Wholesale Womens MiniSkirt Rhinestones Leggings",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",6PCS/PREPACK,"85% COTTON
+10% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLleggings#102,,configurable,default,,,"Wholesale Womens MiniSkirt Rhinestones Leggings Black","Wholesale Womens MiniSkirt Rhinestones Leggings",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",None,,,,
+WLleggings#103#Black,default,simple,default,color,Black,"Wholesale Womens Leggings Rhinestones Graphic Print","Wholesale Womens Leggings Rhinestones Graphic Print",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",6PCS/PREPACK,"95% COTTON
+5% SPANDEX",CHINA,None,,,,
+WLleggings#103,,configurable,default,,,"Wholesale Womens Leggings Rhinestones Graphic Print Black","Wholesale Womens Leggings Rhinestones Graphic Print",4.75,1,1,1,1,1,"Catalog, Search",0,"leggings/Rhinestones ",None,,,,
+WLleggings#104#Turquoise,default,simple,default,color,Turquoise,"Wholesale High Fashion Velvet Leggings","Wholesale High Fashion Velvet Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Velvet/Velour,6PCS/PREPACK,92%POLYESTER8%SPANDEX,CHINA,None,,,,
+WLleggings#104#Coffee,default,simple,default,color,Coffee,"Wholesale High Fashion Velvet Leggings","Wholesale High Fashion Velvet Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Velvet/Velour,6PCS/PREPACK,92%POLYESTER8%SPANDEX,CHINA,None,,,,
+WLleggings#104,,configurable,default,,,"Wholesale High Fashion Velvet Leggings Coffee","Wholesale High Fashion Velvet Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,leggings/Velvet/Velour,None,,,,
+"WLleggings#105#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Velvet Leggings Leopard Print","Wholesale Womens Velvet Leggings Leopard Print",3.75,1,1,1,1,1,"Catalog, Search",0,leggings/Velvet/Velour,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#105,,configurable,default,,,"Wholesale Womens Velvet Leggings Leopard Print Just as picture","Wholesale Womens Velvet Leggings Leopard Print",3.75,1,1,1,1,1,"Catalog, Search",0,leggings/Velvet/Velour,None,,,,
+"WLleggings#106#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Velvet Leggings Dark Roses Print","Wholesale Womens Velvet Leggings Dark Roses Print",3.75,1,1,1,1,1,"Catalog, Search",0,leggings/Velvet/Velour,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#106,,configurable,default,,,"Wholesale Womens Velvet Leggings Dark Roses Print Just as picture","Wholesale Womens Velvet Leggings Dark Roses Print",3.75,1,1,1,1,1,"Catalog, Search",0,leggings/Velvet/Velour,None,,,,
+"WLleggings#107#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Velour Giraffe Printed Leggings","Wholesale Womens Velour Giraffe Printed Leggings",3.75,1,1,1,1,1,"Catalog, Search",0,leggings/Velvet/Velour,6PCS/PREPACK,"92% POLYESTER
+ 8% SPANDEX",CHINA,None,,,,
+WLleggings#107,,configurable,default,,,"Wholesale Womens Velour Giraffe Printed Leggings Just as picture","Wholesale Womens Velour Giraffe Printed Leggings",3.75,1,1,1,1,1,"Catalog, Search",0,leggings/Velvet/Velour,None,,,,
+"WLleggings#108#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Velour Stretch Printed Leggings Horizontal Stripes","Wholesale Womens Velour Stretch Printed Leggings Horizontal Stripes",3.00,1,1,1,1,1,"Catalog, Search",0,leggings/Velvet/Velour,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#108,,configurable,default,,,"Wholesale Womens Velour Stretch Printed Leggings Horizontal Stripes Just as picture","Wholesale Womens Velour Stretch Printed Leggings Horizontal Stripes",3.00,1,1,1,1,1,"Catalog, Search",0,leggings/Velvet/Velour,None,,,,
+WLleggings#109#Black,default,simple,default,color,Black,"Wholesale Womens High Waist Basic Shiny Liquid Leggings","Wholesale Womens High Waist Basic Shiny Liquid Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"80% NYLON
+20% SPANDEX",CHINA,None,,,,
+WLleggings#109#Fuschia,default,simple,default,color,Fuschia,"Wholesale Womens High Waist Basic Shiny Liquid Leggings","Wholesale Womens High Waist Basic Shiny Liquid Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"80% NYLON
+20% SPANDEX",CHINA,None,,,,
+WLleggings#109,,configurable,default,,,"Wholesale Womens High Waist Basic Shiny Liquid Leggings Fuschia","Wholesale Womens High Waist Basic Shiny Liquid Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",None,,,,
+WLleggings#110#Gold,default,simple,default,color,Gold,"Wholesale High Waist Cross Seamless Legging","Wholesale High Waist Cross Seamless Legging",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#110,,configurable,default,,,"Wholesale High Waist Cross Seamless Legging Gold","Wholesale High Waist Cross Seamless Legging",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",None,,,,
+WLleggings#111#White,default,simple,default,color,White,"Wholesale High Waist Owl Seamless Leggings","Wholesale High Waist Owl Seamless Leggings",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#111#Fuschia,default,simple,default,color,Fuschia,"Wholesale High Waist Owl Seamless Leggings","Wholesale High Waist Owl Seamless Leggings",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#111#Blue,default,simple,default,color,Blue,"Wholesale High Waist Owl Seamless Leggings","Wholesale High Waist Owl Seamless Leggings",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#111,,configurable,default,,,"Wholesale High Waist Owl Seamless Leggings Blue","Wholesale High Waist Owl Seamless Leggings",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",None,,,,
+WLleggings#112#Gold,default,simple,default,color,Gold,"Wholesale Womens Leggings High Waist Tribal Print","Wholesale Womens Leggings High Waist Tribal Print",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#112#Green,default,simple,default,color,Green,"Wholesale Womens Leggings High Waist Tribal Print","Wholesale Womens Leggings High Waist Tribal Print",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#112#Fuschia,default,simple,default,color,Fuschia,"Wholesale Womens Leggings High Waist Tribal Print","Wholesale Womens Leggings High Waist Tribal Print",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#112,,configurable,default,,,"Wholesale Womens Leggings High Waist Tribal Print Fuschia","Wholesale Womens Leggings High Waist Tribal Print",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",None,,,,
+WLleggings#113#Fuschia,default,simple,default,color,Fuschia,"Wholesale High Waisted Womens Leggings Marienne Style","Wholesale High Waisted Womens Leggings Marienne Style",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#113,,configurable,default,,,"Wholesale High Waisted Womens Leggings Marienne Style Fuschia","Wholesale High Waisted Womens Leggings Marienne Style",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",None,,,,
+WLleggings#114#White,default,simple,default,color,White,"Wholesale High Waisted Womens Leggings Animal Print","Wholesale High Waisted Womens Leggings Animal Print",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#114#Gold,default,simple,default,color,Gold,"Wholesale High Waisted Womens Leggings Animal Print","Wholesale High Waisted Womens Leggings Animal Print",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#114#Charcoal,default,simple,default,color,Charcoal,"Wholesale High Waisted Womens Leggings Animal Print","Wholesale High Waisted Womens Leggings Animal Print",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#114,,configurable,default,,,"Wholesale High Waisted Womens Leggings Animal Print Charcoal","Wholesale High Waisted Womens Leggings Animal Print",2.50,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",None,,,,
+WLleggings#115#Coral,default,simple,default,color,Coral,"Wholesale Womens High Waist Brushed Leggings Letters Print","Wholesale Womens High Waist Brushed Leggings Letters Print",3.95,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLleggings#115,,configurable,default,,,"Wholesale Womens High Waist Brushed Leggings Letters Print Coral","Wholesale Womens High Waist Brushed Leggings Letters Print",3.95,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",None,,,,
+"WLleggings#116#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens High Waist Brushed Printed Leggings Graffiti Style","Wholesale Womens High Waist Brushed Printed Leggings Graffiti Style",3.95,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLleggings#116,,configurable,default,,,"Wholesale Womens High Waist Brushed Printed Leggings Graffiti Style Just as picture","Wholesale Womens High Waist Brushed Printed Leggings Graffiti Style",3.95,1,1,1,1,1,"Catalog, Search",0,"leggings/High Waist",None,,,,
+WLleggings#117#Black,default,simple,default,color,Black,"Wholesale Thick Missy Basic Leggings","Wholesale Thick Missy Basic Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Missy,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX
+180 Grams",CHINA,None,,,,
+WLleggings#117#Gray,default,simple,default,color,Gray,"Wholesale Thick Missy Basic Leggings","Wholesale Thick Missy Basic Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Missy,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX
+180 Grams",CHINA,None,,,,
+WLleggings#117,,configurable,default,,,"Wholesale Thick Missy Basic Leggings Gray","Wholesale Thick Missy Basic Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,leggings/Missy,None,,,,
+WLleggings#118#Black,default,simple,default,color,Black,"Wholesale Thick Missy Basic High Wasit Leggings","Wholesale Thick Missy Basic High Wasit Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Missy,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX
+180 Grams",CHINA,None,,,,
+WLleggings#118#Gray,default,simple,default,color,Gray,"Wholesale Thick Missy Basic High Wasit Leggings","Wholesale Thick Missy Basic High Wasit Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Missy,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX
+180 Grams",CHINA,None,,,,
+WLleggings#118,,configurable,default,,,"Wholesale Thick Missy Basic High Wasit Leggings Gray","Wholesale Thick Missy Basic High Wasit Leggings",4.50,1,1,1,1,1,"Catalog, Search",0,leggings/Missy,None,,,,
+WLwinter#119#Coffee,default,simple,default,color,Coffee,"Wholesale Womens Cable Texture Fleece Lined Leggings","Wholesale Womens Cable Texture Fleece Lined Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% Spandex",CHINA,None,,,,
+WLwinter#119,,configurable,default,,,"Wholesale Womens Cable Texture Fleece Lined Leggings Coffee","Wholesale Womens Cable Texture Fleece Lined Leggings",3.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#120#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Fleece Lined Leggings Azteco Print","Wholesale Womens Fleece Lined Leggings Azteco Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#120,,configurable,default,,,"Wholesale Womens Fleece Lined Leggings Azteco Print Just as picture","Wholesale Womens Fleece Lined Leggings Azteco Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#121#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Fleece Lined Leggings ZigZag Print","Wholesale Womens Fleece Lined Leggings ZigZag Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#121,,configurable,default,,,"Wholesale Womens Fleece Lined Leggings ZigZag Print Just as picture","Wholesale Womens Fleece Lined Leggings ZigZag Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#122#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Fleece Lined Leggings ZigZag Print","Wholesale Womens Fleece Lined Leggings ZigZag Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#122,,configurable,default,,,"Wholesale Womens Fleece Lined Leggings ZigZag Print Just as picture","Wholesale Womens Fleece Lined Leggings ZigZag Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+WLwinter#123#Black,default,simple,default,color,Black,"Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings","Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings",9.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#123,,configurable,default,,,"Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings Black","Wholesale Womens Duo Fabric Cotton Ponte Faux Leather Fleece Treggings",9.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+WLwinter#124#Black,default,simple,default,color,Black,"WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS ","WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS ",9.00,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#124,,configurable,default,,,"WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS  Black","WHOLESALE WOMENS PLUS SIZE FLEECE LINED FAUX LEATHER LEGGINGS ",9.00,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+WLwinter#125#Magenta,default,simple,default,color,Magenta,"Wholesale Womens High Waist Fleece Leggings","Wholesale Womens High Waist Fleece Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#125#Coffee,default,simple,default,color,Coffee,"Wholesale Womens High Waist Fleece Leggings","Wholesale Womens High Waist Fleece Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#125#Teal,default,simple,default,color,Teal,"Wholesale Womens High Waist Fleece Leggings","Wholesale Womens High Waist Fleece Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#125#Ivory,default,simple,default,color,Ivory,"Wholesale Womens High Waist Fleece Leggings","Wholesale Womens High Waist Fleece Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#125#Coral,default,simple,default,color,Coral,"Wholesale Womens High Waist Fleece Leggings","Wholesale Womens High Waist Fleece Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#125#Khaki,default,simple,default,color,Khaki,"Wholesale Womens High Waist Fleece Leggings","Wholesale Womens High Waist Fleece Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#125#Black,default,simple,default,color,Black,"Wholesale Womens High Waist Fleece Leggings","Wholesale Womens High Waist Fleece Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#125,,configurable,default,,,"Wholesale Womens High Waist Fleece Leggings Black","Wholesale Womens High Waist Fleece Leggings",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#126#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Fleece Lined Leggings Aztec","Wholesale Womens Fleece Lined Leggings Aztec",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#126,,configurable,default,,,"Wholesale Womens Fleece Lined Leggings Aztec Just as picture","Wholesale Womens Fleece Lined Leggings Aztec",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#127#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Fleece Lined Treggings Azteco Tribal","Wholesale Womens Fleece Lined Treggings Azteco Tribal",6.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#127,,configurable,default,,,"Wholesale Womens Fleece Lined Treggings Azteco Tribal Just as picture","Wholesale Womens Fleece Lined Treggings Azteco Tribal",6.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#128#Just as picture",default,simple,default,color,"Just as picture","Womens Fleece Treggings Border Print","Womens Fleece Treggings Border Print",6.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#128,,configurable,default,,,"Womens Fleece Treggings Border Print Just as picture","Womens Fleece Treggings Border Print",6.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#129#Just as picture",default,simple,default,color,"Just as picture","Womens Fleece Lined Treggings Tribal ","Womens Fleece Lined Treggings Tribal ",6.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#129,,configurable,default,,,"Womens Fleece Lined Treggings Tribal  Just as picture","Womens Fleece Lined Treggings Tribal ",6.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+WLwinter#130#Purple,default,simple,default,color,Purple,"Wholesale Womens Fleece Lined Leggings textured","Wholesale Womens Fleece Lined Leggings textured",3.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#130#Aqua,default,simple,default,color,Aqua,"Wholesale Womens Fleece Lined Leggings textured","Wholesale Womens Fleece Lined Leggings textured",3.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#130#Blue,default,simple,default,color,Blue,"Wholesale Womens Fleece Lined Leggings textured","Wholesale Womens Fleece Lined Leggings textured",3.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#130#Orange,default,simple,default,color,Orange,"Wholesale Womens Fleece Lined Leggings textured","Wholesale Womens Fleece Lined Leggings textured",3.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#130#Fuschia,default,simple,default,color,Fuschia,"Wholesale Womens Fleece Lined Leggings textured","Wholesale Womens Fleece Lined Leggings textured",3.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#130#Green,default,simple,default,color,Green,"Wholesale Womens Fleece Lined Leggings textured","Wholesale Womens Fleece Lined Leggings textured",3.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#130#Mustard,default,simple,default,color,Mustard,"Wholesale Womens Fleece Lined Leggings textured","Wholesale Womens Fleece Lined Leggings textured",3.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#130,,configurable,default,,,"Wholesale Womens Fleece Lined Leggings textured Mustard","Wholesale Womens Fleece Lined Leggings textured",3.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#131#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens FUR Lined Mini Skirt Animal Print","Wholesale Womens FUR Lined Mini Skirt Animal Print",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#131,,configurable,default,,,"Wholesale Womens FUR Lined Mini Skirt Animal Print Just as picture","Wholesale Womens FUR Lined Mini Skirt Animal Print",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+WLwinter#132#Gray,default,simple,default,color,Gray,"Wholesale Womens FUR Lined Mini Skirt Diamond Print","Wholesale Womens FUR Lined Mini Skirt Diamond Print",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#132#Charcoal,default,simple,default,color,Charcoal,"Wholesale Womens FUR Lined Mini Skirt Diamond Print","Wholesale Womens FUR Lined Mini Skirt Diamond Print",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#132,,configurable,default,,,"Wholesale Womens FUR Lined Mini Skirt Diamond Print Charcoal","Wholesale Womens FUR Lined Mini Skirt Diamond Print",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#133#Just as picture",default,simple,default,color,"Just as picture","Womens Fleece Lined Leggings Snowflakes Print","Womens Fleece Lined Leggings Snowflakes Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#133,,configurable,default,,,"Womens Fleece Lined Leggings Snowflakes Print Just as picture","Womens Fleece Lined Leggings Snowflakes Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#134#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Fleece Lined Leggings Aztec Print","Wholesale Womens Fleece Lined Leggings Aztec Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#134,,configurable,default,,,"Wholesale Womens Fleece Lined Leggings Aztec Print Just as picture","Wholesale Womens Fleece Lined Leggings Aztec Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#135#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Fleece Lined Leggings Border Print","Wholesale Womens Fleece Lined Leggings Border Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#135,,configurable,default,,,"Wholesale Womens Fleece Lined Leggings Border Print Just as picture","Wholesale Womens Fleece Lined Leggings Border Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#136#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Fleece Leggings Geometric","Wholesale Womens Fleece Leggings Geometric",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#136,,configurable,default,,,"Wholesale Womens Fleece Leggings Geometric Just as picture","Wholesale Womens Fleece Leggings Geometric",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+WLwinter#137#Charcoal,default,simple,default,color,Charcoal,"Wholesale Womens High Waist Fleece Lined Leggings ","Wholesale Womens High Waist Fleece Lined Leggings ",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#137#Khaki,default,simple,default,color,Khaki,"Wholesale Womens High Waist Fleece Lined Leggings ","Wholesale Womens High Waist Fleece Lined Leggings ",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#137#Black,default,simple,default,color,Black,"Wholesale Womens High Waist Fleece Lined Leggings ","Wholesale Womens High Waist Fleece Lined Leggings ",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#137,,configurable,default,,,"Wholesale Womens High Waist Fleece Lined Leggings  Black","Wholesale Womens High Waist Fleece Lined Leggings ",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#138#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Fleece Lined Leggings Geometric Diamond Cut","Wholesale Womens Fleece Lined Leggings Geometric Diamond Cut",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLwinter#138,,configurable,default,,,"Wholesale Womens Fleece Lined Leggings Geometric Diamond Cut Just as picture","Wholesale Womens Fleece Lined Leggings Geometric Diamond Cut",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#139#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Leggings Fleece Lined Diamond Checker Print","Wholesale Womens Leggings Fleece Lined Diamond Checker Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLwinter#139,,configurable,default,,,"Wholesale Womens Leggings Fleece Lined Diamond Checker Print Just as picture","Wholesale Womens Leggings Fleece Lined Diamond Checker Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#140#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Fleece Lined Leggings Neo Tribal","Wholesale Womens Fleece Lined Leggings Neo Tribal",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLwinter#140,,configurable,default,,,"Wholesale Womens Fleece Lined Leggings Neo Tribal Just as picture","Wholesale Womens Fleece Lined Leggings Neo Tribal",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#141#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Plus Size Leggings Fleece Lined Neo Tribal","Wholesale Womens Plus Size Leggings Fleece Lined Neo Tribal",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLwinter#141,,configurable,default,,,"Wholesale Womens Plus Size Leggings Fleece Lined Neo Tribal Just as picture","Wholesale Womens Plus Size Leggings Fleece Lined Neo Tribal",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#142#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Fleece Lined Leggings Western Chevron Print","Wholesale Womens Fleece Lined Leggings Western Chevron Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLwinter#142,,configurable,default,,,"Wholesale Womens Fleece Lined Leggings Western Chevron Print Just as picture","Wholesale Womens Fleece Lined Leggings Western Chevron Print",3.95,1,1,1,1,1,"Catalog, Search",0,"winter/Fleece Leggings",None,,,,
+"WLwinter#143#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Thick FUR Lined Leggings Jeggings Scalla","Wholesale Womens Thick FUR Lined Leggings Jeggings Scalla",5.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX
+100% POLYESTER LINING",CHINA,None,,,,
+WLwinter#143,,configurable,default,,,"Wholesale Womens Thick FUR Lined Leggings Jeggings Scalla Just as picture","Wholesale Womens Thick FUR Lined Leggings Jeggings Scalla",5.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",None,,,,
+WLwinter#144#Orange,default,simple,default,color,Orange,"Wholesale Womens Treggings Fur and Faux Leather Duo Fabric","Wholesale Womens Treggings Fur and Faux Leather Duo Fabric",8.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#144#Gray,default,simple,default,color,Gray,"Wholesale Womens Treggings Fur and Faux Leather Duo Fabric","Wholesale Womens Treggings Fur and Faux Leather Duo Fabric",8.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#144,,configurable,default,,,"Wholesale Womens Treggings Fur and Faux Leather Duo Fabric Gray","Wholesale Womens Treggings Fur and Faux Leather Duo Fabric",8.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",None,,,,
+"WLwinter#145#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens FUR Lined Mini Skirt Animal Print","Wholesale Womens FUR Lined Mini Skirt Animal Print",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#145,,configurable,default,,,"Wholesale Womens FUR Lined Mini Skirt Animal Print Just as picture","Wholesale Womens FUR Lined Mini Skirt Animal Print",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",None,,,,
+WLwinter#146#Gray,default,simple,default,color,Gray,"Wholesale Womens FUR Lined Mini Skirt Diamond Print","Wholesale Womens FUR Lined Mini Skirt Diamond Print",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#146#Charcoal,default,simple,default,color,Charcoal,"Wholesale Womens FUR Lined Mini Skirt Diamond Print","Wholesale Womens FUR Lined Mini Skirt Diamond Print",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#146,,configurable,default,,,"Wholesale Womens FUR Lined Mini Skirt Diamond Print Charcoal","Wholesale Womens FUR Lined Mini Skirt Diamond Print",4.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",None,,,,
+"WLwinter#147#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens FUR Lined Leggings Snowflakes Print","Wholesale Womens FUR Lined Leggings Snowflakes Print",5.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLwinter#147,,configurable,default,,,"Wholesale Womens FUR Lined Leggings Snowflakes Print Just as picture","Wholesale Womens FUR Lined Leggings Snowflakes Print",5.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",None,,,,
+"WLwinter#148#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens FUR Lined Leggings","Wholesale Womens FUR Lined Leggings",5.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLwinter#148,,configurable,default,,,"Wholesale Womens FUR Lined Leggings Just as picture","Wholesale Womens FUR Lined Leggings",5.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",None,,,,
+"WLwinter#149#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens FUR Lined Leggings Aztec Print","Wholesale Womens FUR Lined Leggings Aztec Print",5.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLwinter#149,,configurable,default,,,"Wholesale Womens FUR Lined Leggings Aztec Print Just as picture","Wholesale Womens FUR Lined Leggings Aztec Print",5.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",None,,,,
+"WLwinter#150#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens FUR Lined Leggings Aztec Border Print","Wholesale Womens FUR Lined Leggings Aztec Border Print",5.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLwinter#150,,configurable,default,,,"Wholesale Womens FUR Lined Leggings Aztec Border Print Just as picture","Wholesale Womens FUR Lined Leggings Aztec Border Print",5.50,1,1,1,1,1,"Catalog, Search",0,"winter/Fur Leggings",None,,,,
+WLwinter#151#Teal,default,simple,default,color,Teal,"Wholesale Womens Seamless Long Sleeve Top Turtle Neck","Wholesale Womens Seamless Long Sleeve Top Turtle Neck",3.25,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#151#Rust,default,simple,default,color,Rust,"Wholesale Womens Seamless Long Sleeve Top Turtle Neck","Wholesale Womens Seamless Long Sleeve Top Turtle Neck",3.25,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#151#Blue,default,simple,default,color,Blue,"Wholesale Womens Seamless Long Sleeve Top Turtle Neck","Wholesale Womens Seamless Long Sleeve Top Turtle Neck",3.25,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#151#Purple,default,simple,default,color,Purple,"Wholesale Womens Seamless Long Sleeve Top Turtle Neck","Wholesale Womens Seamless Long Sleeve Top Turtle Neck",3.25,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#151#Turquoise,default,simple,default,color,Turquoise,"Wholesale Womens Seamless Long Sleeve Top Turtle Neck","Wholesale Womens Seamless Long Sleeve Top Turtle Neck",3.25,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#151#Mint,default,simple,default,color,Mint,"Wholesale Womens Seamless Long Sleeve Top Turtle Neck","Wholesale Womens Seamless Long Sleeve Top Turtle Neck",3.25,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#151#Gray,default,simple,default,color,Gray,"Wholesale Womens Seamless Long Sleeve Top Turtle Neck","Wholesale Womens Seamless Long Sleeve Top Turtle Neck",3.25,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#151#Magenta,default,simple,default,color,Magenta,"Wholesale Womens Seamless Long Sleeve Top Turtle Neck","Wholesale Womens Seamless Long Sleeve Top Turtle Neck",3.25,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#151#White,default,simple,default,color,White,"Wholesale Womens Seamless Long Sleeve Top Turtle Neck","Wholesale Womens Seamless Long Sleeve Top Turtle Neck",3.25,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#151,,configurable,default,,,"Wholesale Womens Seamless Long Sleeve Top Turtle Neck White","Wholesale Womens Seamless Long Sleeve Top Turtle Neck",3.25,1,1,1,1,1,"Catalog, Search",0,winter/Tops,None,,,,
+WLwinter#152#Teal,default,simple,default,color,Teal,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Navy,default,simple,default,color,Navy,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Burgundy,default,simple,default,color,Burgundy,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Black,default,simple,default,color,Black,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Purple,default,simple,default,color,Purple,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Red,default,simple,default,color,Red,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Mint,default,simple,default,color,Mint,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Charcoal,default,simple,default,color,Charcoal,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Pink,default,simple,default,color,Pink,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Khaki,default,simple,default,color,Khaki,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#White,default,simple,default,color,White,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Coffee,default,simple,default,color,Coffee,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Magenta,default,simple,default,color,Magenta,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152#Coral,default,simple,default,color,Coral,"Wholesale Womens Seamless Fleece Turtle Neck Top","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLwinter#152,,configurable,default,,,"Wholesale Womens Seamless Fleece Turtle Neck Top Coral","Wholesale Womens Seamless Fleece Turtle Neck Top",3.75,1,1,1,1,1,"Catalog, Search",0,winter/Tops,None,,,,
+WLwinter#153#Gray,default,simple,default,color,Gray,"Womens FUR Lined Long Sleeve Top","Womens FUR Lined Long Sleeve Top",6.50,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#153#Burgundy,default,simple,default,color,Burgundy,"Womens FUR Lined Long Sleeve Top","Womens FUR Lined Long Sleeve Top",6.50,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#153#Brown,default,simple,default,color,Brown,"Womens FUR Lined Long Sleeve Top","Womens FUR Lined Long Sleeve Top",6.50,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#153#Blue,default,simple,default,color,Blue,"Womens FUR Lined Long Sleeve Top","Womens FUR Lined Long Sleeve Top",6.50,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#153#Black,default,simple,default,color,Black,"Womens FUR Lined Long Sleeve Top","Womens FUR Lined Long Sleeve Top",6.50,1,1,1,1,1,"Catalog, Search",0,winter/Tops,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLwinter#153,,configurable,default,,,"Womens FUR Lined Long Sleeve Top Black","Womens FUR Lined Long Sleeve Top",6.50,1,1,1,1,1,"Catalog, Search",0,winter/Tops,None,,,,
+WLpants#154#No,default,simple,default,color,No,"Wholesale Rainbow Printed Harem Pants","Wholesale Rainbow Printed Harem Pants",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,6PCS/PREPACK,90%POLYESTER10%SPANDEX,CHINA,None,,,,
+WLpants#154,,configurable,default,,,"Wholesale Rainbow Printed Harem Pants No","Wholesale Rainbow Printed Harem Pants",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,None,,,,
+WLpants#155#Beige,default,simple,default,color,Beige,"Wholesale Womens Tribal Style Harem Pants","Wholesale Womens Tribal Style Harem Pants",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLpants#155,,configurable,default,,,"Wholesale Womens Tribal Style Harem Pants Beige","Wholesale Womens Tribal Style Harem Pants",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,None,,,,
+"WLpants#156#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Harem Pants Jenna","Wholesale Womens Harem Pants Jenna",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#156,,configurable,default,,,"Wholesale Womens Harem Pants Jenna Just as picture","Wholesale Womens Harem Pants Jenna",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,None,,,,
+"WLpants#157#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Harem Pants Floral Print","Wholesale Womens Harem Pants Floral Print",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#157,,configurable,default,,,"Wholesale Womens Harem Pants Floral Print Just as picture","Wholesale Womens Harem Pants Floral Print",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,None,,,,
+"WLpants#158#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Harem Pants Geometric Print","Wholesale Womens Harem Pants Geometric Print",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#158,,configurable,default,,,"Wholesale Womens Harem Pants Geometric Print Just as picture","Wholesale Womens Harem Pants Geometric Print",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,None,,,,
+"WLpants#159#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Harem Pants Multi Animal Print","Wholesale Womens Harem Pants Multi Animal Print",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#159,,configurable,default,,,"Wholesale Womens Harem Pants Multi Animal Print Just as picture","Wholesale Womens Harem Pants Multi Animal Print",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,None,,,,
+"WLpants#160#Just as picture",default,simple,default,color,"Just as picture","Womens Harem Pants Aztec Tribal ","Womens Harem Pants Aztec Tribal ",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,6PCS/PREPACK,"90% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLpants#160,,configurable,default,,,"Womens Harem Pants Aztec Tribal  Just as picture","Womens Harem Pants Aztec Tribal ",5.50,1,1,1,1,1,"Catalog, Search",0,pants/Harem,None,,,,
+"WLpants#161#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Wide Leg Pants Pasley Print","Wholesale Womens Wide Leg Pants Pasley Print",6.50,1,1,1,1,1,"Catalog, Search",0,"pants/Wide Leg/Palazzo",6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLpants#161,,configurable,default,,,"Wholesale Womens Wide Leg Pants Pasley Print Just as picture","Wholesale Womens Wide Leg Pants Pasley Print",6.50,1,1,1,1,1,"Catalog, Search",0,"pants/Wide Leg/Palazzo",None,,,,
+"WLpants#162#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Wide Leg Pants Realisme","Wholesale Womens Wide Leg Pants Realisme",6.50,1,1,1,1,1,"Catalog, Search",0,"pants/Wide Leg/Palazzo",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#162,,configurable,default,,,"Wholesale Womens Wide Leg Pants Realisme Just as picture","Wholesale Womens Wide Leg Pants Realisme",6.50,1,1,1,1,1,"Catalog, Search",0,"pants/Wide Leg/Palazzo",None,,,,
+WLpants#163#Blue,default,simple,default,color,Blue,"Wholesale Womens Semi Harem Pants Bleue De Colette ","Wholesale Womens Semi Harem Pants Bleue De Colette ",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#163,,configurable,default,,,"Wholesale Womens Semi Harem Pants Bleue De Colette  Blue","Wholesale Womens Semi Harem Pants Bleue De Colette ",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#164#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi harem Pants PAsley Print","Wholesale Womens Semi harem Pants PAsley Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#164,,configurable,default,,,"Wholesale Womens Semi harem Pants PAsley Print Just as picture","Wholesale Womens Semi harem Pants PAsley Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+WLpants#165#Beige,default,simple,default,color,Beige,"Wholesale Womens Semi Harem Pants Artistic Print","Wholesale Womens Semi Harem Pants Artistic Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#165,,configurable,default,,,"Wholesale Womens Semi Harem Pants Artistic Print Beige","Wholesale Womens Semi Harem Pants Artistic Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#166#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Leopard Print","Wholesale Womens Semi Harem Pants Leopard Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#166,,configurable,default,,,"Wholesale Womens Semi Harem Pants Leopard Print Just as picture","Wholesale Womens Semi Harem Pants Leopard Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#167#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Mono Tribal","Wholesale Womens Semi Harem Pants Mono Tribal",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#167,,configurable,default,,,"Wholesale Womens Semi Harem Pants Mono Tribal Just as picture","Wholesale Womens Semi Harem Pants Mono Tribal",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#168#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Plaid","Wholesale Womens Semi Harem Pants Plaid",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#168,,configurable,default,,,"Wholesale Womens Semi Harem Pants Plaid Just as picture","Wholesale Womens Semi Harem Pants Plaid",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#169#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Chariot Print","Wholesale Womens Semi Harem Pants Chariot Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#169,,configurable,default,,,"Wholesale Womens Semi Harem Pants Chariot Print Just as picture","Wholesale Womens Semi Harem Pants Chariot Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+WLpants#170#No,default,simple,default,color,No,"Wholesale Womens Semi Harem Pants Crystal Drop","Wholesale Womens Semi Harem Pants Crystal Drop",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#170,,configurable,default,,,"Wholesale Womens Semi Harem Pants Crystal Drop No","Wholesale Womens Semi Harem Pants Crystal Drop",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#171#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Sketche Of Stars","Wholesale Womens Semi Harem Pants Sketche Of Stars",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#171,,configurable,default,,,"Wholesale Womens Semi Harem Pants Sketche Of Stars Just as picture","Wholesale Womens Semi Harem Pants Sketche Of Stars",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+WLpants#172#Orange,default,simple,default,color,Orange,"Wholesale Womens Semi Harem pants Geometric Tribal Print","Wholesale Womens Semi Harem pants Geometric Tribal Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#172#Blue,default,simple,default,color,Blue,"Wholesale Womens Semi Harem pants Geometric Tribal Print","Wholesale Womens Semi Harem pants Geometric Tribal Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#172,,configurable,default,,,"Wholesale Womens Semi Harem pants Geometric Tribal Print Blue","Wholesale Womens Semi Harem pants Geometric Tribal Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#173#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens SemiHarem Pants Japanese Floral Print","Wholesale Womens SemiHarem Pants Japanese Floral Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA<br>,None,,,,
+WLpants#173,,configurable,default,,,"Wholesale Womens SemiHarem Pants Japanese Floral Print Just as picture","Wholesale Womens SemiHarem Pants Japanese Floral Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#174#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Chevron","Wholesale Womens Semi Harem Pants Chevron",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#174,,configurable,default,,,"Wholesale Womens Semi Harem Pants Chevron Just as picture","Wholesale Womens Semi Harem Pants Chevron",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#175#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants","Wholesale Womens Semi Harem Pants",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#175,,configurable,default,,,"Wholesale Womens Semi Harem Pants Just as picture","Wholesale Womens Semi Harem Pants",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#176#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Psychedelic Print ","Wholesale Womens Semi Harem Pants Psychedelic Print ",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#176,,configurable,default,,,"Wholesale Womens Semi Harem Pants Psychedelic Print  Just as picture","Wholesale Womens Semi Harem Pants Psychedelic Print ",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#177#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Chevron Print","Wholesale Womens Semi Harem Pants Chevron Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#177,,configurable,default,,,"Wholesale Womens Semi Harem Pants Chevron Print Just as picture","Wholesale Womens Semi Harem Pants Chevron Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#178#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Diamante Print","Wholesale Womens Semi Harem Pants Diamante Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#178,,configurable,default,,,"Wholesale Womens Semi Harem Pants Diamante Print Just as picture","Wholesale Womens Semi Harem Pants Diamante Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#179#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Aztec Print","Wholesale Womens Semi Harem Pants Aztec Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#179,,configurable,default,,,"Wholesale Womens Semi Harem Pants Aztec Print Just as picture","Wholesale Womens Semi Harem Pants Aztec Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#180#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Chevron Print","Wholesale Womens Semi Harem Pants Chevron Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#180,,configurable,default,,,"Wholesale Womens Semi Harem Pants Chevron Print Just as picture","Wholesale Womens Semi Harem Pants Chevron Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#181#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants CheviTribal","Wholesale Womens Semi Harem Pants CheviTribal",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#181,,configurable,default,,,"Wholesale Womens Semi Harem Pants CheviTribal Just as picture","Wholesale Womens Semi Harem Pants CheviTribal",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#182#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Chevron Print","Wholesale Womens Semi Harem Pants Chevron Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#182,,configurable,default,,,"Wholesale Womens Semi Harem Pants Chevron Print Just as picture","Wholesale Womens Semi Harem Pants Chevron Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#183#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Sasha","Wholesale Womens Semi Harem Pants Sasha",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#183,,configurable,default,,,"Wholesale Womens Semi Harem Pants Sasha Just as picture","Wholesale Womens Semi Harem Pants Sasha",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#184#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Croache","Wholesale Womens Semi Harem Pants Croache",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#184,,configurable,default,,,"Wholesale Womens Semi Harem Pants Croache Just as picture","Wholesale Womens Semi Harem Pants Croache",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#185#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Mix Maya Aztec Print","Wholesale Womens Semi Harem Pants Mix Maya Aztec Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#185,,configurable,default,,,"Wholesale Womens Semi Harem Pants Mix Maya Aztec Print Just as picture","Wholesale Womens Semi Harem Pants Mix Maya Aztec Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#186#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Semi Harem Pants Geometric Print","Wholesale Womens Semi Harem Pants Geometric Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#186,,configurable,default,,,"Wholesale Womens Semi Harem Pants Geometric Print Just as picture","Wholesale Womens Semi Harem Pants Geometric Print",5.95,1,1,1,1,1,"Catalog, Search",0,"pants/Semi Harem Pants",None,,,,
+"WLpants#187#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Denim Pants With Zippers","Wholesale Womens Denim Pants With Zippers",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"60%NYLON
+30% POLYESTER
+10% SPANDEX",CHINA,None,,,,
+WLpants#187,,configurable,default,,,"Wholesale Womens Denim Pants With Zippers Just as picture","Wholesale Womens Denim Pants With Zippers",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+WLpants#188#Black,default,simple,default,color,Black,"WHOLESALE WOMENS PONTE TREGGINGS DUO FABRIC HOUNDSTOOTH","WHOLESALE WOMENS PONTE TREGGINGS DUO FABRIC HOUNDSTOOTH",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLpants#188,,configurable,default,,,"WHOLESALE WOMENS PONTE TREGGINGS DUO FABRIC HOUNDSTOOTH Black","WHOLESALE WOMENS PONTE TREGGINGS DUO FABRIC HOUNDSTOOTH",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+WLpants#189#Black,default,simple,default,color,Black,"Wholesale Womens Ponte Treggings Duo Fabric Azteco tribal","Wholesale Womens Ponte Treggings Duo Fabric Azteco tribal",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLpants#189,,configurable,default,,,"Wholesale Womens Ponte Treggings Duo Fabric Azteco tribal Black","Wholesale Womens Ponte Treggings Duo Fabric Azteco tribal",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+"WLpants#190#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Scuba Pants Duo Fabric","Wholesale Womens Scuba Pants Duo Fabric",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLpants#190,,configurable,default,,,"Wholesale Womens Scuba Pants Duo Fabric Just as picture","Wholesale Womens Scuba Pants Duo Fabric",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+"WLpants#191#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Scuba Pants With Zippers","Wholesale Womens Scuba Pants With Zippers",9.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLpants#191,,configurable,default,,,"Wholesale Womens Scuba Pants With Zippers Just as picture","Wholesale Womens Scuba Pants With Zippers",9.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+"WLpants#192#Just as picture",default,simple,default,color,"Just as picture","WHOLESALE WOMENS SCUBA PRINT TREGGINGS Geometric Diamond PRINT","WHOLESALE WOMENS SCUBA PRINT TREGGINGS Geometric Diamond PRINT",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLpants#192,,configurable,default,,,"WHOLESALE WOMENS SCUBA PRINT TREGGINGS Geometric Diamond PRINT Just as picture","WHOLESALE WOMENS SCUBA PRINT TREGGINGS Geometric Diamond PRINT",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+"WLpants#193#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Scuba Pants Rhinestones","Wholesale Womens Scuba Pants Rhinestones",8.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLpants#193,,configurable,default,,,"Wholesale Womens Scuba Pants Rhinestones Just as picture","Wholesale Womens Scuba Pants Rhinestones",8.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+"WLpants#194#Just as picture",default,simple,default,color,"Just as picture","WHOLESALE WOMENS SCUBA PANTS TREGGINGS FALL LEAVES PRINT","WHOLESALE WOMENS SCUBA PANTS TREGGINGS FALL LEAVES PRINT",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLpants#194,,configurable,default,,,"WHOLESALE WOMENS SCUBA PANTS TREGGINGS FALL LEAVES PRINT Just as picture","WHOLESALE WOMENS SCUBA PANTS TREGGINGS FALL LEAVES PRINT",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+"WLpants#195#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Scuba Print Treggings Gingham Style","Wholesale Womens Scuba Print Treggings Gingham Style",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLpants#195,,configurable,default,,,"Wholesale Womens Scuba Print Treggings Gingham Style Just as picture","Wholesale Womens Scuba Print Treggings Gingham Style",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+"WLpants#196#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Scuba Print Treggings Fall Floral Print","Wholesale Womens Scuba Print Treggings Fall Floral Print",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"95% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLpants#196,,configurable,default,,,"Wholesale Womens Scuba Print Treggings Fall Floral Print Just as picture","Wholesale Womens Scuba Print Treggings Fall Floral Print",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+WLpants#197#Silver,default,simple,default,color,Silver,"Wholesale Womens Skinny Waxed Pants ","Wholesale Womens Skinny Waxed Pants ",5.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"60%COTTON
+35% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLpants#197,,configurable,default,,,"Wholesale Womens Skinny Waxed Pants  Silver","Wholesale Womens Skinny Waxed Pants ",5.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+WLpants#198#Gold,default,simple,default,color,Gold,"Wholesale Womens Skinny Waxed Pants ","Wholesale Womens Skinny Waxed Pants ",5.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"60%COTTON
+35% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLpants#198,,configurable,default,,,"Wholesale Womens Skinny Waxed Pants  Gold","Wholesale Womens Skinny Waxed Pants ",5.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+WLpants#199#Lavender,default,simple,default,color,Lavender,"Wholesale Summer Womens Skinny Waxed Pants","Wholesale Summer Womens Skinny Waxed Pants",5.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"60%COTTON
+35% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLpants#199,,configurable,default,,,"Wholesale Summer Womens Skinny Waxed Pants Lavender","Wholesale Summer Womens Skinny Waxed Pants",5.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+WLpants#200#Mint,default,simple,default,color,Mint,"Wholesale Summer Womens Skinny Waxed Pants","Wholesale Summer Womens Skinny Waxed Pants",5.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"60%COTTON
+35% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLpants#200,,configurable,default,,,"Wholesale Summer Womens Skinny Waxed Pants Mint","Wholesale Summer Womens Skinny Waxed Pants",5.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+WLpants#201#Coral,default,simple,default,color,Coral,"Wholesale Summer Womens Skinny Waxed Pants","Wholesale Summer Womens Skinny Waxed Pants",5.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"60%COTTON
+35% POLYESTER
+5% SPANDEX",CHINA,None,,,,
+WLpants#201,,configurable,default,,,"Wholesale Summer Womens Skinny Waxed Pants Coral","Wholesale Summer Womens Skinny Waxed Pants",5.00,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+WLpants#202#Black,default,simple,default,color,Black,"Wholesale Summer Womens Skinny Waxed Pants","Wholesale Summer Womens Skinny Waxed Pants",5.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLpants#202,,configurable,default,,,"Wholesale Summer Womens Skinny Waxed Pants Black","Wholesale Summer Womens Skinny Waxed Pants",5.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+"WLpants#203#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Ponte Treggings Duo Fabric Damask","Wholesale Womens Ponte Treggings Duo Fabric Damask",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLpants#203,,configurable,default,,,"Wholesale Womens Ponte Treggings Duo Fabric Damask Just as picture","Wholesale Womens Ponte Treggings Duo Fabric Damask",7.50,1,1,1,1,1,"Catalog, Search",0,"pants/Skinny Pants",None,,,,
+"WLpants#204#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Loose Pants Tribal Inspiration","Wholesale Womens Loose Pants Tribal Inspiration",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#204,,configurable,default,,,"Wholesale Womens Loose Pants Tribal Inspiration Just as picture","Wholesale Womens Loose Pants Tribal Inspiration",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLpants#205#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Missy Loose Pants Tribal Print","Wholesale Womens Missy Loose Pants Tribal Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLpants#205,,configurable,default,,,"Wholesale Womens Missy Loose Pants Tribal Print Just as picture","Wholesale Womens Missy Loose Pants Tribal Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLpants#206#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Loose Pants Honey Bee","Wholesale Womens Loose Pants Honey Bee",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#206,,configurable,default,,,"Wholesale Womens Loose Pants Honey Bee Just as picture","Wholesale Womens Loose Pants Honey Bee",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLpants#207#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Loose Pants Aztec Indian Print","Wholesale Womens Loose Pants Aztec Indian Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#207,,configurable,default,,,"Wholesale Womens Loose Pants Aztec Indian Print Just as picture","Wholesale Womens Loose Pants Aztec Indian Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLpants#208#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Loose Pants Plaid","Wholesale Womens Loose Pants Plaid",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#208,,configurable,default,,,"Wholesale Womens Loose Pants Plaid Just as picture","Wholesale Womens Loose Pants Plaid",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLpants#209#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Loose Pants Zebra Print","Wholesale Womens Loose Pants Zebra Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#209,,configurable,default,,,"Wholesale Womens Loose Pants Zebra Print Just as picture","Wholesale Womens Loose Pants Zebra Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+WLpants#210#Black,default,simple,default,color,Black,"Wholesale Womens Basic Semi Harem Pants","Wholesale Womens Basic Semi Harem Pants",6.50,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#210#Beige,default,simple,default,color,Beige,"Wholesale Womens Basic Semi Harem Pants","Wholesale Womens Basic Semi Harem Pants",6.50,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#210,,configurable,default,,,"Wholesale Womens Basic Semi Harem Pants Beige","Wholesale Womens Basic Semi Harem Pants",6.50,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLpants#211#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Loose Pants Mix Pattern","Wholesale Womens Loose Pants Mix Pattern",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#211,,configurable,default,,,"Wholesale Womens Loose Pants Mix Pattern Just as picture","Wholesale Womens Loose Pants Mix Pattern",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLpants#212#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Loose Pants Aztec Print","Wholesale Womens Loose Pants Aztec Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#212,,configurable,default,,,"Wholesale Womens Loose Pants Aztec Print Just as picture","Wholesale Womens Loose Pants Aztec Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLpants#213#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Loose Pants Geometric Print","Wholesale Womens Loose Pants Geometric Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#213,,configurable,default,,,"Wholesale Womens Loose Pants Geometric Print Just as picture","Wholesale Womens Loose Pants Geometric Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLpants#214#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Loose Pants Tribal Print","Wholesale Womens Loose Pants Tribal Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#214,,configurable,default,,,"Wholesale Womens Loose Pants Tribal Print Just as picture","Wholesale Womens Loose Pants Tribal Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLpants#215#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Loose Pants Hybrid Print","Wholesale Womens Loose Pants Hybrid Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92%POLYESTER
+8%SPANDEX",CHINA,None,,,,
+WLpants#215,,configurable,default,,,"Wholesale Womens Loose Pants Hybrid Print Just as picture","Wholesale Womens Loose Pants Hybrid Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLpants#216#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Missy Loose Pants Paisley Print","Wholesale Womens Missy Loose Pants Paisley Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLpants#216,,configurable,default,,,"Wholesale Womens Missy Loose Pants Paisley Print Just as picture","Wholesale Womens Missy Loose Pants Paisley Print",6.95,1,1,1,1,1,"Catalog, Search",0,"pants/Loose Pants",None,,,,
+"WLshorts#217#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Skorts Floral Print ","Wholesale Womens Skorts Floral Print ",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLshorts#217,,configurable,default,,,"Wholesale Womens Skorts Floral Print  Just as picture","Wholesale Womens Skorts Floral Print ",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",None,,,,
+"WLshorts#218#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Skorts Hybrid Print ","Wholesale Womens Skorts Hybrid Print ",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLshorts#218,,configurable,default,,,"Wholesale Womens Skorts Hybrid Print  Just as picture","Wholesale Womens Skorts Hybrid Print ",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",None,,,,
+"WLshorts#219#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Skorts Psychedelic Print","Wholesale Womens Skorts Psychedelic Print",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLshorts#219,,configurable,default,,,"Wholesale Womens Skorts Psychedelic Print Just as picture","Wholesale Womens Skorts Psychedelic Print",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",None,,,,
+"WLshorts#220#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Skorts Aztec Print","Wholesale Womens Skorts Aztec Print",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLshorts#220,,configurable,default,,,"Wholesale Womens Skorts Aztec Print Just as picture","Wholesale Womens Skorts Aztec Print",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",None,,,,
+"WLshorts#221#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Skorts Houndstooth Print","Wholesale Womens Skorts Houndstooth Print",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLshorts#221,,configurable,default,,,"Wholesale Womens Skorts Houndstooth Print Just as picture","Wholesale Womens Skorts Houndstooth Print",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",None,,,,
+"WLshorts#222#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Skorts Tribal Aztec Print","Wholesale Womens Skorts Tribal Aztec Print",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLshorts#222,,configurable,default,,,"Wholesale Womens Skorts Tribal Aztec Print Just as picture","Wholesale Womens Skorts Tribal Aztec Print",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",None,,,,
+"WLshorts#223#Just as picture",default,simple,default,color,"Just as picture","Wholesale Womens Skorts Lipstick Print","Wholesale Womens Skorts Lipstick Print",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLshorts#223,,configurable,default,,,"Wholesale Womens Skorts Lipstick Print Just as picture","Wholesale Womens Skorts Lipstick Print",3.95,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",None,,,,
+WLshorts#224#Black,default,simple,default,color,Black,"Wholesale Womens Fleece Lined Faux Leather Mini Shorts","Wholesale Womens Fleece Lined Faux Leather Mini Shorts",5.50,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLshorts#224,,configurable,default,,,"Wholesale Womens Fleece Lined Faux Leather Mini Shorts Black","Wholesale Womens Fleece Lined Faux Leather Mini Shorts",5.50,1,1,1,1,1,"Catalog, Search",0,"shorts/Harem Shorts",None,,,,
+WLkids#225#Khaki,default,simple,default,color,Khaki,"Wholesale Kids Leggings Multi Khaki","Wholesale Kids Leggings Multi Khaki",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#225,,configurable,default,,,"Wholesale Kids Leggings Multi Khaki Khaki","Wholesale Kids Leggings Multi Khaki",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,None,,,,
+WLkids#226#Red,default,simple,default,color,Red,"Wholesale Kids Fleece Lined Leggings Egyptian Print","Wholesale Kids Fleece Lined Leggings Egyptian Print",2.75,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#226,,configurable,default,,,"Wholesale Kids Fleece Lined Leggings Egyptian Print Red","Wholesale Kids Fleece Lined Leggings Egyptian Print",2.75,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,None,,,,
+WLkids#227#Pink,default,simple,default,color,Pink,"Wholesale Kids Basic Fleece Lined Leggings","Wholesale Kids Basic Fleece Lined Leggings",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#227#Green,default,simple,default,color,Green,"Wholesale Kids Basic Fleece Lined Leggings","Wholesale Kids Basic Fleece Lined Leggings",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#227#Red,default,simple,default,color,Red,"Wholesale Kids Basic Fleece Lined Leggings","Wholesale Kids Basic Fleece Lined Leggings",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#227#White,default,simple,default,color,White,"Wholesale Kids Basic Fleece Lined Leggings","Wholesale Kids Basic Fleece Lined Leggings",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#227#Black,default,simple,default,color,Black,"Wholesale Kids Basic Fleece Lined Leggings","Wholesale Kids Basic Fleece Lined Leggings",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#227,,configurable,default,,,"Wholesale Kids Basic Fleece Lined Leggings Black","Wholesale Kids Basic Fleece Lined Leggings",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,None,,,,
+"WLkids#228#Just as picture",default,simple,default,color,"Just as picture","Wholesale Kids Leggings Multi Triangle Print","Wholesale Kids Leggings Multi Triangle Print",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#228,,configurable,default,,,"Wholesale Kids Leggings Multi Triangle Print Just as picture","Wholesale Kids Leggings Multi Triangle Print",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,None,,,,
+"WLkids#229#Just as picture",default,simple,default,color,"Just as picture","Wholesale Kids Leggings Aristocat Print","Wholesale Kids Leggings Aristocat Print",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#229,,configurable,default,,,"Wholesale Kids Leggings Aristocat Print Just as picture","Wholesale Kids Leggings Aristocat Print",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,None,,,,
+WLkids#230#Turquoise,default,simple,default,color,Turquoise,"Wholesale Basic Solid Colours Kids Leggings","Wholesale Basic Solid Colours Kids Leggings",2.00,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#230#Green,default,simple,default,color,Green,"Wholesale Basic Solid Colours Kids Leggings","Wholesale Basic Solid Colours Kids Leggings",2.00,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#230#Yellow,default,simple,default,color,Yellow,"Wholesale Basic Solid Colours Kids Leggings","Wholesale Basic Solid Colours Kids Leggings",2.00,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#230#Orange,default,simple,default,color,Orange,"Wholesale Basic Solid Colours Kids Leggings","Wholesale Basic Solid Colours Kids Leggings",2.00,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#230#Lavender,default,simple,default,color,Lavender,"Wholesale Basic Solid Colours Kids Leggings","Wholesale Basic Solid Colours Kids Leggings",2.00,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#230#Pink,default,simple,default,color,Pink,"Wholesale Basic Solid Colours Kids Leggings","Wholesale Basic Solid Colours Kids Leggings",2.00,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#230#Black,default,simple,default,color,Black,"Wholesale Basic Solid Colours Kids Leggings","Wholesale Basic Solid Colours Kids Leggings",2.00,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#230,,configurable,default,,,"Wholesale Basic Solid Colours Kids Leggings Black","Wholesale Basic Solid Colours Kids Leggings",2.00,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,None,,,,
+"WLkids#231#Just as picture",default,simple,default,color,"Just as picture","Wholesale Kids Leggings Luella","Wholesale Kids Leggings Luella",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#231,,configurable,default,,,"Wholesale Kids Leggings Luella Just as picture","Wholesale Kids Leggings Luella",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,None,,,,
+"WLkids#232#Just as picture",default,simple,default,color,"Just as picture","Wholesale Kids Leggings Union Kack","Wholesale Kids Leggings Union Kack",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#232,,configurable,default,,,"Wholesale Kids Leggings Union Kack Just as picture","Wholesale Kids Leggings Union Kack",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,None,,,,
+"WLkids#233#Just as picture",default,simple,default,color,"Just as picture","Wholesale Kids Leggings Furia","Wholesale Kids Leggings Furia",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#233,,configurable,default,,,"Wholesale Kids Leggings Furia Just as picture","Wholesale Kids Leggings Furia",2.50,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,None,,,,
+WLkids#234#Red,default,simple,default,color,Red,"Wholesale Kids Fleece Lined Leggings Reindeers and Snowflakes Print","Wholesale Kids Fleece Lined Leggings Reindeers and Snowflakes Print",2.75,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#234,,configurable,default,,,"Wholesale Kids Fleece Lined Leggings Reindeers and Snowflakes Print Red","Wholesale Kids Fleece Lined Leggings Reindeers and Snowflakes Print",2.75,1,1,1,1,1,"Catalog, Search",0,kids/Leggings,None,,,,
+"WLkids#235#Just as picture",default,simple,default,color,"Just as picture","Wholesale Kids Pants Multi","Wholesale Kids Pants Multi",3.50,1,1,1,1,1,"Catalog, Search",0,kids/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#235,,configurable,default,,,"Wholesale Kids Pants Multi Just as picture","Wholesale Kids Pants Multi",3.50,1,1,1,1,1,"Catalog, Search",0,kids/Pants,None,,,,
+"WLkids#236#Just as picture",default,simple,default,color,"Just as picture","Wholesale Kids Pants Multi Aztec Tribal","Wholesale Kids Pants Multi Aztec Tribal",3.50,1,1,1,1,1,"Catalog, Search",0,kids/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#236,,configurable,default,,,"Wholesale Kids Pants Multi Aztec Tribal Just as picture","Wholesale Kids Pants Multi Aztec Tribal",3.50,1,1,1,1,1,"Catalog, Search",0,kids/Pants,None,,,,
+"WLkids#237#Just as picture",default,simple,default,color,"Just as picture","Wholesale Kids Pants Leopard Print","Wholesale Kids Pants Leopard Print",3.50,1,1,1,1,1,"Catalog, Search",0,kids/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#237,,configurable,default,,,"Wholesale Kids Pants Leopard Print Just as picture","Wholesale Kids Pants Leopard Print",3.50,1,1,1,1,1,"Catalog, Search",0,kids/Pants,None,,,,
+"WLkids#238#Just as picture",default,simple,default,color,"Just as picture","Wholesale Kids Semi Harem Pants Geo Tribal","Wholesale Kids Semi Harem Pants Geo Tribal",3.50,1,1,1,1,1,"Catalog, Search",0,kids/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#238,,configurable,default,,,"Wholesale Kids Semi Harem Pants Geo Tribal Just as picture","Wholesale Kids Semi Harem Pants Geo Tribal",3.50,1,1,1,1,1,"Catalog, Search",0,kids/Pants,None,,,,
+"WLkids#239#Just as picture",default,simple,default,color,"Just as picture","Wholesale Kids Semi Harem Pants Indian Pattern","Wholesale Kids Semi Harem Pants Indian Pattern",3.50,1,1,1,1,1,"Catalog, Search",0,kids/Pants,6PCS/PREPACK,"92% POLYESTER
+8% SPANDEX",CHINA,None,,,,
+WLkids#239,,configurable,default,,,"Wholesale Kids Semi Harem Pants Indian Pattern Just as picture","Wholesale Kids Semi Harem Pants Indian Pattern",3.50,1,1,1,1,1,"Catalog, Search",0,kids/Pants,None,,,,
