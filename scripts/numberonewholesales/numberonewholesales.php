@@ -11,6 +11,8 @@
     fwrite($log, "[START]\r\n");
     fwrite($log, "[STARTED AT]".time()."\r\n");
 
+    // Get Database
+    $db = new Db();
 
 	// URL and EndPoints
 	$baseURL = 'http://numberonewholesales.com/';
@@ -23,19 +25,30 @@
 
     $productUrls = array();
 
-    // foreach ($endPoints as $key => $value) {
+  //   foreach ($endPoints as $key => $value) {
 
-    // 	$productUrls[] = getLink($goutte, $baseURL.$value);
-    // 	print_r($productUrls);
-    // 	$sleep_time = rand((3 * 1000000), (4 * 1000000));
-    // 	echo "\tSleeping for " . number_format(($sleep_time / 1000000), 2) . " sec\n";
-    // 	usleep($sleep_time);
-    // }
+  //   	$productUrls[] = getLink($goutte, $baseURL.$value);
+    	
+  //   	$sleep_time = rand((3 * 1000000), (4 * 1000000));
+  //   	echo "\tSleeping for " . number_format(($sleep_time / 1000000), 2) . " sec\n";
+  //   	usleep($sleep_time);
+  //   }
 
-    // $urls = getUrlFromArray($productUrls);
+    
+  //   $urls = getUrlFromArray($productUrls);
+
+  //   // Store URLs in product array
+  //   print_r($urls);
+
+  //   foreach ($urls as $key => $value) {
+  //   	// Insert Product URLs
+		// $db->query("INSERT INTO product_urls(url,source,status) 
+		// 	VALUES(:url,:source,:status)", array("url" => $value,"source" => "numberonewholesales","status"=>1));
+  //   }
+  //   exit;
 
     // foreach ($urls as $url) {
-	$url = 'http://numberonewholesales.com/fleece-inside-ankle-leggings-p-42.html?cPath=1067';
+    $url = 'http://numberonewholesales.com/floral-print-ankle-leggings-p-9400.html?cPath=1067&osCsid=7ccf8789005495b334c5a364db4c6d6a';
     	$data = getProductData($goutte, $url);
     	exit;
     // }
@@ -86,11 +99,10 @@
 
 			if($products % $fetched != 0) 
 				$pages += 1;
-			echo "page 1\n";
+
 			if($pages > 1) 
 				for ($page=2; $page<=$pages ; $page++) {
 
-					echo "page $page \n";
 					$crawler = $goutte->request('GET', $url.'?page='.$page);
 
 					$status_code = $goutte->getResponse()->getStatus();
@@ -147,6 +159,9 @@
 			$data = $crawler->filterXPath($domSelector)->each(function ($node) {
 
 				$attribs = array();
+
+				print_r($node->text());
+
 		    	
 		    	// Get title
 		    	$titleReg = '.*?<td.*?>Name.*?<td.*?>(.*?)</td>.*?';
@@ -176,13 +191,14 @@
 			    $domS = '//table/tr/td';
 
 		    	$node->filterXPath($domS)->each(function ($node) {
-		    		print_r($node);
+		    		// print_r($node);
+		    		;
 		    	});
 
 			    print_r($attribs);
 			});
 
-			exit;
+			
 		}
 
     }
