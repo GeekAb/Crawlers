@@ -1,8 +1,13 @@
 <?php
 
-	include_once __DIR__ . '/../goutte.phar';
+	// Include config and initiate
+	include_once __DIR__ . '/../config/default_config.php';
+	includeMyFiles();
 
 	$goutte = new Goutte\Client();
+
+	// Get Database
+    $db = new Db();
 
 	$url = 'https://www.lashowroom.com/login?previous=/wholesalefashionistas/browse/category/3/srd/small/70/1';
 
@@ -17,53 +22,70 @@
 
 	$crawlUrl = 'https://www.lashowroom.com/wholesalefashionistas/browse/category/3/srd/small/70/';
 
-	// $count = 1;
-	// $status = 1;
+	$count = 1;
+	$status = 1;
 
-	// $urls = array();
+	$urls = array();
 
-	// while($status == 1){
-	// 	// Selector string
-	// 	$domSelector = '//*[@id="store_browse"]/div[3]/ul/li/div/a';
+	while($status == 1){
+		// Selector string
+		$domSelector = '//*[@id="store_browse"]/div[3]/ul/li/div/a';
 
-	// 	$countSelector = '//*[@id="store_browse"]/h1/text()';
+		$countSelector = '//*[@id="store_browse"]/h1/text()';
 		
-	// 	$crawler = $goutte->request('GET', $crawlUrl.$count);
+		$crawler = $goutte->request('GET', $crawlUrl.$count);
 
-	// 	$pcount = $crawler->filterXPath($countSelector)->each(function ($node) {
-	//     	return $node->text();
-	// 	});
+		$pcount = $crawler->filterXPath($countSelector)->each(function ($node) {
+	    	return $node->text();
+		});
 
-	// 	$tProducts = '';
-	// 	foreach ($pcount as $value) {
-	// 		if(trim($value) != '')
-	// 			$tProducts = trim($value);
-	// 	}
+		$tProducts = '';
+		foreach ($pcount as $value) {
+			if(trim($value) != '')
+				$tProducts = trim($value);
+		}
 
-	// 	$tProducts = ereg_replace("[^0-9]", "", $tProducts );
+		$tProducts = ereg_replace("[^0-9]", "", $tProducts );
 
-	// 	$tempUrls = $crawler->filterXPath($domSelector)->each(function ($node) {
-	//     	return $node->attr('href');
-	// 	});
+		$tempUrls = $crawler->filterXPath($domSelector)->each(function ($node) {
+	    	return $node->attr('href');
+		});
 
-	// 	foreach ($tempUrls as $url) {
-	// 		if($url != '#') {
-	// 			array_push($urls, $url);
-	// 		}
-	// 	}
+		foreach ($tempUrls as $url) {
+			if($url != '#') {
+				array_push($urls, $url);
+			}
+		}
 
-	// 	if(count($tempUrls) < 2 || (count($urls) >= $tProducts)) {
-	// 		$status = 0;
-	// 	}
+		echo count($urls);
 
-	// 	$count++;
-	// }
+		if(count($tempUrls) < 2 || (count($urls) >= $tProducts)) {
+			$status = 0;
+		}
 
-	// foreach($urls as $url) {
-	$url = 'https://www.lashowroom.com/wholesalefashionistas/item/610';
-		getProductData($goutte, $url);
-		exit;
-	// }
+		$count++;
+	}
+
+	foreach($urls as $url) {
+	// $url = 'https://www.lashowroom.com/wholesalefashionistas/item/610';
+	// $url = 'https://www.lashowroom.com/wholesalefashionistas/item/563';
+		$product = getProductData($goutte, $url);
+
+		/*Insert Product*/
+		$db->query("INSERT INTO products_data(url,source,data,category,subcategory,status) 
+		    			VALUES(:url,:source,:data,:category,:subcategory,:status)", 
+		    				array(	"url"=>'https://www.lashowroom.com'.$url,
+		    						"source"=>"lashowroom",
+		    						"data"=>json_encode($product),
+		    						"category" => $product['category'],
+									"subcategory" => '',
+		    						"status"=>1
+		    					));
+
+		echo $product['style_no'];
+
+		goToSleep();
+	}
 
 
 	function getProductData($goutte, $url){
@@ -112,7 +134,7 @@
 		    	/*Style Number*/
 		    	$domSelector = '//*[@id="store_item_description"]/h1';
 		    	$data['style_no'] = $node->filterXPath($domSelector)->each(function ($node) {
-			    	return $node->text();
+			    	return trim($node->text());
 				});
 
 				/*Description*/
@@ -136,7 +158,7 @@
 				return $data;
 			});
 			// print_r($data);
-			print_r(formatProductData($data));
+			return formatProductData($data);
 			
 		}
 	}
@@ -169,7 +191,7 @@
 				else
 					$val = $value;
 
-				$finalSet['model_text'] = $val;
+				$finalSet['model_text'] = trim($val[0]);
 			}
 
 			/*Product Data*/
@@ -179,74 +201,69 @@
 
 					foreach ($value[0] as $key => $val) {
 
-						print_r($key.'---------');
-						
 						/*Get Style Number*/
 						if($key == 'style_no') {
 
 							if(is_array($val) && isset($val[0]))
-								$finalSet['style_no'] = $val[0];
+								$finalSet['style_no'] = trim($val[0]);
 						}
 
 						if($key == 'description') {
 							/*Description*/
-							echo "came description-----";
-
-							print_r($val[0]);
-
-							
-
-							$descReg = '.*?<span class="b">Description:</span>(.*?)</td></tr>.*?';
+							$descReg = '.*?<span class="b">Description:</span>(.*?)</td>.*?';
 
 			    			preg_match('|' . $descReg . '|smi', $val[0], $match);
 
-			    			print_r($match);
-			    			exit;
-
-						    if 		(isset($match[1])) {	$finalSet['description'] = $match[1];} 
-						    else if (isset($match[0])) {    $finalSet['description'] = $match[0];}
+						    if 		(isset($match[1])) {	$finalSet['description'] = trim($match[1]);}
+						    else if (isset($match[0])) {    $finalSet['description'] = trim($match[0]);}
 
 
 							/*Category*/
+							$categoryReg = '.*?Category:</span>.*?">(.*?)</a>.*?';
+							preg_match('|' . $categoryReg . '|smi', $val[0], $match);
+
+						    if 		(isset($match[1])) {	$finalSet['category'] = trim($match[1]);}
+						    else if (isset($match[0])) {    $finalSet['category'] = trim($match[0]);}
+
 							/*Min. Order*/
-							$orderReg = '.*?<span class="b">Minimum Order:</span>(.*?)</td></tr>.*?';
+							$orderReg = '.*?<span class="b">Minimum Order:</span>(.*?)</td>.*?';
 
-			    			preg_match('|' . $descReg . '|smi', $val[0], $match);
+			    			preg_match('|' . $orderReg . '|smi', $val[0], $match);
 
-						    if 		(isset($match[1])) {	$finalSet['min_order'] = $match[1];} 
-						    else if (isset($match[0])) {    $finalSet['min_order'] = $match[0];}
+						    if 		(isset($match[1])) {	$finalSet['min_order'] = trim($match[1]);}
+						    else if (isset($match[0])) {    $finalSet['min_order'] = trim($match[0]);}
 
 							/*Fabric*/
-							$fabricReg = '.*?<span class="b">Fabric::</span>(.*?)</td></tr>.*?';
+							$fabricReg = '.*?<span class="b">Fabric::</span>(.*?)</td>.*?';
 
-			    			preg_match('|' . $descReg . '|smi', $val[0], $match);
+			    			preg_match('|' . $fabricReg . '|smi', $val[0], $match);
 
-						    if 		(isset($match[1])) {	$finalSet['fabric'] = $match[1];} 
-						    else if (isset($match[0])) {    $finalSet['fabric'] = $match[0];}
+						    if 		(isset($match[1])) {	$finalSet['fabric'] = trim($match[1]);}
+						    else if (isset($match[0])) {    $finalSet['fabric'] = trim($match[0]);}
 
 							/*Content*/
-							$contentReg = '.*?<span class="b">Content:</span>(.*?)</td></tr>.*?';
+							$contentReg = '.*?<span class="b">Content:.*?<span class="gray">(.*?)</span>.*?</td>.*?';
 
-			    			preg_match('|' . $descReg . '|smi', $val[0], $match);
+			    			preg_match('|' . $contentReg . '|smi', $val[0], $match);
 
-						    if 		(isset($match[1])) {	$finalSet['content'] = $match[1];} 
-						    else if (isset($match[0])) {    $finalSet['content'] = $match[0];}
+						    if 		(isset($match[1])) {	$finalSet['content'] = trim($match[1]);}
+						    else if (isset($match[0])) {    $finalSet['content'] = trim($match[0]);}
 
 							/*Made In*/
-							$madeReg = '.*?<span class="b">Made In:</span>(.*?)</td></tr>.*?';
+							$madeReg = '.*?<span class="b">Made In:</span>(.*?)</td>.*?';
 
-			    			preg_match('|' . $descReg . '|smi', $val[0], $match);
+			    			preg_match('|' . $madeReg . '|smi', $val[0], $match);
 
-						    if 		(isset($match[1])) {	$finalSet['made_in'] = $match[1];} 
-						    else if (isset($match[0])) {    $finalSet['made_in'] = $match[0];}
+						    if 		(isset($match[1])) {	$finalSet['made_in'] = trim($match[1]);}
+						    else if (isset($match[0])) {    $finalSet['made_in'] = trim($match[0]);}
 
 							/*Comments*/
-							$commentsReg = '.*?<span class="b">Comments:</span>(.*?)</td></tr>.*?';
+							$commentsReg = '.*?<span class="b">Comments:</span>(.*?)</td>.*?';
 
-			    			preg_match('|' . $descReg . '|smi', $val[0], $match);
+			    			preg_match('|' . $commentsReg . '|smi', $val[0], $match);
 
-						    if 		(isset($match[1])) {	$finalSet['comments'] = $match[1];} 
-						    else if (isset($match[0])) {    $finalSet['comments'] = $match[0];}
+						    if 		(isset($match[1])) {	$finalSet['comments'] = trim($match[1]);}
+						    else if (isset($match[0])) {    $finalSet['comments'] = trim($match[0]);}
 						}
 
 						/*Price*/
@@ -255,18 +272,18 @@
 							/*Main Price*/
 							$mainPriceReg = '.*?Our Price:</label>(.*?)</span>.*?';
 
-			    			preg_match('|' . $descReg . '|smi', $val[0], $match);
+			    			preg_match('|' . $mainPriceReg . '|smi', $val[0], $match);
 
-						    if 		(isset($match[1])) {	$finalSet['price'] = $match[1];} 
-						    else if (isset($match[0])) {    $finalSet['price'] = $match[0];}
+						    if 		(isset($match[1])) {	$finalSet['price'] = trim($match[1]);}
+						    else if (isset($match[0])) {    $finalSet['price'] = trim($match[0]);}
 
 							/*Prepack Price*/
 							$prePackPriceReg = '.*?Prepack Price:</label>(.*?)</span>.*?';
 
-			    			preg_match('|' . $descReg . '|smi', $val[0], $match);
+			    			preg_match('|' . $prePackPriceReg . '|smi', $val[0], $match);
 
-						    if 		(isset($match[1])) {	$finalSet['pack_price'] = $match[1];} 
-						    else if (isset($match[0])) {    $finalSet['pack_price'] = $match[0];}
+						    if 		(isset($match[1])) {	$finalSet['pack_price'] = trim($match[1]);}
+						    else if (isset($match[0])) {    $finalSet['pack_price'] = trim($match[0]);}
 
 							/*Units Per Pack*/
 							// $unitsReg = '.*?<span class="b">Made In:</span>(.*?)</td></tr>.*?';
@@ -279,14 +296,21 @@
 						
 						/*Colors*/
 						if($key == 'colors') {
-
+							$finalSet['colors'] = $val;
 						}
-
-
 					}
 				}
 			}
 		}
 
 		return $finalSet;
+	}
+
+	function goToSleep()
+	{
+		$sleep_time = rand((2 * 1000000), (3 * 1000000));
+    	echo "\tSleeping for " . number_format(($sleep_time / 1000000), 2) . " sec\n";
+    	usleep($sleep_time);
+
+    	return 1;
 	}
