@@ -9,7 +9,7 @@ include_once __DIR__ . '/common.php';
 // Get Database
 $db = new Db();
 
-$data = $db->query("SELECT * from products_data WHERE source='sngapparelinc'");
+$data = $db->query("SELECT * from products_data WHERE source='sngapparelinc' LIMIT 10");
 
 $tempData = array();
 $csvData = array();
@@ -19,13 +19,17 @@ $colorSet = array();
 $sizeArray = array();
 $packArray = array();
 
-$fp = fopen("output.csv", "a+");
+$fp = fopen("output_new.csv", "a+");
 
+// Loop through all products
 foreach ($data as $value) {
 
-    $imgStr = '';
+	$imgStr = '';
     $sizeArray = array();
     $packArray = array();
+
+    /*Bundle SKU Array*/
+    $bundleSKU = array();
     
     $tempData = json_decode($value['data'],TRUE);
 
@@ -40,32 +44,27 @@ foreach ($data as $value) {
         foreach ($keys as $k) {
             
             if($k == 'sm') {
-                array_push($sizeArray, 's/m');
                 $packArray['s/m'] = $cdata['size'][$k];
             }
             else if($k == 'ml') {
-                array_push($sizeArray, 'm/l');
                 $packArray['m/l'] = $cdata['size'][$k];
             }
             else if($k == 'lxl') {
-                array_push($sizeArray, 'l/xl');
                 $packArray['l/xl'] = $cdata['size'][$k];
             }
             else if($k == 'xlxxl') {
-                array_push($sizeArray, 'xl/xxl');
                 $packArray['xl/xxl'] = $cdata['size'][$k];
             }
             else if($k == 'xxlxxxl') {
-                array_push($sizeArray, 'xxl/xxxl');
                 $packArray['xxl/xxxl'] = $cdata['size'][$k];
             }
             else if($k == 'xxxlxxxxl') {
-                array_push($sizeArray, 'xxxl/xxxxl');
                 $packArray['xxxl/xxxxl'] = $cdata['size'][$k];
             } else {
-                array_push($sizeArray, $k);
                 $packArray[$k] = $cdata['size'][$k];
             }
+
+            $sizeArray = array_keys($packArray);
         }
     } 
     
@@ -80,18 +79,21 @@ foreach ($data as $value) {
 
         if(isset($img['small'])) {
             $tempimg = str_replace(array(",", '\'', '"' ), "", $img['small']);
+            //download_remote_file_with_curl(trim($imgMain));
         }
     }
 
-    foreach ($tempData['color_size'] as $color) {
-
-        // foreach ($sizeArray as $size) {
-
-            $csvData[$count]['sku']                       = 'WL'.$value['category'].'#'.$value['id'].'#'.$color['color'];
+    /*Loop through all sizes*/
+    foreach ($sizeArray as $size) {
+    	/*Loop through all colors*/
+    	foreach ($tempData['color_size'] as $color) {
+    		/*Simple Products*/
+    		$csvData[$count]['sku']                       = 'WL#'.$value['id'].'#'.$color['color'].'#'.$size;
+    		$csvData[$count]['bin_location']			  = '';
             $csvData[$count]['type']                      = 'simple';
             $csvData[$count]['store']                     = 'default';
 
-            $csvData[$count]['name']                      = $tempData['title'].' '.$color['color'];
+            $csvData[$count]['name']                      = $tempData['title'].' '.$color['color'].' '.$size;
             $csvData[$count]['description']               = $tempData['title'];
             $csvData[$count]['short_description']         = $tempData['title'];
             $csvData[$count]['price']                     = $tempData['price'];
@@ -103,8 +105,7 @@ foreach ($data as $value) {
             $csvData[$count]['use_config_manage_stock']   = 1;
 
             $csvData[$count]['status']                    = 1;
-            $csvData[$count]['visibility']                = '"Catalog, Search"';
-            // $csvData[$count]['categories']                = $value['category'].'/'.$value['subcategory'];
+            $csvData[$count]['visibility']                = '"Not Visible Individually"';
             $csvData[$count]['categories']                = getCategory($value['category'],$value['subcategory']);
 
             $csvData[$count]['pack']                      = $tempData['pack'];
@@ -123,7 +124,7 @@ foreach ($data as $value) {
             $csvData[$count]['small_image_label']         = $tempData['title'];
             $csvData[$count]['thumbnail_label']           = $tempData['title'];
 
-            $csvData[$count]['media_gallery']             = $imgStr;
+            $csvData[$count]['media_gallery']             = "$imgStr";
 
             $csvData[$count]['auctioninc_product_length'] = $dimension['length'];
             $csvData[$count]['auctioninc_product_width']  = $dimension['width'];
@@ -132,14 +133,88 @@ foreach ($data as $value) {
             $csvData[$count]['attribute_set']             = 'Default';
             $csvData[$count]['configurable_attributes']   = 'leggingscolor';
 
+            $csvData[$count]['model_size']				  = '';
+		    $csvData[$count]['brand']				  	  = '';
             /*Setting size*/
             $csvData[$count]['size']                       = $size;
+
+            /*Grouped Product*/
+            $csvData[$count]['grouped_skus']			   = '';
+            $csvData[$count]['weight_type']			   	   = '';
+            $csvData[$count]['price_type']			   	   = '';
+            $csvData[$count]['price_view']			   	   = '';
+
+
             $csvData[$count++]['leggingscolor']            = $color['color'];
+    	}
+    	/*Config Products*/
+    	$csvData[$count]['sku']                       = 'WL#'.$value['id'].'#'.$size;
+    	array_push($bundleSKU, 'WL#'.$value['id'].'#'.$size);
+
+    	$csvData[$count]['bin_location']			  = '';
+
+	    $csvData[$count]['type']                      = 'configurable';
+	    $csvData[$count]['store']                     = 'default';
+
+	    $csvData[$count]['name']                      = $tempData['title'];
+	    $csvData[$count]['description']               = $tempData['title'];
+	    $csvData[$count]['short_description']         = $tempData['title'];
+	    $csvData[$count]['price']                     = $tempData['price'];
+	    $csvData[$count]['qty']                       = 1;
+	    $csvData[$count]['weight']                    = getWeight($value['category'],$value['subcategory']);
+	    
+	    $csvData[$count]['is_in_stock']               = 1;
+	    $csvData[$count]['manage_stock']              = 1;
+	    $csvData[$count]['use_config_manage_stock']   = 1;
+	    
+	    $csvData[$count]['status']                    = 1;
+	    $csvData[$count]['visibility']                = '"Not Visible Individually"';
+	    $csvData[$count]['categories']                = getCategory($value['category'],$value['subcategory']);
+
+	    $csvData[$count]['pack']                      = $tempData['pack'];
+	    $csvData[$count]['fabric']                    = $tempData['fabric'];
+	    $csvData[$count]['made']                      = $tempData['made'];
+
+	    $csvData[$count]['source']                    = 'sngapparelinc';
+	    $csvData[$count]['source_sku']                = $tempData['item_no'];
+
+	    $csvData[$count]['tax_class_id']              = 'None';
+
+	    
+	    $csvData[$count]['image']                     = $value['id'].'_wl_'.basename(str_replace(array(",", '\'', '"' ), "", $tempData['images'][0]['large']));
+	    $csvData[$count]['small_image']               = $value['id'].'_wl_'.basename(str_replace(array(",", '\'', '"' ), "", $tempData['images'][0]['small']));
+	    $csvData[$count]['thumbnail']                 = $value['id'].'_wl_'.basename(str_replace(array(",", '\'', '"' ), "", $tempData['images'][0]['small']));
+	    $csvData[$count]['image_label']               = $tempData['title'];
+	    $csvData[$count]['small_image_label']         = $tempData['title'];
+	    $csvData[$count]['thumbnail_label']           = $tempData['title'];
+
+	    $csvData[$count]['media_gallery']             = "$imgStr";
+
+	    $csvData[$count]['auctioninc_product_length'] = $dimension['length'];
+	    $csvData[$count]['auctioninc_product_width']  = $dimension['width'];
+	    $csvData[$count]['auctioninc_product_height'] = $dimension['height'];
+
+	    $csvData[$count]['attribute_set']             = 'Default';
+	    $csvData[$count]['configurable_attributes']   = 'leggingscolor';
+
+	    $csvData[$count]['model_size']				  = '';
+	    $csvData[$count]['brand']				  	  = '';
+
+	    /*Setting size*/
+    	$csvData[$count]['size']                       = '';
+
+	    $csvData[$count]['grouped_skus']			   = '';
+        $csvData[$count]['weight_type']			   	   = '';
+        $csvData[$count]['price_type']			   	   = '';
+        $csvData[$count]['price_view']			   	   = '';
+
+	    $csvData[$count++]['leggingscolor']            = '';
 
     }
-
-    $csvData[$count]['sku']                       = 'WL'.$value['category'].'#'.$value['id'];
-    $csvData[$count]['type']                      = 'configurable';
+    /*Bundle Products*/
+    $csvData[$count]['sku']                       = 'WL#'.$value['id'];
+    $csvData[$count]['bin_location']			  = '';
+    $csvData[$count]['type']                      = 'bundle';
     $csvData[$count]['store']                     = 'default';
 
     $csvData[$count]['name']                      = $tempData['title'];
@@ -166,7 +241,6 @@ foreach ($data as $value) {
 
     $csvData[$count]['tax_class_id']              = 'None';
 
-    
     $csvData[$count]['image']                     = $value['id'].'_wl_'.basename(str_replace(array(",", '\'', '"' ), "", $tempData['images'][0]['large']));
     $csvData[$count]['small_image']               = $value['id'].'_wl_'.basename(str_replace(array(",", '\'', '"' ), "", $tempData['images'][0]['small']));
     $csvData[$count]['thumbnail']                 = $value['id'].'_wl_'.basename(str_replace(array(",", '\'', '"' ), "", $tempData['images'][0]['small']));
@@ -174,7 +248,7 @@ foreach ($data as $value) {
     $csvData[$count]['small_image_label']         = $tempData['title'];
     $csvData[$count]['thumbnail_label']           = $tempData['title'];
 
-    $csvData[$count]['media_gallery']             = $imgStr;
+    $csvData[$count]['media_gallery']             = "$imgStr";
 
     $csvData[$count]['auctioninc_product_length'] = $dimension['length'];
     $csvData[$count]['auctioninc_product_width']  = $dimension['width'];
@@ -182,42 +256,32 @@ foreach ($data as $value) {
 
     $csvData[$count]['attribute_set']             = 'Default';
     $csvData[$count]['configurable_attributes']   = 'leggingscolor';
+    
+    $csvData[$count]['model_size']				  = '';
+    $csvData[$count]['brand']				  	  = '';
+    /*Setting size*/
+    $csvData[$count]['size']                       = '';
+
+    $grouped_skus = '';
+
+    foreach ($bundleSKU as $bsku) {
+
+    	if($grouped_skus != '')
+    		$grouped_skus .= ';';
+
+		$grouped_skus .= $tempData['title'].':'.$bsku.':1:0:1:0';
+    }
+    $csvData[$count]['grouped_skus']			   = $grouped_skus;
+    $csvData[$count]['weight_type']			   	   = 0;
+    $csvData[$count]['price_type']			   	   = 0;
+    $csvData[$count]['price_view']			   	   = 1;
+
     $csvData[$count++]['leggingscolor']            = '';
-
-
 }
-// basename($fileUrl)
-// echo "<pre>";
-// print_r(($csvData));
-// echo "</pre>";
 
-// exit;
-//   // Writing Header
 fputcsv($fp, array_keys($csvData[0]));
 foreach ($csvData as $data) {
    fputcsv($fp, $data);
 }
 
 fclose($fp);
-
-
-function download_remote_file_with_curl($fileUrl)
-{
-    echo $fileUrl.PHP_EOL;
-    $saveTo = basename($fileUrl);
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_POST, 0); 
-    curl_setopt($ch,CURLOPT_URL,$fileUrl); 
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
-    $file_content = curl_exec($ch);
-    curl_close($ch);
-
-    if(!file_exists('/var/www/wholesaleleggings82/media/import/')) {
-        mkdir ('/var/www/wholesaleleggings82/media/import/',0700, TRUE);
-    }
-
-    $downloaded_file = fopen('/var/www/wholesaleleggings82/media/import/sngapparelinc_'.$saveTo, 'w+');
-    fwrite($downloaded_file, $file_content);
-    fclose($downloaded_file);
-
-}
