@@ -113,3 +113,6 @@ function getWeight($category, $subCategory) {
 	else 
 		return 0;
 }
+function getSalePrice($costPrice) {
+	return ((ceil($costPrice*2)-1)/2)+2.25;
+}
