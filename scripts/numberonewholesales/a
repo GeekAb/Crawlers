@@ -1,0 +1,53 @@
+Array
+(
+    [email_address] => nit.abhi85@gmail.com
+    [password] => abhishek
+)
+Array
+(
+    [title] => Array
+        (
+            [0] => "Bags" Printed Ankle Leggings.
+        )
+
+    [mainImage] => Array
+        (
+            [0] => product_images/JRB-156_(4)_1431104679.jpg
+        )
+
+    [images] => Array
+        (
+            [0] => product_images/JRB-156_(4)_1431104679.jpg
+            [1] => product_images/JRB-156_(1)_1431104765.jpg
+            [2] => product_images/JRB-156_(2)_1431104767.jpg
+            [3] => product_images/JRB-156_(3)_1431104769.jpg
+            [4] => product_images/JRB-156_(5)_1431104770.jpg
+            [5] => product_images/JRB-156_(6)_1431104773.jpg
+            [6] => product_images/JRB-156_(7)_1431104777.jpg
+            [7] => product_images/color_option/JRB-156_(2)_1431104791.jpg
+        )
+
+    [packValue] => Array
+        (
+            [0] => 10
+        )
+
+    [style] => U-JRB-156
+    [price] => $1.90
+    [stock] => Array
+        (
+            [As Preview] => 100
+        )
+
+    [fab] => 
+	65%Polyester 35%Cotton<br>
+	Made in China
+    [pack] => One Size<br>
+    [colors] => Array
+        (
+            [0] => 													
+													As Preview												 
+												  
+        )
+
+)

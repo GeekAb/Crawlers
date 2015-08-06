@@ -1,0 +1,318 @@
+<?php 
+
+function getCategory($category, $subCategory) {
+
+	$category = strtolower($category);
+
+	$categoryStr = '';
+	$removableChars = array(" ", "_", ":", ";");
+
+	$subcat = strtolower(str_replace($removableChars, "-", $subCategory));
+
+	switch (strtolower($category)) {
+		case 'leggings':
+				
+			$categoryStr = 'leggings';
+
+			if($subcat == 'basic' || $subcat == 'printed' || $subcat == 'missy' || $subcat == 'leather'  || $subcat == 'sublimation' ||  $subcat == 'jeggings' ||  $subcat == 'capri')
+				$categoryStr .= '/'.$subcat;
+
+			else if($subcat == 'fitness')
+				$categoryStr = 'activewear/leggings';
+
+			else if($subcat == 'fleece-leggings')
+				$categoryStr .= '/missy';
+
+			else if($subcat == 'fur-leggings')
+				$categoryStr .= '/missy';
+
+			else if($subcat == 'faux-leather')
+				$categoryStr .= '/leather';
+
+			else if($subcat == 'treggings')
+				$categoryStr = 'activewear/leggings';
+
+			else if($subcat == 'rhinestones' || $subcat == 'high-waist' || $subcat == 'velvet/velour')
+				$categoryStr .= '/missy';
+			
+			else if($subcat == 'skirts')
+				$categoryStr = 'skirts';
+
+			else $categoryStr = '';
+			break;
+
+		case 'activewear':
+		case 'active-wear':
+				
+			$categoryStr = 'activewear';
+
+			if($subcat == 'leggings' || $subcat == 'shorts')
+				$categoryStr .= '/'.$subcat;
+
+			else $categoryStr = '';
+			break;
+
+		case 'pants':
+		case 'shorts':
+
+			$categoryStr = 'pants';
+
+			if($category == 'shorts' || $category == 'short')
+				$categoryStr .= '/shorts';
+
+			else if($category == 'palazzo')
+				$categoryStr .= '/palazzo';
+
+			else if($category == 'jogger')
+				$categoryStr .= '/jogger';
+
+			else if($category == 'jeans')
+				$categoryStr .= '/jeans';
+
+			else if($subcat == 'wide-leg/palazzo')
+				$categoryStr .= '/palazzo';
+
+			else if($subcat == 'harem' || $subcat == 'semi-harem-pants')
+				$categoryStr .= '/harem';
+
+			else $categoryStr = '';
+			break;
+
+		case 'plussize':
+
+			$categoryStr = 'plus-size';
+
+			if($subcat == 'basic' || $subcat == 'printed' || $subcat == 'missy' || $subcat == 'fitness' || 
+				$subcat == 'sublimation' || $subcat == 'jeggings' || $subcat == 'capri')
+				$categoryStr .= '/leggings'.'/'.$subcat;
+ 
+			else if($subcat == 'printed-leggings')
+				$categoryStr .= '/leggings/printed';
+
+			else if($subcat == 'faux-leather')
+				$categoryStr .= '/leggings/leather';
+
+			else if($subcat == 'leather' || $subcat == 'treggings')
+				$categoryStr .= '/activewear';
+
+			else if($subcat == 'seamless-leggings' || $subcat == 'high-waist' || $subcat == 'velvet/velour')
+				$categoryStr .= '/leggings/missy';
+
+			else if($subcat == 'fleece-leggings' || $subcat == 'fleece' || $subcat == 'fur' || $subcat == 'fur-leggings')
+				$categoryStr .= '/leggings/missy';
+
+			else if($subcat == 'pants')
+				$categoryStr .= '/pants';
+
+			else if($subcat == 'harem')
+				$categoryStr .= '/pants/harem';
+
+			else if($subcat == 'palazzo')
+				$categoryStr .= '/pants/palazzo';
+
+			else if($subcat == 'shorts' || $subcat == 'short')
+				$categoryStr .= '/pants/shorts';
+
+			else if($subcat == 'jeans')
+				$categoryStr .= '/pants/jeans';
+
+			else if($subcat == 'semi-harem-pants' || $subcat == 'velvet/velour')
+				$categoryStr .= '/pants/harem';
+
+			else if($subcat == 'tops')
+				$categoryStr = '';
+			break;
+
+		case 'kids':
+			
+			$categoryStr = 'kids';
+
+			if($subcat == 'basic' || $subcat == 'leather' || $subcat == 'sublimation' ||  $subcat == 'jeggings' ||  $subcat == 'capri')
+				$categoryStr .= '/'.$subcat;
+
+			else if($subcat == 'fleece-leggings')
+				$categoryStr .= '/missy';
+
+			else if($subcat == 'fur-leggings')
+				$categoryStr .= '/missy';
+
+			else if($subcat == 'faux-leather')
+				$categoryStr .= '/leather';
+
+			else if($subcat == 'fitness' || $subcat == 'treggings')
+				$categoryStr .= '/activewear';
+
+			else if($subcat == 'rhinestones' || $subcat == 'high-waist' || $subcat == 'velvet/velour')
+				$categoryStr .= '/missy';
+			
+			else if($subcat == 'skirts')
+				$categoryStr .= '/skirts';
+
+			else if($subcat == 'printed' || $subcat == 'missy')
+				$categoryStr .= '/leggings';				
+
+			else $categoryStr = '';
+			break;
+		
+		default:
+			break;
+	}
+
+	return $categoryStr;
+}
+
+
+
+function getDimensions($category, $subCategory) {
+
+	$category = strtolower($category);
+
+	$removableChars = array(" ", "_", ":", ";");
+	$subcat = strtolower(trim(str_replace($removableChars, "-", $subCategory)));
+
+	/*-------------------------------Main Category Leggings-----------------------------------------*/
+
+	if ($category == 'leggings' || ($category == 'active-wear' || $category == 'activewear' && $subCategory == 'leggings')) {
+
+		/*Weight : 0.3*/
+		if ($subcat == 'basic' || $subcat == 'leather' || $subcat == 'faux-leather' || $subcat == 'sublimation' || $subcat == 'capri') {
+
+			if($subcat == 'capri')
+				return array('length' => 13,'width' => 9,'height' => 2, 'weight' => 0.3);
+				
+			return array('length' => 14,'width' => 10,'height' => 2, 'weight' => 0.3);
+		}
+
+		/*Weight : 0.4*/
+		else if ($subcat == 'printed' || $subcat == 'missy' || $subcat == 'rhinestones' || $subcat == 'velvet/velour' || $subcat == 'fitness' || $subcat == 'treggings' || $subcat == 'jeggings') {
+
+			if($subcat == 'jeggings')
+				return array('length' => 12,'width' => 12,'height' => 4, 'weight' => 0.4);
+
+			if($subcat == 'printed')
+				return array('length' => 14,'width' => 10, 'height' => 3, 'weight' => 0.4);
+				
+			return array('length' => 14,'width' => 10,'height' => 2, 'weight' => 0.4);
+		}
+
+		return array('length' => 14,'width' => 10,'height' => 2, 'weight' => 0.3);
+	}
+	
+	/*-------------------------------Main Category Pants-----------------------------------------*/
+
+	else if ($category == 'pants') {
+
+		/*No Data*/
+		if ($subcat == 'harem' || $subcat == 'jeans') {
+			return array('length' => 0,'width' => 0,'height' => 0, 'weight' => 0);
+		}
+		/*Weight : 0.4*/
+		else if ($subcat == 'palazzo' || $subcat == 'wide-leg/palazzo' || $subcat == 'jogger') {
+
+			if($subcat == 'jogger' )
+				return array('length' => 19,'width' => 14,'height' => 2, 'weight' => 0.4);
+					
+			return array('length' => 15,'width' => 11,'height' => 3, 'weight' => 0.4);
+		}
+		/*Weight : 0.2*/
+		else if ($subcat == 'shorts'){
+			return array('length' => 12,'width' => 10,'height' => 2, 'weight' => 0.2);
+		}
+
+		return array('length' => 12,'width' => 10,'height' => 2, 'weight' => 0.2);
+	}
+
+	/*--------------------------------Main Category Skirts---------------------------------------*/
+
+	else if ($category == 'skirts')
+		return array('length' => 16,'width' => 10,'height' => 5, 'weight' => 0.4);
+	
+	/*--------------------------------Main Category Plus Size-----------------------------------------*/
+
+	else if ($category == 'plussize') {
+
+		/*Weight : 0.3*/
+		if ($subcat == 'basic' || $subcat == 'leather' || $subcat == 'sublimation' || $subcat == 'faux-leather' || $subcat == 'treggings' || 
+			$subcat == 'capri') {
+
+			if($subcat == 'capri')
+				return array('length' => 13,'width' => 9,'height' => 2, 'weight' => 0.3);
+
+			return array('length' => 14,'width' => 10,'height' => 2, 'weight' => 0.3);
+		}
+		/*Weight : 0.4*/
+		else if ($subcat == 'printed' || $subcat == 'printed-leggings' || $subcat == 'missy' || $subcat == 'seamless-leggings' || $subcat == 'jeggings' ||
+			$subcat == 'high-waist' || $subcat == 'velvet/velour' || $subcat == 'fleece-leggings' || $subcat == 'fleece' || $subcat == 'fur' || 
+			$subcat == 'fur-leggings' || $subcat == 'fitness' || $subcat == 'treggings') {
+
+			if($subcat == 'jeggings')
+				return array('length' => 12,'width' => 12,'height' => 4, 'weight' => 0.4);
+
+			if($subcat == 'fitness' || $subcat == 'treggings')
+				return array('length' => 14,'width' => 10,'height' => 4, 'weight' => 0.4);
+
+			return array('length' => 14,'width' => 10,'height' => 3, 'weight' => 0.4);
+		}
+		
+		/*No Data*/
+		else if($subcat == 'pants' || $subcat == 'harem' || $subcat == 'semi-harem-pants' || $subcat == 'velvet/velour')
+			return array('length' => 0,'width' => 0,'height' => 0, 'weight' => 0);
+
+		/*Pants : Weight : 0.4*/		
+		else if($subcat == 'palazzo' || $subcat == 'skirts') {
+
+			if($subcat == 'skirts')
+				return array('length' => 16,'width' => 10,'height' => 5, 'weight' => 0.4);
+
+			return array('length' => 15,'width' => 11,'height' => 3, 'weight' => 0.4);
+		}
+		/*Pants : Weight : 0.2*/		
+		else if($subcat == 'shorts') {
+
+			return array('length' => 12,'width' => 10,'height' => 2, 'weight' => 0.2);
+		}
+
+		return array('length' => 14,'width' => 10,'height' => 2, 'weight' => 0.3);
+	}
+
+	/*--------------------------------Main Category Kids--------------------------------------*/
+
+	else if ($category == 'kids') {
+
+		/*No Data*/
+		if($subcat == 'palazzo' || $subcat == 'skirts')
+			return array('length' => 0,'width' => 0,'height' => 0, 'weight' => 0);
+
+		/*Weight : 0.2*/
+		else if($subcat == 'leggings')
+			return array('length' => 13,'width' => 10,'height' => 2, 'weight' => 0.2);
+
+		return array('length' => 13,'width' => 10,'height' => 2, 'weight' => 0.2);
+	}
+
+}
+
+
+function getSalePrice($costPrice) {
+	return ((ceil($costPrice*2)-1)/2)+2.25;
+}
+
+function download_remote_file_with_curl($fileUrl,$id)
+{
+    $saveTo = $id.'_wl_'.basename($fileUrl);
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_POST, 0);
+    curl_setopt($ch,CURLOPT_URL,$fileUrl);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    $file_content = curl_exec($ch);
+    curl_close($ch);
+
+    if(!file_exists('/var/www/wholesaleleggings/media/import/')) {
+        mkdir ('/var/www/wholesaleleggings/media/import/',0700, TRUE);
+    }
+
+    $downloaded_file = fopen('/var/www/wholesaleleggings/media/import/'.$saveTo, 'w+');
+    fwrite($downloaded_file, $file_content);
+    fclose($downloaded_file);
+
+}

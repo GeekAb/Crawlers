@@ -1,0 +1,281 @@
+<head>
+<title>Color 5 − Sign In</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="content-language" content="en-us">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<meta name="author" content="Phlox Design, Inc.">
+<meta name="copyright" content="Copyright (c) 2001-2015 Phlox Design, Inc.">
+<meta name="keywords" content="">
+<meta name="p:domain_verify" content="7741ec23d288742a0dbd8811b66ef2d8">
+<link type="image/x-icon" rel="icon" href="/favicon.ico">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="/css/core.css.php">
+<link type="text/css" rel="stylesheet" href="/css/jquery.lightbox.css" media="screen">
+<link type="text/css" rel="stylesheet" href="/css/term.css">
+<script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/jquery.ui.js"></script><script type="text/javascript" src="/js/jquery.cycle.js"></script><script type="text/javascript" src="/js/jquery.lightbox.js"></script><script type="text/javascript" src="/js/common.js"></script><script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56287568-4');
+  ga('send', 'pageview');
+
+</script><script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('#signin_form').submit(function(){
+		jQuery('#action_status_msg').css('display', 'none');
+		
+		if (jQuery('#signin_id').val() == '') {
+			
+			jQuery('#action_status_msg').removeClass('msg-success').addClass('msg-error').html('E-mail field cannot be empty.').fadeIn('slow').delay(5000).fadeOut();
+			return false;
+		} else if (jQuery('#signin_pass').val() == '') {
+			jQuery('#action_status_msg').removeClass('msg-success').addClass('msg-error').html('Password field cannot be empty.').fadeIn('slow').delay(5000).fadeOut();
+			return false;
+		}
+	});
+	
+	jQuery('#recover_password_form').submit(function(){
+		jQuery('#action_status_msg').css('display', 'none');
+		
+		if (jQuery('#recover_id').val() == '') {
+			jQuery('#action_status_msg').removeClass('msg-success').addClass('msg-error').html('E-mail field cannot be empty.').fadeIn('slow').delay(5000).fadeOut();
+			return false;
+		}
+	});
+	
+	jQuery('#recover_password_form').css('display', 'none');
+	
+	jQuery('.signin_form_toggle').click(function(){
+		jQuery('#recover_password_form').slideToggle('fast');
+		jQuery('#signin_form').slideToggle('fast');
+	});
+	
+	jQuery('#register_now').click(function(){
+		window.location.href = '/register';
+	});
+	
+	
+	jQuery('.form-button').attr('disabled', false);
+	
+});
+</script>
+</head>
+<body id="sign_in">
+
+<!-- HEADER - START -->
+
+<div id="body_head">
+
+<div id="head">
+
+    
+    	<div id="head_inner" class="head-center">
+		<div id="head_top">
+			<div id="head_top_l">
+				<div id="head_nav">
+					<div id="head_nav_list">
+						<span class="nav-link"><a class="hl" href="/sign-in">Sign In</a></span>
+						<span class="nav-link"><a class="hl" href="/register">Register</a></span>
+						<span class="nav-link"><a class="hl" href="/main">Main</a></span>
+						<span class="nav-link"><a class="hl" href="/account">My Account</a></span>
+						<span class="nav-link"><a class="hl" href="/orders">My Orders</a></span>
+												<span class="mgn-l"><a href="/cart"><img src="/img/head-shopping-bag.png" alt="" class="vam"></a></span>
+						<span class="nav-link last">
+							<a class="h1 mgn-0" href="/cart">0 items <span class="nb ucase">($0.00)</span></a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="head_top_r">
+				<form id="search_form" action="/search" method="post">
+					<p id="search_box">
+						<input type="text" name="search_field" id="search_field" value="SEARCH"><input type="submit" name="search_submit" id="search_submit" value="►" class="pointer" style="background:transparent"></p>
+				</form>
+			</div>
+
+            <div class="clear trim"></div>
+
+            <div class="head-logo-container">
+                <a href="/"><img src="/img/head_logo.png" alt="Color 5" class="head-logo"></a>
+            </div>
+
+            <div class="clear trim"></div>
+
+        </div>
+
+	</div>
+
+
+</div>
+
+	<div id="head_bottom">
+
+        		<div id="head_main_menu_container" class="head-center clearfix">
+
+			<div id="head_main_menu">
+				<ul class="hmenu">
+<li class="no-group "><a href="/browse/category/pants">Pants</a></li>
+					<li class="no-group "><a href="/browse/category/activewear">Activewear</a></li>
+					<li class="no-group "><a href="/browse/category/leggings">Leggings</a></li>
+					<li class="no-group "><a href="/browse/category/shorts">Shorts</a></li>
+					<li class="no-group "><a href="/browse/category/basic-tops">Basic Tops</a></li>
+					<li class="no-group "><a href="/browse/category/fashion-tops">Fashion Tops</a></li>
+					<li class="no-group "><a href="/browse/category/printed-tops">Printed Tops</a></li>
+					<li class="no-group "><a href="/browse/category/dresses">Dresses</a></li>
+					<li class="no-group "><a href="/browse/category/skirts">Skirts</a></li>
+					<li class="no-group "><a href="/browse/category/outerwear">Outerwear</a></li>
+					<li class="no-group "><a href="/browse/category/plus-tops">Plus Tops</a></li>
+					<li class="no-group "><a href="/browse/category/plus-bottoms">Plus Bottoms</a></li>
+                    <li class="selected">
+                        <a href="/browse/new">New Arrivals</a>
+                    </li>
+				 </ul>
+</div>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- HEADER - END -->
+<div id="body_main">
+	<div class="clear trim"></div>
+	
+	<div id="main">
+		
+		<div id="main_inner" class="">
+
+<!-- LEFT NAV - START -->
+
+<div id="main_left">
+	<ul class="left-nav-cat left-nav-cat-first">
+<li class=""><a href="/browse/all">VIEW ALL</a></li>
+		<li class="selected"><a href="/browse/new">NEW ARRIVALS</a></li>
+
+	</ul>
+<ul class="left-nav-cat">
+<li class="left-nav-cat-heading">Browse by Category:</li>
+		<li class="no-group "><a href="/browse/category/pants">Pants (166)</a></li>
+		<li class="no-group "><a href="/browse/category/activewear">Activewear (66)</a></li>
+		<li class="no-group "><a href="/browse/category/leggings">Leggings (141)</a></li>
+		<li class="no-group "><a href="/browse/category/shorts">Shorts (48)</a></li>
+		<li class="no-group "><a href="/browse/category/basic-tops">Basic Tops (36)</a></li>
+		<li class="no-group "><a href="/browse/category/fashion-tops">Fashion Tops (99)</a></li>
+		<li class="no-group "><a href="/browse/category/printed-tops">Printed Tops (18)</a></li>
+		<li class="no-group "><a href="/browse/category/dresses">Dresses (48)</a></li>
+		<li class="no-group "><a href="/browse/category/skirts">Skirts (37)</a></li>
+		<li class="no-group "><a href="/browse/category/outerwear">Outerwear (41)</a></li>
+		<li class="no-group "><a href="/browse/category/plus-tops">Plus Tops (38)</a></li>
+		<li class="no-group "><a href="/browse/category/plus-bottoms">Plus Bottoms (7)</a></li>
+	</ul>
+<ul class="left-nav-cat" style="margin-top: 24px;">
+<li class=""><a href="/browse/sale">On Sale (64)</a></li>
+	</ul>
+</div>
+
+<!-- LEFT NAV - END -->
+
+			<!-- MAIN RIGHT CONTENT - START -->
+
+			<div id="main_right">
+
+				<h1 class="browse-title mgn-l-d">Sign In</h1>
+
+                    					<p class="sign-intro mgn-l-d" style="margin-right: 200px;">
+						Color 5 is open and available to WHOLESALE BUYERS ONLY. <br>
+						You must provide valid proof of business in order to continue shopping in Color 5. 
+					</p>
+
+                        						<div id="action_status_box" class="sign-in-status mgn-r-d mgn-l-d"><p id="action_status_msg" class="msg "></p></div>
+				<div class="signin-form-container clearfix">
+
+						<div class="signin-box">
+							<h2 class="signin-box-title">Returning Users:</h2>
+							<h3 class="f16 b sign-in-head">Sign In</h3>
+                            <h3 class="f16 b recover-password-head" style="display:none;">Recover Password</h3>
+							<form id="signin_form" action="/sign-in" method="post" class="mgn-0 pad-0">
+								<div class="signin-content">
+									<label class="f12">E-mail</label><br><input type="text" name="signin_id" id="signin_id" value="" class="ipt-text"><br><label class="f12">Password</label><br><input type="password" name="signin_pass" id="signin_pass" value="" class="ipt-text"><br>
+</div>
+								<p class="form-button-action-wrapper"><input type="submit" name="submit_signin" id="submit_signin" value="Sign In" class="form-button form-button-action" disabled></p>
+
+								<p><a class="signin_form_toggle">Forgot Password?</a></p>
+							</form>
+
+							<form id="recover_password_form" action="/sign-in" method="post">
+								<div class="signin-content">
+									<p class="mgn-b">Please add <span class="b reqd">mail-noreply@colorfive.com</span> to your address book to ensure email delivery. Wait a few minutes if you do not see it in your Inbox right away. Or, check inside your <span class="b reqd">SPAM or JUNK</span> folder  .</p>
+									<p class="">
+										<label class="b f12 ucase">E-mail:</label> <input type="text" name="recover_id" id="recover_id" value="" class="ipt-text"></p>
+
+									<p class="form-button-action-wrapper"><input type="submit" name="recover_password" id="recover_password" value="Recover Password" class="form-button form-button-action" disabled></p>
+								</div>
+								<!--<p><a class="signin_form_toggle">Sign In Now</a></p>-->
+							</form>
+							
+						</div>
+
+						<div class="signin-box">
+							<h2 class="rc signin-box-title">New Members:</h2>
+							<h3 class="f16 b">Register</h3>
+							<div class="signin-content f14" style="line-height: 25px">
+								If you are a new member, please proceed to registration.
+								Registration is FREE. 
+							</div>
+							<p class="form-button-action-wrapper">
+								<input type="button" name="register_now" id="register_now" value="Register Now" class="form-button form-button-action"></p>
+						</div>
+
+				<div class="clear trim"></div>
+			</div>
+			<div class="clear trim"></div>
+			
+		<!-- MAIN RIGHT CONTENT - END -->
+		
+		</div>
+		<div class="clear trim"></div>
+	</div>
+	
+</div>
+
+<!-- FOOTER - START -->
+
+
+<div id="body_foot">
+	<div class="clear trim"></div>
+    <div class=""></div>
+    <div class=""></div>
+
+    	<div id="foot">
+		<div id="foot_inner">
+			<div id="foot_bar"></div>
+			<div class="clear trim"></div>
+			<div id="foot_left">
+				<ul class="hmenu">
+<li><a href="/about-us">About Us</a></li>
+					<li><a href="/privacy-policy">Privacy</a></li>
+									<li><a href="/terms-of-use">Terms of Use</a></li>
+					<li><a href="/form-ccauth" rel="external">Print CC Auth Form</a></li>
+												</ul>
+</div>
+			<div class="clear trim pad-t"></div>
+			<div id="social_icons" class="">
+            </div>
+			<div class="clear trim"></div>
+			<div class="copy">Copyright © Color 5 Trading 2015. All Rights Reserved.</div>
+		</div>
+	</div>
+
+    
+    <div class="clear trim"></div>
+</div>
+
+<!-- FOOTER - END -->
+
+</div>
+</body>

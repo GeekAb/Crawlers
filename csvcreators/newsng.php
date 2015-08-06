@@ -9,7 +9,11 @@ include_once __DIR__ . '/common.php';
 // Get Database
 $db = new Db();
 
+<<<<<<< HEAD
 $data = $db->query("SELECT * from products_data WHERE source='sngapparelinc'");
+=======
+$data = $db->query("SELECT * from products_data WHERE source='sngapparelinc' LIMIT 10");
+>>>>>>> 055c97c99fce928920ac2d5564929b8ef2b14f61
 
 $tempData = array();
 $csvData = array();
@@ -284,4 +288,8 @@ foreach ($csvData as $data) {
    fputcsv($fp, $data);
 }
 
+<<<<<<< HEAD
 fclose($fp);
+=======
+fclose($fp);
+>>>>>>> 055c97c99fce928920ac2d5564929b8ef2b14f61

@@ -177,9 +177,12 @@ class DB
 			if ($statement === 'select' || $statement === 'show') {
 				return $this->sQuery->fetchAll($fetchmode);
 			}
-			elseif ( $statement === 'insert' ||  $statement === 'update' || $statement === 'delete' ) {
+			elseif ( $statement === 'update' || $statement === 'delete' ) {
 				return $this->sQuery->rowCount();	
-			}	
+			}
+			elseif ($statement === 'insert') {
+				return array($this->sQuery->rowCount(),$this->lastInsertId());
+			}
 			else {
 				return NULL;
 			}

@@ -5,7 +5,7 @@
     //Application Path & website default address
     define("DEFAULT_WEB_ADDRESS",'localhost:82');
     // define("APPLICATION_PATH",$_SERVER['DOCUMENT_ROOT'].'/');
-    define("APPLICATION_PATH",'/home/geekab/development/wholesaleleggings/robots/scripts');
+    define("APPLICATION_PATH",'/root/robot/scripts/');
 
     define("APPLICATION_ENV",'development'); //Possible values : development,testing,production
     
@@ -27,8 +27,8 @@
     //DB Constants
     define("MYSQL_HOST","localhost");
     define("MYSQL_USERNAME","root");
-    define("MYSQL_PASSWD","root");
-    define("MYSQL_DB","wl");
+    define("MYSQL_PASSWD","HVKHz1mTR5");
+    define("MYSQL_DB","wholesaleleggings");
 
     define("MIN_SLEEP_TIME",2);
     define("MAX_SLEEP_TIME",2);
@@ -40,9 +40,9 @@
     //Function will manage all include requests
     function includeMyFiles($filename='')
     {
-        // require_once(APPLICATION_PATH."/config/database.php");
+         require_once(APPLICATION_PATH."/config/database.php");
         require_once(APPLICATION_PATH."/goutte.phar");
         require_once(APPLICATION_PATH."/config/database.php");
-        require_once(APPLICATION_PATH."/config/log.php");
+      require_once(APPLICATION_PATH."/config/log.php");
     }
 ?>
