@@ -5,12 +5,12 @@ include_once __DIR__ . '/../scripts/config/default_config.php';
 include_once __DIR__ . '/../scripts/config/database.php';
 include_once __DIR__ . '/../scripts/config/log.php';
 include_once __DIR__ . '/common.php';
-include_once __DIR__ . '/master-fn.php';
+include_once __DIR__ . '/getCategoryStr.php';
 
 // Get Database
 $db = new Db();
 
-$data = $db->query("SELECT * from products_data WHERE source='lashowroom' AND updated_on >= CURDATE()");
+$data = $db->query("SELECT * from products_data WHERE source='lashowroom'");
 
 $tempData = array();
 $csvData = array();
@@ -62,27 +62,36 @@ foreach ($data as $value) {
         $packQtyArray[0] = $packQtySizeArray[0];
     }
 
-    $category = $tempData['category'];
-    $subCategory = $tempData['subCategory'];
+    $categoryStr = getCategoryString($tempData['category'],$tempData['subCategory'],$value['category']);
 
-    $category = getCategory($category,$subCategory,'');
+    $temp = explode('/',$categoryStr);
 
-    $subCategory = getSubCategory($category,$subCategory,'');
+    $category = $temp[0];
 
-    $categoryStr = getCategoryString($category, $subCategory);
-
+    $subcategory = (isset($temp[1])?$temp[1]:'');
     /*Get dimension*/
-    $dimension = getDimensions($category,$subCategory);
+    $dimension = getDimensions($category,$subcategory);
 
 
     foreach ($tempData['images'] as $img) {
         $imgMain = str_replace(array(",", '\'', '"' ), "", $img);
         $imgStr .= $value['id'].'_wl_'.basename($imgMain).";";
 
-        //download_remote_file_with_curl(trim($imgMain), $value['id']);
+        download_remote_file_with_curl(trim($imgMain), $value['id']);
     }
 
-    if($categoryStr != '')
+    if(strtolower($tempData['made_in']) == 'usa')
+        $made = 'USA';
+    else 
+        $made = 'Imported';
+
+    if($categoryStr == '' || $value['status'] == 0) {
+        $value['status'] = 0;
+    }
+
+    if($tempData['style_no'][0] == '')
+        $value['status'] = 0;        
+
     {
         foreach ($tempData['color'] as $color) {
 
@@ -92,10 +101,10 @@ foreach ($data as $value) {
             $csvData[$count]['store']                     = 'default';
 
             $csvData[$count]['name']                      = $color.' '.$value['category'];
-            $csvData[$count]['description']               = $tempData['description'];
-            $csvData[$count]['short_description']         = $tempData['description'];
+            // $csvData[$count]['description']               = $tempData['description'];
+            // $csvData[$count]['short_description']         = $tempData['description'];
             $csvData[$count]['price']                     = $configPrice = str_replace('$', '', $tempData['price']);
-            $csvData[$count]['qty']                       = 100;
+            // $csvData[$count]['qty']                       = 100;
             $csvData[$count]['weight']                    = $dimension['weight'];
 
             $csvData[$count]['is_in_stock']               = $value['status'];
@@ -108,11 +117,11 @@ foreach ($data as $value) {
             $csvData[$count]['visibility']                = '"Not Visible Individually"';
             $csvData[$count]['brand']                     = '';
 
-            $csvData[$count]['categories']                = rtrim($categoryStr,'/');
+            $csvData[$count]['categories']                = $categoryStr;
 
             $csvData[$count]['pack']                      = (isset($tempData['min_order'])?$tempData['min_order']:'Not Available');
             $csvData[$count]['fabric']                    = $tempData['fabric'];
-            $csvData[$count]['made']                      = $tempData['made_in'];
+            $csvData[$count]['made']                      = $made;
 
             $csvData[$count]['source']                    = 'lashowroom';
             $csvData[$count]['source_sku']                = $tempData['style_no'][0];
@@ -159,10 +168,10 @@ foreach ($data as $value) {
         $csvData[$count]['store']                     = 'default';
 
         $csvData[$count]['name']                      = $tempData['category'] .' '. $tempData['subCategory'];
-        $csvData[$count]['description']               = $tempData['description'];
-        $csvData[$count]['short_description']         = $tempData['description'];
+        // $csvData[$count]['description']               = $tempData['description'];
+        // $csvData[$count]['short_description']         = $tempData['description'];
         $csvData[$count]['price']                     = $configPrice;
-        $csvData[$count]['qty']                       = 100;
+        // $csvData[$count]['qty']                       = 100;
         $csvData[$count]['weight']                    = $configWeight;
         
         $csvData[$count]['is_in_stock']               = $value['status'];
@@ -175,11 +184,11 @@ foreach ($data as $value) {
         $csvData[$count]['visibility']                = '"Catalog, Search"';
         $csvData[$count]['brand']                     = '';
 
-        $csvData[$count]['categories']                = rtrim($categoryStr,'/');
+        $csvData[$count]['categories']                = $categoryStr;
 
         $csvData[$count]['pack']                      = (isset($tempData['min_order'])?$tempData['min_order']:'Not Available');
         $csvData[$count]['fabric']                    = $tempData['fabric'];
-        $csvData[$count]['made']                      = $tempData['made_in'];
+        $csvData[$count]['made']                      = $made;
 
         $csvData[$count]['source']                    = 'lashowroom';
         $csvData[$count]['source_sku']                = $tempData['style_no'][0];
