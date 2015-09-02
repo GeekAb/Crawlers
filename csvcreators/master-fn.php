@@ -15,6 +15,7 @@
             $subCategory == 'jeans' ||
             $subCategory == 'pants' ||
             $subCategory == 'shorts' ||
+            $subCategory == 'jogger' ||
             $subCategory == 'short')
         {
             if($subCategory != 'pants' && $category == 'plus-size' || $category == 'plussize')
@@ -166,7 +167,7 @@
 
         $lstr = trim(strtolower(str_replace($removableChars, "-", $str)));
 
-        $palazzo        = "/(palazzo)/i";
+        $palazzo        = "/(plazzo)/i";
         $pants          = "/(pants)|(pant)/i";
         $printed        = "/(printed)|(print)/i";
         $missy          = "/(missy)|(fleece-legging)|(fleece)|(fur-legging)|(fur)|(rhinestones)|(high-waist)|(waist)|(velvet-velour)|(velvet)|(velour)/i";
@@ -176,7 +177,7 @@
         $jeggings       = "/(jeggings)/i";
         $capri          = "/(capri)/i";
         $skirts         = "/(skirt)/i";
-        $jogger         = "/(jogger)/i";
+        $jogger         = "/(jogger)|(track)/i";
         $jeans          = "/(jeans)/i";
         $harem          = "/(harem)/i";
         $seamless       = "/(seamless)/i";
@@ -195,6 +196,12 @@
         }
         else if(preg_match_all($harem, $lstr, $matches)) {
             return 'harem';
+        }
+        else if(preg_match_all($jogger, $lstr, $matches)) {
+            return 'jogger';
+        }
+        else if(preg_match_all($shorts, $lstr, $matches)) {
+            return 'shorts';
         }
         else if(preg_match_all($pants, $lstr, $matches)) {
             return 'pants';
@@ -240,18 +247,13 @@
         else if(preg_match_all($skirts, $lstr, $matches)) {
             return 'skirts';
         }
-        else if(preg_match_all($jogger, $lstr, $matches)) {
-            return 'jogger';
-        }
         else if(preg_match_all($jeans, $lstr, $matches)) {
             return 'jeans';
         }
         else if(preg_match_all($seamless, $lstr, $matches)) {
             return 'seamless';
         }
-        else if(preg_match_all($shorts, $lstr, $matches)) {
-            return 'shorts';
-        }
+        
         else if(preg_match_all($basic, $lstr, $matches)) {
             return 'basic';
         }

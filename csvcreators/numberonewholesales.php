@@ -10,8 +10,9 @@ include_once __DIR__ . '/master-fn.php';
 // Get Database
 $db = new Db();
 
-$data = $db->query("SELECT * from products_data WHERE source='numberonewholesales' AND updated_on >= CURDATE()");
+$data = $db->query("SELECT * from products_data WHERE source='numberonewholesales'");
 
+//$data = $db->query("SELECT * from products_data WHERE source='numberonewholesales' AND updated_on >= CURDATE()");
 $tempData = array();
 $csvData = array();
 $count = 0;
@@ -46,18 +47,19 @@ foreach ($data as $value) {
         $imgMain = str_replace(array(",", '\'', '"' ), "", $img);
         $imgStr .= $value['id'].'_wl_'.basename($imgMain).";";
 
-        download_remote_file_with_curl(trim('http://numberonewholesales.com/'.$imgMain), $value['id']);
+        // download_remote_file_with_curl(trim('http://numberonewholesales.com/'.$imgMain), $value['id']);
     }
 
     // $categoryStr = getCategory($value['category'],'');
 
 
     /*Get Category String*/
-    $category       = getCategory($value['category'],$value['subcategory'],$tempData['title'][0]);
-    $subCategory    = getSubCategory($value['category'],$value['subcategory'],$tempData['title'][0]);
+    $categoryStr = getCategoryString($value['category'],$value['subcategory'],$tempData['title'][0]);
+    $temp = explode('/',$categoryStr);
 
-    $categoryStr = getCategoryString($category, $subCategory);
+    $category = $temp[0];
 
+    $subCategory = (isset($temp[1])?$temp[1]:'');
     /*Get dimension*/
     $dimension = getDimensions($category,$subCategory);
 
@@ -121,10 +123,21 @@ foreach ($data as $value) {
         }
     }
 
-    if($price == 0 || is_null($price) || $price == '')
+    $qty = 100;
+
+    if($price == 0 || is_null($price) || $price == '') {
         $value['status'] = 0;
+        $qty = 0;
+    }
+
+    // If not a valid category
+    if(strlen($categoryStr) == 0 || $categoryStr == '' || $value['status'] == 0) {
+        $qty = 0;
+        $value['status'] = 0;
+    }
+
     /*If its not empty category string*/
-    if($categoryStr != '') {
+    {
         foreach ($tempData['colors'] as $color) {   
 
             if(strlen($color)>64)
@@ -139,7 +152,7 @@ foreach ($data as $value) {
             $csvData[$count]['description']               = $tempData['title'][0];
             $csvData[$count]['short_description']         = $tempData['title'][0];
             $csvData[$count]['price']                     = $price;
-            $csvData[$count]['qty']                       = 100;
+            $csvData[$count]['qty']                       = $qty;
             $csvData[$count]['weight']                    = $dimension['weight'];
 
             $csvData[$count]['is_in_stock']               = $value['status'];
@@ -197,7 +210,7 @@ foreach ($data as $value) {
         $csvData[$count]['description']               = $tempData['title'][0];
         $csvData[$count]['short_description']         = $tempData['title'][0];
         $csvData[$count]['price']                     = $price*$tempData['packValue'][0];
-        $csvData[$count]['qty']                       = 100;
+        $csvData[$count]['qty']                       = $qty;
         $csvData[$count]['weight']                    = $dimension['weight'];
 
         $csvData[$count]['is_in_stock']               = $value['status'];

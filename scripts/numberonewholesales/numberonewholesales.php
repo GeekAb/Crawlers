@@ -9,6 +9,8 @@
 
     // Get Database
     $db = new Db();
+
+    $db->query("UPDATE products_data SET status=0 WHERE source='numberonewholesales'");
     
     $loginUrl = 'https://numberonewholesales.com/login.php';
 	$crawler = $goutte->request('GET', $loginUrl);
@@ -147,7 +149,7 @@ $crawler = $goutte->submit($form);
 
 			}
 
-			$category = getCategoryFromUrlOrTitle($url,$attribs['title']);
+			$category = '';
 
 
 			/*Insert Product*/
@@ -166,24 +168,4 @@ $crawler = $goutte->submit($form);
 			
 		}
 
-    }
-
-    function getCategoryFromUrlOrTitle($url,$title) {
-
-		if(!(strpos(strtolower(str_replace(' ', '-', $url)), 'kids')) || !(strpos(strtolower(str_replace(' ', '-', $title[0])), 'kids')))
-			return 'kids';
-		else if(!(strpos(strtolower(str_replace(' ', '-', $url)), 'palazzo')) || !(strpos(strtolower(str_replace(' ', '-', $title[0])), 'palazzo')))
-			return 'palazzo';
-		else if(!(strpos(strtolower(str_replace(' ', '-', $url)), 'skirts')) || !(strpos(strtolower(str_replace(' ', '-', $title[0])), 'skirts')))
-			return 'skirts';
-		else if(!(strpos(strtolower(str_replace(' ', '-', $url)), 'shorts')) || !(strpos(strtolower(str_replace(' ', '-', $title[0])), 'shorts')))
-			return 'shorts';
-		else if(!(strpos(strtolower(str_replace(' ', '-', $url)), 'short')) || !(strpos(strtolower(str_replace(' ', '-', $title[0])), 'short')))
-			return 'shorts';
-		else if(!(strpos(strtolower(str_replace(' ', '-', $url)), 'pants')) || !(strpos(strtolower(str_replace(' ', '-', $title[0])), 'pants')))
-			return 'pants';
-		else if (!(strpos(strtolower(str_replace(' ', '-', $title[0])), 'leggings')))
-			return 'leggings';
-		else if(!(strpos(strtolower(str_replace(' ', '-', $url)), 'leggings')))
-			return 'leggings';
     }
