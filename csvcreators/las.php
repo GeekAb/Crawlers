@@ -92,8 +92,7 @@ foreach ($data as $value) {
     if($tempData['style_no'][0] == '')
         $value['status'] = 0;        
 
-    {
-        foreach ($tempData['color'] as $color) {
+    foreach ($tempData['color'] as $color) {
 
             $csvData[$count]['sku']                       = 'WL#'.$value['id'].'#'.$color;
             $csvData[$count]['bin_location']              = '';

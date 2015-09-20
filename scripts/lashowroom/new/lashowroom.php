@@ -165,11 +165,23 @@
 				return $data;
 			});
 
-			$domSelector = '//*[@class="item-detail-main-content-details clearfix"]/div/div/h2';
+			$domSelector = '//*[@class="item-detail-main-right-pricing-info"]/h2';
 
 			$result['style_no'] = $crawler->filterXPath($domSelector)->each(function ($node) {
-		    	return trim($node->text());
+		    	return trim($node->html());
 			});
+
+			if(trim($result['style_no'][0]) == '') {
+		        $domSelector = '//*[@class="item-detail-main-right-pricing-info"]/h3';
+
+		        $result['style_no'] = $crawler->filterXPath($domSelector)->each(function ($node) {
+		            return trim($node->html());
+		        });
+		    }
+
+		    $temp = explode('<br>',$result['style_no'][0]);
+
+		    $result['style_no'][0] = trim($temp[1]);
 
 			$result = array_merge($result,formatProductData($data));
 			return $result;

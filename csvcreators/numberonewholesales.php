@@ -5,7 +5,7 @@ include_once __DIR__ . '/../scripts/config/default_config.php';
 include_once __DIR__ . '/../scripts/config/database.php';
 include_once __DIR__ . '/../scripts/config/log.php';
 include_once __DIR__ . '/common.php';
-include_once __DIR__ . '/master-fn.php';
+include_once __DIR__ . '/getCategoryStr.php';
 
 // Get Database
 $db = new Db();
